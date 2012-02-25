@@ -13,6 +13,7 @@
 
 @property (nonatomic) BOOL userIsInTheMiddleOfEnteringANumber;
 @property (nonatomic, strong) CalculatorBrain *brain;
+@property (nonatomic) BOOL decimalWasPressed;
 @end
 
 @implementation CalculatorViewController
@@ -20,6 +21,7 @@
 @synthesize display = _display;
 @synthesize userIsInTheMiddleOfEnteringANumber = _userIsInTheMiddleOfEnteringANumber;
 @synthesize brain = _brain;
+@synthesize decimalWasPressed = _decimalWasPressed;
 
 - (CalculatorBrain *)brain {
     if (!_brain) _brain = [[CalculatorBrain alloc] init];
@@ -35,16 +37,25 @@
     //myDisplay.text = newText;  //[myDisplay setText:newText];
 
     if (self.userIsInTheMiddleOfEnteringANumber) {
-        self.display.text = [self.display.text stringByAppendingString:digit];
+        if (([@"." isEqualToString:digit] && !self.decimalWasPressed) || ![@"." isEqualToString:digit]) {
+            self.display.text = [self.display.text stringByAppendingString:digit];
+        }
+        if([@"." isEqualToString:digit]) {
+            self.decimalWasPressed = YES;
+        }
     } else {
         self.display.text = digit;
         self.userIsInTheMiddleOfEnteringANumber = YES;
+        if([@"." isEqualToString:digit]) {
+            self.decimalWasPressed = YES;
+        }
     }
 }
 
 - (IBAction)enterPressed {
     [self.brain pushOperand:[self.display.text doubleValue]];
     self.userIsInTheMiddleOfEnteringANumber = NO;
+    self.decimalWasPressed = NO;
 }
 
 
