@@ -20,7 +20,7 @@
     return _operandStack;
 }
 
-- (void) pushOperand:(double)operand {
+- (void)pushOperand:(double)operand {
    
     [self.operandStack addObject:[NSNumber numberWithDouble:operand]];
     
@@ -30,6 +30,14 @@
     NSNumber *operandObject = [self.operandStack lastObject];
     if (operandObject) [self.operandStack removeLastObject];
     return [operandObject doubleValue];
+}
+
+- (NSString *)showStack {
+    return [NSString stringWithFormat:@" %@", self.operandStack];
+}
+
+- (void)clear {
+    self.operandStack = nil;
 }
 
 
@@ -58,7 +66,7 @@
     }else if([@"π" isEqualToString:operation]) {
         result = 3.14159;
     }
-    
+ 
     [self pushOperand:result];
     
     return result;

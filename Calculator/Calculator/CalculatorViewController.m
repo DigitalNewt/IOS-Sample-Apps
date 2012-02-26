@@ -18,6 +18,7 @@
 
 @implementation CalculatorViewController
 
+@synthesize stackDisplay = _stackDisplay;
 @synthesize display = _display;
 @synthesize userIsInTheMiddleOfEnteringANumber = _userIsInTheMiddleOfEnteringANumber;
 @synthesize brain = _brain;
@@ -54,18 +55,36 @@
 
 - (IBAction)enterPressed {
     [self.brain pushOperand:[self.display.text doubleValue]];
+    self.stackDisplay.text = [self.stackDisplay.text stringByAppendingString:self.display.text];
+    self.stackDisplay.text = [self.stackDisplay.text stringByAppendingString:@" "];
     self.userIsInTheMiddleOfEnteringANumber = NO;
     self.decimalWasPressed = NO;
 }
 
+- (IBAction)clear:(UIButton *)sender {
+    self.display.text = @"0";
+    [self.brain clear];
+    
+    self.stackDisplay.text = [self.stackDisplay.text stringByAppendingString:sender.currentTitle];
+    self.stackDisplay.text = [self.stackDisplay.text stringByAppendingString:@" "];
+}
 
 - (IBAction)operationPressed:(UIButton *)sender {
     
     if (self.userIsInTheMiddleOfEnteringANumber) [self enterPressed];
+    
+    self.stackDisplay.text = [self.stackDisplay.text stringByAppendingString:sender.currentTitle];
+    self.stackDisplay.text = [self.stackDisplay.text stringByAppendingString:@" "];
+    
+//    self.stackDisplay.text = [NSString stringWithFormat:@"%@ %@",self.brain.showStack, sender.currentTitle]; 
     
     double result = [self.brain performOperation:sender.currentTitle];
     NSString *resultString = [NSString stringWithFormat:@"%g", result];
     self.display.text = resultString;
 }
 
+- (void)viewDidUnload {
+    [self setStackDisplay:nil];
+    [super viewDidUnload];
+}
 @end
