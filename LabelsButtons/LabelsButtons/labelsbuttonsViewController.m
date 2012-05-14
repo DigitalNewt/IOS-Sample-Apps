@@ -10,6 +10,7 @@
 
 @implementation labelsbuttonsViewController
 @synthesize myLabel;
+@synthesize myTextView;
 
 - (void)didReceiveMemoryWarning
 {
@@ -20,8 +21,24 @@
 #pragma mark - View lifecycle
 
 - (IBAction)ButtonPressed:(id)sender {
-    myLabel.text = @" This is a sentence ";
+    
+    [myTextView resignFirstResponder];
+    
+    if ([myTextView.text isEqualToString:@""]) {
+        myLabel.text = @" This is a sentence ";
+    } else {
+        myLabel.text = myTextView.text;
+    }
+        
 
+}
+
+- (IBAction)hideLabel:(id)sender {
+    if (myLabel.hidden == NO) {
+        myLabel.hidden = YES;   
+    } else {
+        myLabel.hidden = NO;
+    }
 }
 
 - (void)viewDidLoad
@@ -33,6 +50,7 @@
 - (void)viewDidUnload
 {
     [self setMyLabel:nil];
+    [self setMyTextView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

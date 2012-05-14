@@ -10,5 +10,6 @@
 
 @interface labelsbuttonsViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *myLabel;
+@property (weak, nonatomic) IBOutlet UITextField *myTextView;
 
 @end
