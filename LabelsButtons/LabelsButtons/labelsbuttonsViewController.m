@@ -11,14 +11,7 @@
 @implementation labelsbuttonsViewController
 @synthesize myLabel;
 @synthesize myTextView;
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Release any cached data, images, etc that aren't in use.
-}
-
-#pragma mark - View lifecycle
+@synthesize mySegmentedControl;
 
 - (IBAction)ButtonPressed:(id)sender {
     
@@ -29,8 +22,8 @@
     } else {
         myLabel.text = myTextView.text;
     }
-        
-
+    
+    
 }
 
 - (IBAction)hideLabel:(id)sender {
@@ -40,6 +33,28 @@
         myLabel.hidden = NO;
     }
 }
+
+- (IBAction)ControlChanged:(id)sender {
+    if (mySegmentedControl.selectedSegmentIndex == 0) {
+        myLabel.text = @"First";
+    }
+    else if (mySegmentedControl.selectedSegmentIndex == 1) {
+        myLabel.text = @"Second";
+    }
+    else {
+        myLabel.text = @"Fourth";
+    }
+}
+
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Release any cached data, images, etc that aren't in use.
+}
+
+#pragma mark - View lifecycle
+
 
 - (void)viewDidLoad
 {
@@ -51,6 +66,7 @@
 {
     [self setMyLabel:nil];
     [self setMyTextView:nil];
+    [self setMySegmentedControl:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
