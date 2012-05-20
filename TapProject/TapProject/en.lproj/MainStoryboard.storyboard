@@ -35,7 +35,7 @@
                         <outlet property="myLabel" destination="FjH-rz-BBF" id="mWd-dL-FLA"/>
                     </connections>
                 </viewController>
-                <tapGestureRecognizer id="7hX-QI-QpD">
+                <tapGestureRecognizer numberOfTapsRequired="2" numberOfTouchesRequired="2" id="7hX-QI-QpD">
                     <connections>
                         <action selector="handelMyTap:" destination="2" id="2kw-E2-5Dg"/>
                     </connections>
