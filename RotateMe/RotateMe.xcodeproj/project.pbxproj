@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CA9CE13156950B500EB62DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA9CE12156950B500EB62DC /* UIKit.framework */; };
+		5CA9CE15156950B500EB62DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA9CE14156950B500EB62DC /* Foundation.framework */; };
+		5CA9CE17156950B500EB62DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA9CE16156950B500EB62DC /* CoreGraphics.framework */; };
+		5CA9CE1D156950B500EB62DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CA9CE1B156950B500EB62DC /* InfoPlist.strings */; };
+		5CA9CE1F156950B500EB62DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA9CE1E156950B500EB62DC /* main.m */; };
+		5CA9CE23156950B500EB62DC /* MainAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA9CE22156950B500EB62DC /* MainAppDelegate.m */; };
+		5CA9CE26156950B500EB62DC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA9CE24156950B500EB62DC /* MainStoryboard.storyboard */; };
+		5CA9CE29156950B500EB62DC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA9CE28156950B500EB62DC /* MainViewController.m */; };
+		5CA9CE31156950B600EB62DC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA9CE30156950B600EB62DC /* SenTestingKit.framework */; };
+		5CA9CE32156950B600EB62DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA9CE12156950B500EB62DC /* UIKit.framework */; };
+		5CA9CE33156950B600EB62DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA9CE14156950B500EB62DC /* Foundation.framework */; };
+		5CA9CE3B156950B600EB62DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CA9CE39156950B600EB62DC /* InfoPlist.strings */; };
+		5CA9CE3E156950B600EB62DC /* RotateMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA9CE3D156950B600EB62DC /* RotateMeTests.m */; };
+		5CA9CE481569514000EB62DC /* kelsi.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5CA9CE471569514000EB62DC /* kelsi.JPG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CA9CE34156950B600EB62DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CA9CE05156950B500EB62DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CA9CE0D156950B500EB62DC;
+			remoteInfo = RotateMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CA9CE0E156950B500EB62DC /* RotateMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotateMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA9CE12156950B500EB62DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5CA9CE14156950B500EB62DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CA9CE16156950B500EB62DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5CA9CE1A156950B500EB62DC /* RotateMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RotateMe-Info.plist"; sourceTree = "<group>"; };
+		5CA9CE1C156950B500EB62DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CA9CE1E156950B500EB62DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CA9CE20156950B500EB62DC /* RotateMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RotateMe-Prefix.pch"; sourceTree = "<group>"; };
+		5CA9CE21156950B500EB62DC /* MainAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainAppDelegate.h; sourceTree = "<group>"; };
+		5CA9CE22156950B500EB62DC /* MainAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainAppDelegate.m; sourceTree = "<group>"; };
+		5CA9CE25156950B500EB62DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5CA9CE27156950B500EB62DC /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5CA9CE28156950B500EB62DC /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		5CA9CE2F156950B600EB62DC /* RotateMeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotateMeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA9CE30156950B600EB62DC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5CA9CE38156950B600EB62DC /* RotateMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RotateMeTests-Info.plist"; sourceTree = "<group>"; };
+		5CA9CE3A156950B600EB62DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CA9CE3C156950B600EB62DC /* RotateMeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotateMeTests.h; sourceTree = "<group>"; };
+		5CA9CE3D156950B600EB62DC /* RotateMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotateMeTests.m; sourceTree = "<group>"; };
+		5CA9CE471569514000EB62DC /* kelsi.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kelsi.JPG; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CA9CE0B156950B500EB62DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA9CE13156950B500EB62DC /* UIKit.framework in Frameworks */,
+				5CA9CE15156950B500EB62DC /* Foundation.framework in Frameworks */,
+				5CA9CE17156950B500EB62DC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA9CE2B156950B600EB62DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA9CE31156950B600EB62DC /* SenTestingKit.framework in Frameworks */,
+				5CA9CE32156950B600EB62DC /* UIKit.framework in Frameworks */,
+				5CA9CE33156950B600EB62DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CA9CE03156950B500EB62DC = {
+			isa = PBXGroup;
+			children = (
+				5CA9CE18156950B500EB62DC /* RotateMe */,
+				5CA9CE36156950B600EB62DC /* RotateMeTests */,
+				5CA9CE11156950B500EB62DC /* Frameworks */,
+				5CA9CE0F156950B500EB62DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CA9CE0F156950B500EB62DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CA9CE0E156950B500EB62DC /* RotateMe.app */,
+				5CA9CE2F156950B600EB62DC /* RotateMeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CA9CE11156950B500EB62DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CA9CE12156950B500EB62DC /* UIKit.framework */,
+				5CA9CE14156950B500EB62DC /* Foundation.framework */,
+				5CA9CE16156950B500EB62DC /* CoreGraphics.framework */,
+				5CA9CE30156950B600EB62DC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CA9CE18156950B500EB62DC /* RotateMe */ = {
+			isa = PBXGroup;
+			children = (
+				5CA9CE21156950B500EB62DC /* MainAppDelegate.h */,
+				5CA9CE22156950B500EB62DC /* MainAppDelegate.m */,
+				5CA9CE24156950B500EB62DC /* MainStoryboard.storyboard */,
+				5CA9CE27156950B500EB62DC /* MainViewController.h */,
+				5CA9CE28156950B500EB62DC /* MainViewController.m */,
+				5CA9CE19156950B500EB62DC /* Supporting Files */,
+			);
+			path = RotateMe;
+			sourceTree = "<group>";
+		};
+		5CA9CE19156950B500EB62DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CA9CE471569514000EB62DC /* kelsi.JPG */,
+				5CA9CE1A156950B500EB62DC /* RotateMe-Info.plist */,
+				5CA9CE1B156950B500EB62DC /* InfoPlist.strings */,
+				5CA9CE1E156950B500EB62DC /* main.m */,
+				5CA9CE20156950B500EB62DC /* RotateMe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CA9CE36156950B600EB62DC /* RotateMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CA9CE3C156950B600EB62DC /* RotateMeTests.h */,
+				5CA9CE3D156950B600EB62DC /* RotateMeTests.m */,
+				5CA9CE37156950B600EB62DC /* Supporting Files */,
+			);
+			path = RotateMeTests;
+			sourceTree = "<group>";
+		};
+		5CA9CE37156950B600EB62DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CA9CE38156950B600EB62DC /* RotateMeTests-Info.plist */,
+				5CA9CE39156950B600EB62DC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CA9CE0D156950B500EB62DC /* RotateMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA9CE41156950B600EB62DC /* Build configuration list for PBXNativeTarget "RotateMe" */;
+			buildPhases = (
+				5CA9CE0A156950B500EB62DC /* Sources */,
+				5CA9CE0B156950B500EB62DC /* Frameworks */,
+				5CA9CE0C156950B500EB62DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RotateMe;
+			productName = RotateMe;
+			productReference = 5CA9CE0E156950B500EB62DC /* RotateMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CA9CE2E156950B600EB62DC /* RotateMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA9CE44156950B600EB62DC /* Build configuration list for PBXNativeTarget "RotateMeTests" */;
+			buildPhases = (
+				5CA9CE2A156950B600EB62DC /* Sources */,
+				5CA9CE2B156950B600EB62DC /* Frameworks */,
+				5CA9CE2C156950B600EB62DC /* Resources */,
+				5CA9CE2D156950B600EB62DC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CA9CE35156950B600EB62DC /* PBXTargetDependency */,
+			);
+			name = RotateMeTests;
+			productName = RotateMeTests;
+			productReference = 5CA9CE2F156950B600EB62DC /* RotateMeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CA9CE05156950B500EB62DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5CA9CE08156950B500EB62DC /* Build configuration list for PBXProject "RotateMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5CA9CE03156950B500EB62DC;
+			productRefGroup = 5CA9CE0F156950B500EB62DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CA9CE0D156950B500EB62DC /* RotateMe */,
+				5CA9CE2E156950B600EB62DC /* RotateMeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CA9CE0C156950B500EB62DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA9CE1D156950B500EB62DC /* InfoPlist.strings in Resources */,
+				5CA9CE26156950B500EB62DC /* MainStoryboard.storyboard in Resources */,
+				5CA9CE481569514000EB62DC /* kelsi.JPG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA9CE2C156950B600EB62DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA9CE3B156950B600EB62DC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5CA9CE2D156950B600EB62DC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CA9CE0A156950B500EB62DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA9CE1F156950B500EB62DC /* main.m in Sources */,
+				5CA9CE23156950B500EB62DC /* MainAppDelegate.m in Sources */,
+				5CA9CE29156950B500EB62DC /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA9CE2A156950B600EB62DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA9CE3E156950B600EB62DC /* RotateMeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CA9CE35156950B600EB62DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CA9CE0D156950B500EB62DC /* RotateMe */;
+			targetProxy = 5CA9CE34156950B600EB62DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CA9CE1B156950B500EB62DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CA9CE1C156950B500EB62DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5CA9CE24156950B500EB62DC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CA9CE25156950B500EB62DC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		5CA9CE39156950B600EB62DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CA9CE3A156950B600EB62DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CA9CE3F156950B600EB62DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5CA9CE40156950B600EB62DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CA9CE42156950B600EB62DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RotateMe/RotateMe-Prefix.pch";
+				INFOPLIST_FILE = "RotateMe/RotateMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CA9CE43156950B600EB62DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RotateMe/RotateMe-Prefix.pch";
+				INFOPLIST_FILE = "RotateMe/RotateMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5CA9CE45156950B600EB62DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RotateMe.app/RotateMe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RotateMe/RotateMe-Prefix.pch";
+				INFOPLIST_FILE = "RotateMeTests/RotateMeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5CA9CE46156950B600EB62DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RotateMe.app/RotateMe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RotateMe/RotateMe-Prefix.pch";
+				INFOPLIST_FILE = "RotateMeTests/RotateMeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CA9CE08156950B500EB62DC /* Build configuration list for PBXProject "RotateMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA9CE3F156950B600EB62DC /* Debug */,
+				5CA9CE40156950B600EB62DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CA9CE41156950B600EB62DC /* Build configuration list for PBXNativeTarget "RotateMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA9CE42156950B600EB62DC /* Debug */,
+				5CA9CE43156950B600EB62DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CA9CE44156950B600EB62DC /* Build configuration list for PBXNativeTarget "RotateMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA9CE45156950B600EB62DC /* Debug */,
+				5CA9CE46156950B600EB62DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CA9CE05156950B500EB62DC /* Project object */;
+}
