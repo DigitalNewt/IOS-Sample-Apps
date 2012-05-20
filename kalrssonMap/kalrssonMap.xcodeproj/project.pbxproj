@@ -20,6 +20,7 @@
 		5CA9CD6115681B4400EB62DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA9CD4215681B4400EB62DC /* Foundation.framework */; };
 		5CA9CD6915681B4400EB62DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CA9CD6715681B4400EB62DC /* InfoPlist.strings */; };
 		5CA9CD6C15681B4400EB62DC /* kalrssonMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA9CD6B15681B4400EB62DC /* kalrssonMapTests.m */; };
+		5CA9CD7615681C6800EB62DC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA9CD7515681C6800EB62DC /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		5CA9CD6815681B4400EB62DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5CA9CD6A15681B4400EB62DC /* kalrssonMapTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kalrssonMapTests.h; sourceTree = "<group>"; };
 		5CA9CD6B15681B4400EB62DC /* kalrssonMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kalrssonMapTests.m; sourceTree = "<group>"; };
+		5CA9CD7515681C6800EB62DC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CA9CD7615681C6800EB62DC /* MapKit.framework in Frameworks */,
 				5CA9CD4115681B4400EB62DC /* UIKit.framework in Frameworks */,
 				5CA9CD4315681B4400EB62DC /* Foundation.framework in Frameworks */,
 				5CA9CD4515681B4400EB62DC /* CoreGraphics.framework in Frameworks */,
@@ -100,6 +103,7 @@
 		5CA9CD3F15681B4400EB62DC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5CA9CD7515681C6800EB62DC /* MapKit.framework */,
 				5CA9CD4015681B4400EB62DC /* UIKit.framework */,
 				5CA9CD4215681B4400EB62DC /* Foundation.framework */,
 				5CA9CD4415681B4400EB62DC /* CoreGraphics.framework */,

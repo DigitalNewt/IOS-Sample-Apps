@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface MainViewController : UIViewController
-
+#import <MapKit/MapKit.h>
+@interface MainViewController : UIViewController <MKMapViewDelegate>
+@property (weak, nonatomic) IBOutlet MKMapView *mapView1;
+@property (weak, nonatomic) IBOutlet UILabel *myLabel;
+- (void) goLocation;
 @end
