@@ -11,10 +11,19 @@
 @implementation MainViewController
 @synthesize myTextField;
 
+-(void)saveString:(NSString*)myString
+{
+    [[NSUserDefaults standardUserDefaults] setObject:myString forKey:@"String"];}
+
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Release any cached data, images, etc that aren't in use.
+}
+
+- (IBAction)go:(id)sender {
+    [self saveString:myTextField.text];
 }
 
 #pragma mark - View lifecycle

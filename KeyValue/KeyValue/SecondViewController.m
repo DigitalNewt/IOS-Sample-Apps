@@ -11,6 +11,12 @@
 @implementation SecondViewController
 @synthesize myLabel;
 
+-(NSString*)retrieveString
+{
+    NSString* recoveredString = [[NSUserDefaults standardUserDefaults] objectForKey:@"String"];
+    return recoveredString;
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -37,13 +43,14 @@
 }
 */
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
+    myLabel.text = [self retrieveString];
     [super viewDidLoad];
 }
-*/
+
 
 - (void)viewDidUnload
 {

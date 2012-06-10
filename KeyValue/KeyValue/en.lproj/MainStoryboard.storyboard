@@ -25,6 +25,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="go:" destination="2" eventType="touchUpInside" id="7VR-vP-cH7"/>
                                     <segue destination="cbH-mj-d42" kind="modal" id="klg-ij-GZP"/>
                                 </connections>
                             </button>
