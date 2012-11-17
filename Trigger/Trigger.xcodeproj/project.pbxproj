@@ -21,6 +21,30 @@
 		5CA7C00615238745000F6E67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA7BFE415238745000F6E67 /* Foundation.framework */; };
 		5CA7C00E15238745000F6E67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CA7C00C15238745000F6E67 /* InfoPlist.strings */; };
 		5CA7C01115238745000F6E67 /* TriggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA7C01015238745000F6E67 /* TriggerTests.m */; };
+		5CF2B9A615B9BB1500BF3CAD /* NXTSecurity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B97315B9BB1500BF3CAD /* NXTSecurity.m */; };
+		5CF2B9A715B9BB1500BF3CAD /* NXTSecurityUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B97515B9BB1500BF3CAD /* NXTSecurityUser.m */; };
+		5CF2B9A815B9BB1500BF3CAD /* NXTServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B97715B9BB1500BF3CAD /* NXTServices.m */; };
+		5CF2B9A915B9BB1500BF3CAD /* NXTTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B97915B9BB1500BF3CAD /* NXTTicket.m */; };
+		5CF2B9AA15B9BB1500BF3CAD /* Soap+Prefix.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B97B15B9BB1500BF3CAD /* Soap+Prefix.m */; };
+		5CF2B9AB15B9BB1500BF3CAD /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B97E15B9BB1500BF3CAD /* NSData+Base64.m */; };
+		5CF2B9AC15B9BB1500BF3CAD /* NSMutableArray+Soap.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B98015B9BB1500BF3CAD /* NSMutableArray+Soap.m */; };
+		5CF2B9AD15B9BB1500BF3CAD /* Soap.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B98215B9BB1500BF3CAD /* Soap.m */; };
+		5CF2B9AE15B9BB1500BF3CAD /* SoapArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B98415B9BB1500BF3CAD /* SoapArray.m */; };
+		5CF2B9AF15B9BB1500BF3CAD /* SoapFault.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B98715B9BB1500BF3CAD /* SoapFault.m */; };
+		5CF2B9B015B9BB1500BF3CAD /* SoapHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B98915B9BB1500BF3CAD /* SoapHandler.m */; };
+		5CF2B9B115B9BB1500BF3CAD /* SoapLiteral.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B98B15B9BB1500BF3CAD /* SoapLiteral.m */; };
+		5CF2B9B215B9BB1500BF3CAD /* SoapNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B98D15B9BB1500BF3CAD /* SoapNil.m */; };
+		5CF2B9B315B9BB1500BF3CAD /* SoapObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B98F15B9BB1500BF3CAD /* SoapObject.m */; };
+		5CF2B9B415B9BB1500BF3CAD /* SoapParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B99115B9BB1500BF3CAD /* SoapParameter.m */; };
+		5CF2B9B515B9BB1500BF3CAD /* SoapReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B99315B9BB1500BF3CAD /* SoapReachability.m */; };
+		5CF2B9B615B9BB1500BF3CAD /* SoapRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B99515B9BB1500BF3CAD /* SoapRequest.m */; };
+		5CF2B9B715B9BB1500BF3CAD /* SoapService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B99715B9BB1500BF3CAD /* SoapService.m */; };
+		5CF2B9B815B9BB1500BF3CAD /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B99A15B9BB1500BF3CAD /* CXMLDocument.m */; };
+		5CF2B9B915B9BB1500BF3CAD /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B99C15B9BB1500BF3CAD /* CXMLDocument_PrivateExtensions.m */; };
+		5CF2B9BA15B9BB1500BF3CAD /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B99E15B9BB1500BF3CAD /* CXMLElement.m */; };
+		5CF2B9BB15B9BB1500BF3CAD /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B9A015B9BB1500BF3CAD /* CXMLNode.m */; };
+		5CF2B9BC15B9BB1500BF3CAD /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B9A215B9BB1500BF3CAD /* CXMLNode_PrivateExtensions.m */; };
+		5CF2B9BD15B9BB1500BF3CAD /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B9A415B9BB1500BF3CAD /* CXMLNode_XPathExtensions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +62,72 @@
 		5CA7BFE215238745000F6E67 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5CA7BFE415238745000F6E67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5CA7BFE615238745000F6E67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5CA7BFEA15238745000F6E67 /* Trigger-Info.plist */ = {isa = PBXFileReference; path = "Trigger-Info.plist"; sourceTree = "<group>"; };
+		5CA7BFEA15238745000F6E67 /* Trigger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Trigger-Info.plist"; sourceTree = "<group>"; };
 		5CA7BFEC15238745000F6E67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5CA7BFEE15238745000F6E67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5CA7BFF015238745000F6E67 /* Trigger-Prefix.pch */ = {isa = PBXFileReference; path = "Trigger-Prefix.pch"; sourceTree = "<group>"; };
-		5CA7BFF115238745000F6E67 /* TriggerAppDelegate.h */ = {isa = PBXFileReference; path = TriggerAppDelegate.h; sourceTree = "<group>"; };
+		5CA7BFF015238745000F6E67 /* Trigger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Trigger-Prefix.pch"; sourceTree = "<group>"; };
+		5CA7BFF115238745000F6E67 /* TriggerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TriggerAppDelegate.h; sourceTree = "<group>"; };
 		5CA7BFF215238745000F6E67 /* TriggerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TriggerAppDelegate.m; sourceTree = "<group>"; };
 		5CA7BFF515238745000F6E67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		5CA7BFF815238745000F6E67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		5CA7BFFA15238745000F6E67 /* TriggerViewController.h */ = {isa = PBXFileReference; path = TriggerViewController.h; sourceTree = "<group>"; };
+		5CA7BFFA15238745000F6E67 /* TriggerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TriggerViewController.h; sourceTree = "<group>"; };
 		5CA7BFFB15238745000F6E67 /* TriggerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TriggerViewController.m; sourceTree = "<group>"; };
 		5CA7C00215238745000F6E67 /* TriggerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriggerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CA7C00315238745000F6E67 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		5CA7C00B15238745000F6E67 /* TriggerTests-Info.plist */ = {isa = PBXFileReference; path = "TriggerTests-Info.plist"; sourceTree = "<group>"; };
+		5CA7C00B15238745000F6E67 /* TriggerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TriggerTests-Info.plist"; sourceTree = "<group>"; };
 		5CA7C00D15238745000F6E67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5CA7C00F15238745000F6E67 /* TriggerTests.h */ = {isa = PBXFileReference; path = TriggerTests.h; sourceTree = "<group>"; };
+		5CA7C00F15238745000F6E67 /* TriggerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TriggerTests.h; sourceTree = "<group>"; };
 		5CA7C01015238745000F6E67 /* TriggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TriggerTests.m; sourceTree = "<group>"; };
+		5CF2B97215B9BB1500BF3CAD /* NXTSecurity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTSecurity.h; sourceTree = "<group>"; };
+		5CF2B97315B9BB1500BF3CAD /* NXTSecurity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTSecurity.m; sourceTree = "<group>"; };
+		5CF2B97415B9BB1500BF3CAD /* NXTSecurityUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTSecurityUser.h; sourceTree = "<group>"; };
+		5CF2B97515B9BB1500BF3CAD /* NXTSecurityUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTSecurityUser.m; sourceTree = "<group>"; };
+		5CF2B97615B9BB1500BF3CAD /* NXTServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTServices.h; sourceTree = "<group>"; };
+		5CF2B97715B9BB1500BF3CAD /* NXTServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTServices.m; sourceTree = "<group>"; };
+		5CF2B97815B9BB1500BF3CAD /* NXTTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTTicket.h; sourceTree = "<group>"; };
+		5CF2B97915B9BB1500BF3CAD /* NXTTicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTTicket.m; sourceTree = "<group>"; };
+		5CF2B97A15B9BB1500BF3CAD /* Soap+Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Soap+Prefix.h"; sourceTree = "<group>"; };
+		5CF2B97B15B9BB1500BF3CAD /* Soap+Prefix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Soap+Prefix.m"; sourceTree = "<group>"; };
+		5CF2B97D15B9BB1500BF3CAD /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		5CF2B97E15B9BB1500BF3CAD /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		5CF2B97F15B9BB1500BF3CAD /* NSMutableArray+Soap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Soap.h"; sourceTree = "<group>"; };
+		5CF2B98015B9BB1500BF3CAD /* NSMutableArray+Soap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Soap.m"; sourceTree = "<group>"; };
+		5CF2B98115B9BB1500BF3CAD /* Soap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Soap.h; sourceTree = "<group>"; };
+		5CF2B98215B9BB1500BF3CAD /* Soap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Soap.m; sourceTree = "<group>"; };
+		5CF2B98315B9BB1500BF3CAD /* SoapArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapArray.h; sourceTree = "<group>"; };
+		5CF2B98415B9BB1500BF3CAD /* SoapArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapArray.m; sourceTree = "<group>"; };
+		5CF2B98515B9BB1500BF3CAD /* SoapDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapDelegate.h; sourceTree = "<group>"; };
+		5CF2B98615B9BB1500BF3CAD /* SoapFault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapFault.h; sourceTree = "<group>"; };
+		5CF2B98715B9BB1500BF3CAD /* SoapFault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapFault.m; sourceTree = "<group>"; };
+		5CF2B98815B9BB1500BF3CAD /* SoapHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapHandler.h; sourceTree = "<group>"; };
+		5CF2B98915B9BB1500BF3CAD /* SoapHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapHandler.m; sourceTree = "<group>"; };
+		5CF2B98A15B9BB1500BF3CAD /* SoapLiteral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapLiteral.h; sourceTree = "<group>"; };
+		5CF2B98B15B9BB1500BF3CAD /* SoapLiteral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapLiteral.m; sourceTree = "<group>"; };
+		5CF2B98C15B9BB1500BF3CAD /* SoapNil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapNil.h; sourceTree = "<group>"; };
+		5CF2B98D15B9BB1500BF3CAD /* SoapNil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapNil.m; sourceTree = "<group>"; };
+		5CF2B98E15B9BB1500BF3CAD /* SoapObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapObject.h; sourceTree = "<group>"; };
+		5CF2B98F15B9BB1500BF3CAD /* SoapObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapObject.m; sourceTree = "<group>"; };
+		5CF2B99015B9BB1500BF3CAD /* SoapParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapParameter.h; sourceTree = "<group>"; };
+		5CF2B99115B9BB1500BF3CAD /* SoapParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapParameter.m; sourceTree = "<group>"; };
+		5CF2B99215B9BB1500BF3CAD /* SoapReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapReachability.h; sourceTree = "<group>"; };
+		5CF2B99315B9BB1500BF3CAD /* SoapReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapReachability.m; sourceTree = "<group>"; };
+		5CF2B99415B9BB1500BF3CAD /* SoapRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapRequest.h; sourceTree = "<group>"; };
+		5CF2B99515B9BB1500BF3CAD /* SoapRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapRequest.m; sourceTree = "<group>"; };
+		5CF2B99615B9BB1500BF3CAD /* SoapService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapService.h; sourceTree = "<group>"; };
+		5CF2B99715B9BB1500BF3CAD /* SoapService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapService.m; sourceTree = "<group>"; };
+		5CF2B99915B9BB1500BF3CAD /* CXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument.h; sourceTree = "<group>"; };
+		5CF2B99A15B9BB1500BF3CAD /* CXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument.m; sourceTree = "<group>"; };
+		5CF2B99B15B9BB1500BF3CAD /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_PrivateExtensions.h; sourceTree = "<group>"; };
+		5CF2B99C15B9BB1500BF3CAD /* CXMLDocument_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_PrivateExtensions.m; sourceTree = "<group>"; };
+		5CF2B99D15B9BB1500BF3CAD /* CXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement.h; sourceTree = "<group>"; };
+		5CF2B99E15B9BB1500BF3CAD /* CXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement.m; sourceTree = "<group>"; };
+		5CF2B99F15B9BB1500BF3CAD /* CXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode.h; sourceTree = "<group>"; };
+		5CF2B9A015B9BB1500BF3CAD /* CXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode.m; sourceTree = "<group>"; };
+		5CF2B9A115B9BB1500BF3CAD /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_PrivateExtensions.h; sourceTree = "<group>"; };
+		5CF2B9A215B9BB1500BF3CAD /* CXMLNode_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_PrivateExtensions.m; sourceTree = "<group>"; };
+		5CF2B9A315B9BB1500BF3CAD /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_XPathExtensions.h; sourceTree = "<group>"; };
+		5CF2B9A415B9BB1500BF3CAD /* CXMLNode_XPathExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_XPathExtensions.m; sourceTree = "<group>"; };
+		5CF2B9A515B9BB1500BF3CAD /* TouchXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchXML.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +157,9 @@
 		5CA7BFD315238744000F6E67 = {
 			isa = PBXGroup;
 			children = (
+				5CF2B97115B9BB1500BF3CAD /* Generated */,
+				5CF2B97C15B9BB1500BF3CAD /* Soap */,
+				5CF2B99815B9BB1500BF3CAD /* TouchXML */,
 				5CA7BFE815238745000F6E67 /* Trigger */,
 				5CA7C00915238745000F6E67 /* TriggerTests */,
 				5CA7BFE115238745000F6E67 /* Frameworks */,
@@ -152,6 +229,77 @@
 				5CA7C00C15238745000F6E67 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CF2B97115B9BB1500BF3CAD /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				5CF2B97215B9BB1500BF3CAD /* NXTSecurity.h */,
+				5CF2B97315B9BB1500BF3CAD /* NXTSecurity.m */,
+				5CF2B97415B9BB1500BF3CAD /* NXTSecurityUser.h */,
+				5CF2B97515B9BB1500BF3CAD /* NXTSecurityUser.m */,
+				5CF2B97615B9BB1500BF3CAD /* NXTServices.h */,
+				5CF2B97715B9BB1500BF3CAD /* NXTServices.m */,
+				5CF2B97815B9BB1500BF3CAD /* NXTTicket.h */,
+				5CF2B97915B9BB1500BF3CAD /* NXTTicket.m */,
+				5CF2B97A15B9BB1500BF3CAD /* Soap+Prefix.h */,
+				5CF2B97B15B9BB1500BF3CAD /* Soap+Prefix.m */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		5CF2B97C15B9BB1500BF3CAD /* Soap */ = {
+			isa = PBXGroup;
+			children = (
+				5CF2B97D15B9BB1500BF3CAD /* NSData+Base64.h */,
+				5CF2B97E15B9BB1500BF3CAD /* NSData+Base64.m */,
+				5CF2B97F15B9BB1500BF3CAD /* NSMutableArray+Soap.h */,
+				5CF2B98015B9BB1500BF3CAD /* NSMutableArray+Soap.m */,
+				5CF2B98115B9BB1500BF3CAD /* Soap.h */,
+				5CF2B98215B9BB1500BF3CAD /* Soap.m */,
+				5CF2B98315B9BB1500BF3CAD /* SoapArray.h */,
+				5CF2B98415B9BB1500BF3CAD /* SoapArray.m */,
+				5CF2B98515B9BB1500BF3CAD /* SoapDelegate.h */,
+				5CF2B98615B9BB1500BF3CAD /* SoapFault.h */,
+				5CF2B98715B9BB1500BF3CAD /* SoapFault.m */,
+				5CF2B98815B9BB1500BF3CAD /* SoapHandler.h */,
+				5CF2B98915B9BB1500BF3CAD /* SoapHandler.m */,
+				5CF2B98A15B9BB1500BF3CAD /* SoapLiteral.h */,
+				5CF2B98B15B9BB1500BF3CAD /* SoapLiteral.m */,
+				5CF2B98C15B9BB1500BF3CAD /* SoapNil.h */,
+				5CF2B98D15B9BB1500BF3CAD /* SoapNil.m */,
+				5CF2B98E15B9BB1500BF3CAD /* SoapObject.h */,
+				5CF2B98F15B9BB1500BF3CAD /* SoapObject.m */,
+				5CF2B99015B9BB1500BF3CAD /* SoapParameter.h */,
+				5CF2B99115B9BB1500BF3CAD /* SoapParameter.m */,
+				5CF2B99215B9BB1500BF3CAD /* SoapReachability.h */,
+				5CF2B99315B9BB1500BF3CAD /* SoapReachability.m */,
+				5CF2B99415B9BB1500BF3CAD /* SoapRequest.h */,
+				5CF2B99515B9BB1500BF3CAD /* SoapRequest.m */,
+				5CF2B99615B9BB1500BF3CAD /* SoapService.h */,
+				5CF2B99715B9BB1500BF3CAD /* SoapService.m */,
+			);
+			path = Soap;
+			sourceTree = "<group>";
+		};
+		5CF2B99815B9BB1500BF3CAD /* TouchXML */ = {
+			isa = PBXGroup;
+			children = (
+				5CF2B99915B9BB1500BF3CAD /* CXMLDocument.h */,
+				5CF2B99A15B9BB1500BF3CAD /* CXMLDocument.m */,
+				5CF2B99B15B9BB1500BF3CAD /* CXMLDocument_PrivateExtensions.h */,
+				5CF2B99C15B9BB1500BF3CAD /* CXMLDocument_PrivateExtensions.m */,
+				5CF2B99D15B9BB1500BF3CAD /* CXMLElement.h */,
+				5CF2B99E15B9BB1500BF3CAD /* CXMLElement.m */,
+				5CF2B99F15B9BB1500BF3CAD /* CXMLNode.h */,
+				5CF2B9A015B9BB1500BF3CAD /* CXMLNode.m */,
+				5CF2B9A115B9BB1500BF3CAD /* CXMLNode_PrivateExtensions.h */,
+				5CF2B9A215B9BB1500BF3CAD /* CXMLNode_PrivateExtensions.m */,
+				5CF2B9A315B9BB1500BF3CAD /* CXMLNode_XPathExtensions.h */,
+				5CF2B9A415B9BB1500BF3CAD /* CXMLNode_XPathExtensions.m */,
+				5CF2B9A515B9BB1500BF3CAD /* TouchXML.h */,
+			);
+			path = TouchXML;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +412,30 @@
 				5CA7BFEF15238745000F6E67 /* main.m in Sources */,
 				5CA7BFF315238745000F6E67 /* TriggerAppDelegate.m in Sources */,
 				5CA7BFFC15238745000F6E67 /* TriggerViewController.m in Sources */,
+				5CF2B9A615B9BB1500BF3CAD /* NXTSecurity.m in Sources */,
+				5CF2B9A715B9BB1500BF3CAD /* NXTSecurityUser.m in Sources */,
+				5CF2B9A815B9BB1500BF3CAD /* NXTServices.m in Sources */,
+				5CF2B9A915B9BB1500BF3CAD /* NXTTicket.m in Sources */,
+				5CF2B9AA15B9BB1500BF3CAD /* Soap+Prefix.m in Sources */,
+				5CF2B9AB15B9BB1500BF3CAD /* NSData+Base64.m in Sources */,
+				5CF2B9AC15B9BB1500BF3CAD /* NSMutableArray+Soap.m in Sources */,
+				5CF2B9AD15B9BB1500BF3CAD /* Soap.m in Sources */,
+				5CF2B9AE15B9BB1500BF3CAD /* SoapArray.m in Sources */,
+				5CF2B9AF15B9BB1500BF3CAD /* SoapFault.m in Sources */,
+				5CF2B9B015B9BB1500BF3CAD /* SoapHandler.m in Sources */,
+				5CF2B9B115B9BB1500BF3CAD /* SoapLiteral.m in Sources */,
+				5CF2B9B215B9BB1500BF3CAD /* SoapNil.m in Sources */,
+				5CF2B9B315B9BB1500BF3CAD /* SoapObject.m in Sources */,
+				5CF2B9B415B9BB1500BF3CAD /* SoapParameter.m in Sources */,
+				5CF2B9B515B9BB1500BF3CAD /* SoapReachability.m in Sources */,
+				5CF2B9B615B9BB1500BF3CAD /* SoapRequest.m in Sources */,
+				5CF2B9B715B9BB1500BF3CAD /* SoapService.m in Sources */,
+				5CF2B9B815B9BB1500BF3CAD /* CXMLDocument.m in Sources */,
+				5CF2B9B915B9BB1500BF3CAD /* CXMLDocument_PrivateExtensions.m in Sources */,
+				5CF2B9BA15B9BB1500BF3CAD /* CXMLElement.m in Sources */,
+				5CF2B9BB15B9BB1500BF3CAD /* CXMLNode.m in Sources */,
+				5CF2B9BC15B9BB1500BF3CAD /* CXMLNode_PrivateExtensions.m in Sources */,
+				5CF2B9BD15B9BB1500BF3CAD /* CXMLNode_XPathExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,7 +545,9 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Trigger/Trigger-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "Trigger/Trigger-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -384,7 +558,9 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Trigger/Trigger-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "Trigger/Trigger-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -443,6 +619,7 @@
 				5CA7C01615238745000F6E67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CA7C01715238745000F6E67 /* Build configuration list for PBXNativeTarget "TriggerTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +628,7 @@
 				5CA7C01915238745000F6E67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

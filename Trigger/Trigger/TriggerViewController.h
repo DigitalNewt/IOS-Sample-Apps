@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface TriggerViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
 
 @end

@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface SecondViewController : UITableViewController
-
+{ NSArray *array; }
 @end

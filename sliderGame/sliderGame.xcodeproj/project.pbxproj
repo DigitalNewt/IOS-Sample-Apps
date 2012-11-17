@@ -37,20 +37,20 @@
 		5C9887511561B538001F1E05 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5C9887531561B538001F1E05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5C9887551561B538001F1E05 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5C9887591561B539001F1E05 /* sliderGame-Info.plist */ = {isa = PBXFileReference; path = "sliderGame-Info.plist"; sourceTree = "<group>"; };
+		5C9887591561B539001F1E05 /* sliderGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sliderGame-Info.plist"; sourceTree = "<group>"; };
 		5C98875B1561B539001F1E05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5C98875D1561B539001F1E05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5C98875F1561B539001F1E05 /* sliderGame-Prefix.pch */ = {isa = PBXFileReference; path = "sliderGame-Prefix.pch"; sourceTree = "<group>"; };
-		5C9887601561B539001F1E05 /* sliderGameAppDelegate.h */ = {isa = PBXFileReference; path = sliderGameAppDelegate.h; sourceTree = "<group>"; };
+		5C98875F1561B539001F1E05 /* sliderGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sliderGame-Prefix.pch"; sourceTree = "<group>"; };
+		5C9887601561B539001F1E05 /* sliderGameAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sliderGameAppDelegate.h; sourceTree = "<group>"; };
 		5C9887611561B539001F1E05 /* sliderGameAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sliderGameAppDelegate.m; sourceTree = "<group>"; };
 		5C9887641561B539001F1E05 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		5C9887661561B539001F1E05 /* sliderGameViewController.h */ = {isa = PBXFileReference; path = sliderGameViewController.h; sourceTree = "<group>"; };
+		5C9887661561B539001F1E05 /* sliderGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sliderGameViewController.h; sourceTree = "<group>"; };
 		5C9887671561B539001F1E05 /* sliderGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sliderGameViewController.m; sourceTree = "<group>"; };
 		5C98876E1561B539001F1E05 /* sliderGameTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sliderGameTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C98876F1561B539001F1E05 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		5C9887771561B539001F1E05 /* sliderGameTests-Info.plist */ = {isa = PBXFileReference; path = "sliderGameTests-Info.plist"; sourceTree = "<group>"; };
+		5C9887771561B539001F1E05 /* sliderGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sliderGameTests-Info.plist"; sourceTree = "<group>"; };
 		5C9887791561B539001F1E05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5C98877B1561B539001F1E05 /* sliderGameTests.h */ = {isa = PBXFileReference; path = sliderGameTests.h; sourceTree = "<group>"; };
+		5C98877B1561B539001F1E05 /* sliderGameTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sliderGameTests.h; sourceTree = "<group>"; };
 		5C98877C1561B539001F1E05 /* sliderGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sliderGameTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

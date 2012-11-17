@@ -35,9 +35,12 @@
                                     <action selector="newValue:" destination="2" eventType="touchUpInside" id="mTF-l0-laO"/>
                                 </connections>
                             </button>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" id="HoE-e6-ynE">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="0.0" maxValue="100" id="HoE-e6-ynE">
                                 <rect key="frame" x="23" y="174" width="284" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="valueChanged:" destination="2" eventType="valueChanged" id="Jnk-mT-rpp"/>
+                                </connections>
                             </slider>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Value:" lineBreakMode="tailTruncation" minimumFontSize="10" id="UrL-JU-TvT">
                                 <rect key="frame" x="25" y="145" width="49" height="21"/>
@@ -79,10 +82,6 @@
                                 <rect key="frame" x="111" y="263" width="194" height="9"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </progressView>
-                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="ZAY-nq-Axs">
-                                <rect key="frame" x="190" y="389" width="79" height="27"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </switch>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Hint" lineBreakMode="tailTruncation" minimumFontSize="10" id="FNO-Ma-7U1">
                                 <rect key="frame" x="55" y="395" width="42" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -98,19 +97,26 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="The Results" lineBreakMode="tailTruncation" minimumFontSize="10" id="Fjs-xa-Ynl">
-                                <rect key="frame" x="178" y="332" width="91" height="21"/>
+                                <rect key="frame" x="131" y="327" width="169" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="YrG-wd-P6Y">
-                                <rect key="frame" x="190" y="389" width="79" height="27"/>
+                                <rect key="frame" x="131" y="389" width="79" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="hintChanged:" destination="2" eventType="valueChanged" id="3os-n0-Bqh"/>
                                 </connections>
                             </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="50" lineBreakMode="tailTruncation" minimumFontSize="10" id="tRg-3z-eua">
+                                <rect key="frame" x="226" y="395" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -119,11 +125,26 @@
                         <outlet property="myProgressBar" destination="Va2-kx-iFX" id="Nzk-LA-h5J"/>
                         <outlet property="myResult" destination="Fjs-xa-Ynl" id="u4I-U5-YKm"/>
                         <outlet property="mySlider" destination="HoE-e6-ynE" id="EJ9-0A-p7N"/>
+                        <outlet property="mySliderValue" destination="tRg-3z-eua" id="d5N-6u-lo8"/>
+                        <outlet property="mySwitch" destination="YrG-wd-P6Y" id="lBs-lc-Rel"/>
                     </connections>
                 </viewController>
             </objects>
         </scene>
     </scenes>
+    <classes>
+        <class className="sliderGameViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/sliderGameViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="myNewValue" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="myProgressBar" candidateClass="UIProgressView"/>
+                <relationship kind="outlet" name="myResult" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="mySlider" candidateClass="UISlider"/>
+                <relationship kind="outlet" name="mySliderValue" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="mySwitch" candidateClass="UISwitch"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

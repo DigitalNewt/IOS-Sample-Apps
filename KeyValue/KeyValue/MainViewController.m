@@ -9,7 +9,7 @@
 #import "MainViewController.h"
 
 @implementation MainViewController
-@synthesize myTextField;
+@synthesize myTextField=_myTextField;
 
 -(void)saveString:(NSString*)myString
 {
@@ -23,7 +23,7 @@
 }
 
 - (IBAction)go:(id)sender {
-    [self saveString:myTextField.text];
+    [self saveString:self.myTextField.text];
 }
 
 #pragma mark - View lifecycle
@@ -60,6 +60,13 @@
 - (void)viewDidDisappear:(BOOL)animated
 {
 	[super viewDidDisappear:animated];
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)theTextField {
+    if (theTextField == self.myTextField) {
+        [theTextField resignFirstResponder];
+    }
+    return YES;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation

@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainViewController : UIViewController
+@interface MainViewController : UIViewController <UITextFieldDelegate> {
+    NSString *myTextField;
+}
 @property (weak, nonatomic) IBOutlet UITextField *myTextField;
 
 @end

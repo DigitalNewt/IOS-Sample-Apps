@@ -1,6 +1,6 @@
 //
 //  SecondViewController.m
-//  keyValue
+//  KeyValue
 //
 //  Created by Baker Brent on 6/10/12.
 //  Copyright (c) 2012 Global Institution. All rights reserved.
@@ -9,6 +9,13 @@
 #import "SecondViewController.h"
 
 @implementation SecondViewController
+@synthesize myLabel;
+
+-(NSString*)retrieveString
+{
+    NSString* recoveredString = [[NSUserDefaults standardUserDefaults] objectForKey:@"String"];
+    return recoveredString;
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -36,16 +43,18 @@
 }
 */
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
+    myLabel.text = [self retrieveString];
     [super viewDidLoad];
 }
-*/
+
 
 - (void)viewDidUnload
 {
+    [self setMyLabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

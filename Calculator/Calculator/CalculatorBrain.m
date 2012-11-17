@@ -26,8 +26,6 @@
     
 }
 
-
-
 - (NSString *)showStack {
     return [NSString stringWithFormat:@" %@", self.programStack];
 }
@@ -97,11 +95,5 @@
     }
     return [self popOperandOffStack:stack];
 }
-
-
-- (NSString *)description {
-    return [NSString stringWithFormat:@"stack = %@", self.programStack];
-}
-
 
 @end

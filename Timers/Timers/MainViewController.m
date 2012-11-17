@@ -26,6 +26,10 @@
     NSLog(@"%d",i);
     myLabel.text = [NSString stringWithFormat:@"%d",i];
     
+    if (i > 9) {
+        [timer invalidate];
+    }
+    
     i++;
 }
 @end

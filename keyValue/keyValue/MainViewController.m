@@ -1,6 +1,6 @@
 //
 //  MainViewController.m
-//  keyValue
+//  KeyValue
 //
 //  Created by Baker Brent on 6/10/12.
 //  Copyright (c) 2012 Global Institution. All rights reserved.
@@ -9,11 +9,21 @@
 #import "MainViewController.h"
 
 @implementation MainViewController
+@synthesize myTextField=_myTextField;
+
+-(void)saveString:(NSString*)myString
+{
+    [[NSUserDefaults standardUserDefaults] setObject:myString forKey:@"String"];}
+
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Release any cached data, images, etc that aren't in use.
+}
+
+- (IBAction)go:(id)sender {
+    [self saveString:self.myTextField.text];
 }
 
 #pragma mark - View lifecycle
@@ -26,6 +36,7 @@
 
 - (void)viewDidUnload
 {
+    [self setMyTextField:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -49,6 +60,13 @@
 - (void)viewDidDisappear:(BOOL)animated
 {
 	[super viewDidDisappear:animated];
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)theTextField {
+    if (theTextField == self.myTextField) {
+        [theTextField resignFirstResponder];
+    }
+    return YES;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation

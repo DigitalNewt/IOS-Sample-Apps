@@ -1,14 +1,14 @@
 //
-//  keyValueTests.m
-//  keyValueTests
+//  KeyValueTests.m
+//  KeyValueTests
 //
 //  Created by Baker Brent on 6/10/12.
 //  Copyright (c) 2012 Global Institution. All rights reserved.
 //
 
-#import "keyValueTests.h"
+#import "KeyValueTests.h"
 
-@implementation keyValueTests
+@implementation KeyValueTests
 
 - (void)setUp
 {
@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in keyValueTests");
+    STFail(@"Unit tests are not implemented yet in KeyValueTests");
 }
 
 @end

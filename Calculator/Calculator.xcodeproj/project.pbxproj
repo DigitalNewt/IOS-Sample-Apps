@@ -280,6 +280,7 @@
 				5CC8B25414EA06F300EABEA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

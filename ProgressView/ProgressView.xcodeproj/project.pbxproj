@@ -196,7 +196,7 @@
 		5CA9CFF91569E32C00EB62DC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0440;
 				ORGANIZATIONNAME = "Global Institution";
 			};
 			buildConfigurationList = 5CA9CFFC1569E32C00EB62DC /* Build configuration list for PBXProject "ProgressView" */;
@@ -430,6 +430,7 @@
 				5CA9D0371569E32C00EB62DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CA9D0381569E32C00EB62DC /* Build configuration list for PBXNativeTarget "ProgressViewTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +439,7 @@
 				5CA9D03A1569E32C00EB62DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

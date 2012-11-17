@@ -20,6 +20,7 @@
 		5C5B7788158E1D69009E0AFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5B7769158E1D68009E0AFF /* Foundation.framework */; };
 		5C5B7790158E1D69009E0AFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C5B778E158E1D69009E0AFF /* InfoPlist.strings */; };
 		5C5B7793158E1D69009E0AFF /* TablesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5B7792158E1D69009E0AFF /* TablesTests.m */; };
+		5C5B779E158E1E74009E0AFF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5B779D158E1E74009E0AFF /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +38,23 @@
 		5C5B7767158E1D68009E0AFF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5C5B7769158E1D68009E0AFF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5C5B776B158E1D68009E0AFF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5C5B776F158E1D68009E0AFF /* Tables-Info.plist */ = {isa = PBXFileReference; path = "Tables-Info.plist"; sourceTree = "<group>"; };
+		5C5B776F158E1D68009E0AFF /* Tables-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tables-Info.plist"; sourceTree = "<group>"; };
 		5C5B7771158E1D68009E0AFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5C5B7773158E1D68009E0AFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5C5B7775158E1D68009E0AFF /* Tables-Prefix.pch */ = {isa = PBXFileReference; path = "Tables-Prefix.pch"; sourceTree = "<group>"; };
-		5C5B7776158E1D68009E0AFF /* MainAppDelegate.h */ = {isa = PBXFileReference; path = MainAppDelegate.h; sourceTree = "<group>"; };
+		5C5B7775158E1D68009E0AFF /* Tables-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tables-Prefix.pch"; sourceTree = "<group>"; };
+		5C5B7776158E1D68009E0AFF /* MainAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainAppDelegate.h; sourceTree = "<group>"; };
 		5C5B7777158E1D68009E0AFF /* MainAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainAppDelegate.m; sourceTree = "<group>"; };
 		5C5B777A158E1D68009E0AFF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		5C5B777C158E1D68009E0AFF /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
+		5C5B777C158E1D68009E0AFF /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		5C5B777D158E1D68009E0AFF /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		5C5B7784158E1D69009E0AFF /* TablesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TablesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C5B7785158E1D69009E0AFF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		5C5B778D158E1D69009E0AFF /* TablesTests-Info.plist */ = {isa = PBXFileReference; path = "TablesTests-Info.plist"; sourceTree = "<group>"; };
+		5C5B778D158E1D69009E0AFF /* TablesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TablesTests-Info.plist"; sourceTree = "<group>"; };
 		5C5B778F158E1D69009E0AFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5C5B7791158E1D69009E0AFF /* TablesTests.h */ = {isa = PBXFileReference; path = TablesTests.h; sourceTree = "<group>"; };
+		5C5B7791158E1D69009E0AFF /* TablesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TablesTests.h; sourceTree = "<group>"; };
 		5C5B7792158E1D69009E0AFF /* TablesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TablesTests.m; sourceTree = "<group>"; };
+		5C5B779C158E1E74009E0AFF /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5C5B779D158E1E74009E0AFF /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				5C5B777C158E1D68009E0AFF /* MainViewController.h */,
 				5C5B777D158E1D68009E0AFF /* MainViewController.m */,
 				5C5B776E158E1D68009E0AFF /* Supporting Files */,
+				5C5B779C158E1E74009E0AFF /* SecondViewController.h */,
+				5C5B779D158E1E74009E0AFF /* SecondViewController.m */,
 			);
 			path = Tables;
 			sourceTree = "<group>";
@@ -261,6 +266,7 @@
 				5C5B7774158E1D68009E0AFF /* main.m in Sources */,
 				5C5B7778158E1D68009E0AFF /* MainAppDelegate.m in Sources */,
 				5C5B777E158E1D68009E0AFF /* MainViewController.m in Sources */,
+				5C5B779E158E1E74009E0AFF /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

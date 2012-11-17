@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'keyValue' target in the 'keyValue' project
+// Prefix header for all source files of the 'KeyValue' target in the 'KeyValue' project
 //
 
 #import <Availability.h>

@@ -13,6 +13,8 @@
 @synthesize mySlider;
 @synthesize myProgressBar;
 @synthesize myResult;
+@synthesize mySwitch;
+@synthesize mySliderValue;
 
 - (void)didReceiveMemoryWarning
 {
@@ -34,6 +36,8 @@
     [self setMySlider:nil];
     [self setMyProgressBar:nil];
     [self setMyResult:nil];
+    [self setMySwitch:nil];
+    [self setMySliderValue:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -65,10 +69,35 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 - (IBAction)newValue:(id)sender {
+    int r = arc4random() % 101;
+    
+    myNewValue.text = [NSString stringWithFormat:@"%d",r];
 }
+
+- (IBAction)valueChanged:(id)sender {
+    mySliderValue.text = [NSString stringWithFormat:@"%.0f",mySlider.value];
+}
+
 - (IBAction)check:(id)sender {
+    
+    int m,n;
+    
+    m = [myNewValue.text intValue];
+    n = mySlider.value;
+    
+    if(m>=n-3 && m<=n+3) {
+        myResult.text = @"CORRECT!!";
+    } else {
+        myResult.text = @"WROONNNGGG!!";
+    }
 }
 - (IBAction)hintChanged:(id)sender {
+    
+    if(mySwitch.on == YES) {
+        mySliderValue.hidden = NO;
+    } else {
+        mySliderValue.hidden = YES;
+    }
 }
 
 

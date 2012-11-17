@@ -13,5 +13,7 @@
 @property (weak, nonatomic) IBOutlet UISlider *mySlider;
 @property (weak, nonatomic) IBOutlet UIProgressView *myProgressBar;
 @property (weak, nonatomic) IBOutlet UILabel *myResult;
+@property (weak, nonatomic) IBOutlet UISwitch *mySwitch;
+@property (weak, nonatomic) IBOutlet UILabel *mySliderValue;
 
 @end
