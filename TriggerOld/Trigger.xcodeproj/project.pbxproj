@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CA7BFE315238745000F6E67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA7BFE215238745000F6E67 /* UIKit.framework */; };
+		5CA7BFE515238745000F6E67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA7BFE415238745000F6E67 /* Foundation.framework */; };
+		5CA7BFE715238745000F6E67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA7BFE615238745000F6E67 /* CoreGraphics.framework */; };
+		5CA7BFED15238745000F6E67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CA7BFEB15238745000F6E67 /* InfoPlist.strings */; };
+		5CA7BFEF15238745000F6E67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA7BFEE15238745000F6E67 /* main.m */; };
+		5CA7BFF315238745000F6E67 /* TriggerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA7BFF215238745000F6E67 /* TriggerAppDelegate.m */; };
+		5CA7BFF615238745000F6E67 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA7BFF415238745000F6E67 /* MainStoryboard_iPhone.storyboard */; };
+		5CA7BFF915238745000F6E67 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA7BFF715238745000F6E67 /* MainStoryboard_iPad.storyboard */; };
+		5CA7BFFC15238745000F6E67 /* TriggerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA7BFFB15238745000F6E67 /* TriggerViewController.m */; };
+		5CA7C00415238745000F6E67 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA7C00315238745000F6E67 /* SenTestingKit.framework */; };
+		5CA7C00515238745000F6E67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA7BFE215238745000F6E67 /* UIKit.framework */; };
+		5CA7C00615238745000F6E67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA7BFE415238745000F6E67 /* Foundation.framework */; };
+		5CA7C00E15238745000F6E67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CA7C00C15238745000F6E67 /* InfoPlist.strings */; };
+		5CA7C01115238745000F6E67 /* TriggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA7C01015238745000F6E67 /* TriggerTests.m */; };
+		5CA7D03616B18B7C0042BC3E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA7D03516B18B7C0042BC3E /* Default-568h@2x.png */; };
+		5CF2B9A615B9BB1500BF3CAD /* NXTSecurity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B97315B9BB1500BF3CAD /* NXTSecurity.m */; };
+		5CF2B9A715B9BB1500BF3CAD /* NXTSecurityUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B97515B9BB1500BF3CAD /* NXTSecurityUser.m */; };
+		5CF2B9A815B9BB1500BF3CAD /* NXTServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B97715B9BB1500BF3CAD /* NXTServices.m */; };
+		5CF2B9A915B9BB1500BF3CAD /* NXTTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B97915B9BB1500BF3CAD /* NXTTicket.m */; };
+		5CF2B9AA15B9BB1500BF3CAD /* Soap+Prefix.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B97B15B9BB1500BF3CAD /* Soap+Prefix.m */; };
+		5CF2B9AB15B9BB1500BF3CAD /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B97E15B9BB1500BF3CAD /* NSData+Base64.m */; };
+		5CF2B9AC15B9BB1500BF3CAD /* NSMutableArray+Soap.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B98015B9BB1500BF3CAD /* NSMutableArray+Soap.m */; };
+		5CF2B9AD15B9BB1500BF3CAD /* Soap.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B98215B9BB1500BF3CAD /* Soap.m */; };
+		5CF2B9AE15B9BB1500BF3CAD /* SoapArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B98415B9BB1500BF3CAD /* SoapArray.m */; };
+		5CF2B9AF15B9BB1500BF3CAD /* SoapFault.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B98715B9BB1500BF3CAD /* SoapFault.m */; };
+		5CF2B9B015B9BB1500BF3CAD /* SoapHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B98915B9BB1500BF3CAD /* SoapHandler.m */; };
+		5CF2B9B115B9BB1500BF3CAD /* SoapLiteral.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B98B15B9BB1500BF3CAD /* SoapLiteral.m */; };
+		5CF2B9B215B9BB1500BF3CAD /* SoapNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B98D15B9BB1500BF3CAD /* SoapNil.m */; };
+		5CF2B9B315B9BB1500BF3CAD /* SoapObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B98F15B9BB1500BF3CAD /* SoapObject.m */; };
+		5CF2B9B415B9BB1500BF3CAD /* SoapParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B99115B9BB1500BF3CAD /* SoapParameter.m */; };
+		5CF2B9B515B9BB1500BF3CAD /* SoapReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B99315B9BB1500BF3CAD /* SoapReachability.m */; };
+		5CF2B9B615B9BB1500BF3CAD /* SoapRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B99515B9BB1500BF3CAD /* SoapRequest.m */; };
+		5CF2B9B715B9BB1500BF3CAD /* SoapService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B99715B9BB1500BF3CAD /* SoapService.m */; };
+		5CF2B9B815B9BB1500BF3CAD /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B99A15B9BB1500BF3CAD /* CXMLDocument.m */; };
+		5CF2B9B915B9BB1500BF3CAD /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B99C15B9BB1500BF3CAD /* CXMLDocument_PrivateExtensions.m */; };
+		5CF2B9BA15B9BB1500BF3CAD /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B99E15B9BB1500BF3CAD /* CXMLElement.m */; };
+		5CF2B9BB15B9BB1500BF3CAD /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B9A015B9BB1500BF3CAD /* CXMLNode.m */; };
+		5CF2B9BC15B9BB1500BF3CAD /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B9A215B9BB1500BF3CAD /* CXMLNode_PrivateExtensions.m */; };
+		5CF2B9BD15B9BB1500BF3CAD /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2B9A415B9BB1500BF3CAD /* CXMLNode_XPathExtensions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CA7C00715238745000F6E67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CA7BFD515238744000F6E67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CA7BFDD15238745000F6E67;
+			remoteInfo = Trigger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CA7BFDE15238745000F6E67 /* Trigger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trigger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA7BFE215238745000F6E67 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5CA7BFE415238745000F6E67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CA7BFE615238745000F6E67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5CA7BFEA15238745000F6E67 /* Trigger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Trigger-Info.plist"; sourceTree = "<group>"; };
+		5CA7BFEC15238745000F6E67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CA7BFEE15238745000F6E67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CA7BFF015238745000F6E67 /* Trigger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Trigger-Prefix.pch"; sourceTree = "<group>"; };
+		5CA7BFF115238745000F6E67 /* TriggerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TriggerAppDelegate.h; sourceTree = "<group>"; };
+		5CA7BFF215238745000F6E67 /* TriggerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TriggerAppDelegate.m; sourceTree = "<group>"; };
+		5CA7BFF515238745000F6E67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		5CA7BFF815238745000F6E67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		5CA7BFFA15238745000F6E67 /* TriggerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TriggerViewController.h; sourceTree = "<group>"; };
+		5CA7BFFB15238745000F6E67 /* TriggerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TriggerViewController.m; sourceTree = "<group>"; };
+		5CA7C00215238745000F6E67 /* TriggerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriggerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA7C00315238745000F6E67 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5CA7C00B15238745000F6E67 /* TriggerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TriggerTests-Info.plist"; sourceTree = "<group>"; };
+		5CA7C00D15238745000F6E67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CA7C00F15238745000F6E67 /* TriggerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TriggerTests.h; sourceTree = "<group>"; };
+		5CA7C01015238745000F6E67 /* TriggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TriggerTests.m; sourceTree = "<group>"; };
+		5CA7D03516B18B7C0042BC3E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5CF2B97215B9BB1500BF3CAD /* NXTSecurity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTSecurity.h; sourceTree = "<group>"; };
+		5CF2B97315B9BB1500BF3CAD /* NXTSecurity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTSecurity.m; sourceTree = "<group>"; };
+		5CF2B97415B9BB1500BF3CAD /* NXTSecurityUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTSecurityUser.h; sourceTree = "<group>"; };
+		5CF2B97515B9BB1500BF3CAD /* NXTSecurityUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTSecurityUser.m; sourceTree = "<group>"; };
+		5CF2B97615B9BB1500BF3CAD /* NXTServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTServices.h; sourceTree = "<group>"; };
+		5CF2B97715B9BB1500BF3CAD /* NXTServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTServices.m; sourceTree = "<group>"; };
+		5CF2B97815B9BB1500BF3CAD /* NXTTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTTicket.h; sourceTree = "<group>"; };
+		5CF2B97915B9BB1500BF3CAD /* NXTTicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTTicket.m; sourceTree = "<group>"; };
+		5CF2B97A15B9BB1500BF3CAD /* Soap+Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Soap+Prefix.h"; sourceTree = "<group>"; };
+		5CF2B97B15B9BB1500BF3CAD /* Soap+Prefix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Soap+Prefix.m"; sourceTree = "<group>"; };
+		5CF2B97D15B9BB1500BF3CAD /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		5CF2B97E15B9BB1500BF3CAD /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		5CF2B97F15B9BB1500BF3CAD /* NSMutableArray+Soap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Soap.h"; sourceTree = "<group>"; };
+		5CF2B98015B9BB1500BF3CAD /* NSMutableArray+Soap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Soap.m"; sourceTree = "<group>"; };
+		5CF2B98115B9BB1500BF3CAD /* Soap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Soap.h; sourceTree = "<group>"; };
+		5CF2B98215B9BB1500BF3CAD /* Soap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Soap.m; sourceTree = "<group>"; };
+		5CF2B98315B9BB1500BF3CAD /* SoapArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapArray.h; sourceTree = "<group>"; };
+		5CF2B98415B9BB1500BF3CAD /* SoapArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapArray.m; sourceTree = "<group>"; };
+		5CF2B98515B9BB1500BF3CAD /* SoapDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapDelegate.h; sourceTree = "<group>"; };
+		5CF2B98615B9BB1500BF3CAD /* SoapFault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapFault.h; sourceTree = "<group>"; };
+		5CF2B98715B9BB1500BF3CAD /* SoapFault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapFault.m; sourceTree = "<group>"; };
+		5CF2B98815B9BB1500BF3CAD /* SoapHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapHandler.h; sourceTree = "<group>"; };
+		5CF2B98915B9BB1500BF3CAD /* SoapHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapHandler.m; sourceTree = "<group>"; };
+		5CF2B98A15B9BB1500BF3CAD /* SoapLiteral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapLiteral.h; sourceTree = "<group>"; };
+		5CF2B98B15B9BB1500BF3CAD /* SoapLiteral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapLiteral.m; sourceTree = "<group>"; };
+		5CF2B98C15B9BB1500BF3CAD /* SoapNil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapNil.h; sourceTree = "<group>"; };
+		5CF2B98D15B9BB1500BF3CAD /* SoapNil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapNil.m; sourceTree = "<group>"; };
+		5CF2B98E15B9BB1500BF3CAD /* SoapObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapObject.h; sourceTree = "<group>"; };
+		5CF2B98F15B9BB1500BF3CAD /* SoapObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapObject.m; sourceTree = "<group>"; };
+		5CF2B99015B9BB1500BF3CAD /* SoapParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapParameter.h; sourceTree = "<group>"; };
+		5CF2B99115B9BB1500BF3CAD /* SoapParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapParameter.m; sourceTree = "<group>"; };
+		5CF2B99215B9BB1500BF3CAD /* SoapReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapReachability.h; sourceTree = "<group>"; };
+		5CF2B99315B9BB1500BF3CAD /* SoapReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapReachability.m; sourceTree = "<group>"; };
+		5CF2B99415B9BB1500BF3CAD /* SoapRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapRequest.h; sourceTree = "<group>"; };
+		5CF2B99515B9BB1500BF3CAD /* SoapRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapRequest.m; sourceTree = "<group>"; };
+		5CF2B99615B9BB1500BF3CAD /* SoapService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapService.h; sourceTree = "<group>"; };
+		5CF2B99715B9BB1500BF3CAD /* SoapService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapService.m; sourceTree = "<group>"; };
+		5CF2B99915B9BB1500BF3CAD /* CXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument.h; sourceTree = "<group>"; };
+		5CF2B99A15B9BB1500BF3CAD /* CXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument.m; sourceTree = "<group>"; };
+		5CF2B99B15B9BB1500BF3CAD /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_PrivateExtensions.h; sourceTree = "<group>"; };
+		5CF2B99C15B9BB1500BF3CAD /* CXMLDocument_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_PrivateExtensions.m; sourceTree = "<group>"; };
+		5CF2B99D15B9BB1500BF3CAD /* CXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement.h; sourceTree = "<group>"; };
+		5CF2B99E15B9BB1500BF3CAD /* CXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement.m; sourceTree = "<group>"; };
+		5CF2B99F15B9BB1500BF3CAD /* CXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode.h; sourceTree = "<group>"; };
+		5CF2B9A015B9BB1500BF3CAD /* CXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode.m; sourceTree = "<group>"; };
+		5CF2B9A115B9BB1500BF3CAD /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_PrivateExtensions.h; sourceTree = "<group>"; };
+		5CF2B9A215B9BB1500BF3CAD /* CXMLNode_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_PrivateExtensions.m; sourceTree = "<group>"; };
+		5CF2B9A315B9BB1500BF3CAD /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_XPathExtensions.h; sourceTree = "<group>"; };
+		5CF2B9A415B9BB1500BF3CAD /* CXMLNode_XPathExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_XPathExtensions.m; sourceTree = "<group>"; };
+		5CF2B9A515B9BB1500BF3CAD /* TouchXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchXML.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CA7BFDB15238745000F6E67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA7BFE315238745000F6E67 /* UIKit.framework in Frameworks */,
+				5CA7BFE515238745000F6E67 /* Foundation.framework in Frameworks */,
+				5CA7BFE715238745000F6E67 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA7BFFE15238745000F6E67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA7C00415238745000F6E67 /* SenTestingKit.framework in Frameworks */,
+				5CA7C00515238745000F6E67 /* UIKit.framework in Frameworks */,
+				5CA7C00615238745000F6E67 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CA7BFD315238744000F6E67 = {
+			isa = PBXGroup;
+			children = (
+				5CA7D03516B18B7C0042BC3E /* Default-568h@2x.png */,
+				5CF2B97115B9BB1500BF3CAD /* Generated */,
+				5CF2B97C15B9BB1500BF3CAD /* Soap */,
+				5CF2B99815B9BB1500BF3CAD /* TouchXML */,
+				5CA7BFE815238745000F6E67 /* Trigger */,
+				5CA7C00915238745000F6E67 /* TriggerTests */,
+				5CA7BFE115238745000F6E67 /* Frameworks */,
+				5CA7BFDF15238745000F6E67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CA7BFDF15238745000F6E67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CA7BFDE15238745000F6E67 /* Trigger.app */,
+				5CA7C00215238745000F6E67 /* TriggerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CA7BFE115238745000F6E67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CA7BFE215238745000F6E67 /* UIKit.framework */,
+				5CA7BFE415238745000F6E67 /* Foundation.framework */,
+				5CA7BFE615238745000F6E67 /* CoreGraphics.framework */,
+				5CA7C00315238745000F6E67 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CA7BFE815238745000F6E67 /* Trigger */ = {
+			isa = PBXGroup;
+			children = (
+				5CA7BFF115238745000F6E67 /* TriggerAppDelegate.h */,
+				5CA7BFF215238745000F6E67 /* TriggerAppDelegate.m */,
+				5CA7BFF415238745000F6E67 /* MainStoryboard_iPhone.storyboard */,
+				5CA7BFF715238745000F6E67 /* MainStoryboard_iPad.storyboard */,
+				5CA7BFFA15238745000F6E67 /* TriggerViewController.h */,
+				5CA7BFFB15238745000F6E67 /* TriggerViewController.m */,
+				5CA7BFE915238745000F6E67 /* Supporting Files */,
+			);
+			path = Trigger;
+			sourceTree = "<group>";
+		};
+		5CA7BFE915238745000F6E67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CA7BFEA15238745000F6E67 /* Trigger-Info.plist */,
+				5CA7BFEB15238745000F6E67 /* InfoPlist.strings */,
+				5CA7BFEE15238745000F6E67 /* main.m */,
+				5CA7BFF015238745000F6E67 /* Trigger-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CA7C00915238745000F6E67 /* TriggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CA7C00F15238745000F6E67 /* TriggerTests.h */,
+				5CA7C01015238745000F6E67 /* TriggerTests.m */,
+				5CA7C00A15238745000F6E67 /* Supporting Files */,
+			);
+			path = TriggerTests;
+			sourceTree = "<group>";
+		};
+		5CA7C00A15238745000F6E67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CA7C00B15238745000F6E67 /* TriggerTests-Info.plist */,
+				5CA7C00C15238745000F6E67 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CF2B97115B9BB1500BF3CAD /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				5CF2B97215B9BB1500BF3CAD /* NXTSecurity.h */,
+				5CF2B97315B9BB1500BF3CAD /* NXTSecurity.m */,
+				5CF2B97415B9BB1500BF3CAD /* NXTSecurityUser.h */,
+				5CF2B97515B9BB1500BF3CAD /* NXTSecurityUser.m */,
+				5CF2B97615B9BB1500BF3CAD /* NXTServices.h */,
+				5CF2B97715B9BB1500BF3CAD /* NXTServices.m */,
+				5CF2B97815B9BB1500BF3CAD /* NXTTicket.h */,
+				5CF2B97915B9BB1500BF3CAD /* NXTTicket.m */,
+				5CF2B97A15B9BB1500BF3CAD /* Soap+Prefix.h */,
+				5CF2B97B15B9BB1500BF3CAD /* Soap+Prefix.m */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		5CF2B97C15B9BB1500BF3CAD /* Soap */ = {
+			isa = PBXGroup;
+			children = (
+				5CF2B97D15B9BB1500BF3CAD /* NSData+Base64.h */,
+				5CF2B97E15B9BB1500BF3CAD /* NSData+Base64.m */,
+				5CF2B97F15B9BB1500BF3CAD /* NSMutableArray+Soap.h */,
+				5CF2B98015B9BB1500BF3CAD /* NSMutableArray+Soap.m */,
+				5CF2B98115B9BB1500BF3CAD /* Soap.h */,
+				5CF2B98215B9BB1500BF3CAD /* Soap.m */,
+				5CF2B98315B9BB1500BF3CAD /* SoapArray.h */,
+				5CF2B98415B9BB1500BF3CAD /* SoapArray.m */,
+				5CF2B98515B9BB1500BF3CAD /* SoapDelegate.h */,
+				5CF2B98615B9BB1500BF3CAD /* SoapFault.h */,
+				5CF2B98715B9BB1500BF3CAD /* SoapFault.m */,
+				5CF2B98815B9BB1500BF3CAD /* SoapHandler.h */,
+				5CF2B98915B9BB1500BF3CAD /* SoapHandler.m */,
+				5CF2B98A15B9BB1500BF3CAD /* SoapLiteral.h */,
+				5CF2B98B15B9BB1500BF3CAD /* SoapLiteral.m */,
+				5CF2B98C15B9BB1500BF3CAD /* SoapNil.h */,
+				5CF2B98D15B9BB1500BF3CAD /* SoapNil.m */,
+				5CF2B98E15B9BB1500BF3CAD /* SoapObject.h */,
+				5CF2B98F15B9BB1500BF3CAD /* SoapObject.m */,
+				5CF2B99015B9BB1500BF3CAD /* SoapParameter.h */,
+				5CF2B99115B9BB1500BF3CAD /* SoapParameter.m */,
+				5CF2B99215B9BB1500BF3CAD /* SoapReachability.h */,
+				5CF2B99315B9BB1500BF3CAD /* SoapReachability.m */,
+				5CF2B99415B9BB1500BF3CAD /* SoapRequest.h */,
+				5CF2B99515B9BB1500BF3CAD /* SoapRequest.m */,
+				5CF2B99615B9BB1500BF3CAD /* SoapService.h */,
+				5CF2B99715B9BB1500BF3CAD /* SoapService.m */,
+			);
+			path = Soap;
+			sourceTree = "<group>";
+		};
+		5CF2B99815B9BB1500BF3CAD /* TouchXML */ = {
+			isa = PBXGroup;
+			children = (
+				5CF2B99915B9BB1500BF3CAD /* CXMLDocument.h */,
+				5CF2B99A15B9BB1500BF3CAD /* CXMLDocument.m */,
+				5CF2B99B15B9BB1500BF3CAD /* CXMLDocument_PrivateExtensions.h */,
+				5CF2B99C15B9BB1500BF3CAD /* CXMLDocument_PrivateExtensions.m */,
+				5CF2B99D15B9BB1500BF3CAD /* CXMLElement.h */,
+				5CF2B99E15B9BB1500BF3CAD /* CXMLElement.m */,
+				5CF2B99F15B9BB1500BF3CAD /* CXMLNode.h */,
+				5CF2B9A015B9BB1500BF3CAD /* CXMLNode.m */,
+				5CF2B9A115B9BB1500BF3CAD /* CXMLNode_PrivateExtensions.h */,
+				5CF2B9A215B9BB1500BF3CAD /* CXMLNode_PrivateExtensions.m */,
+				5CF2B9A315B9BB1500BF3CAD /* CXMLNode_XPathExtensions.h */,
+				5CF2B9A415B9BB1500BF3CAD /* CXMLNode_XPathExtensions.m */,
+				5CF2B9A515B9BB1500BF3CAD /* TouchXML.h */,
+			);
+			path = TouchXML;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CA7BFDD15238745000F6E67 /* Trigger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA7C01415238745000F6E67 /* Build configuration list for PBXNativeTarget "Trigger" */;
+			buildPhases = (
+				5CA7BFDA15238745000F6E67 /* Sources */,
+				5CA7BFDB15238745000F6E67 /* Frameworks */,
+				5CA7BFDC15238745000F6E67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trigger;
+			productName = Trigger;
+			productReference = 5CA7BFDE15238745000F6E67 /* Trigger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CA7C00115238745000F6E67 /* TriggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA7C01715238745000F6E67 /* Build configuration list for PBXNativeTarget "TriggerTests" */;
+			buildPhases = (
+				5CA7BFFD15238745000F6E67 /* Sources */,
+				5CA7BFFE15238745000F6E67 /* Frameworks */,
+				5CA7BFFF15238745000F6E67 /* Resources */,
+				5CA7C00015238745000F6E67 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CA7C00815238745000F6E67 /* PBXTargetDependency */,
+			);
+			name = TriggerTests;
+			productName = TriggerTests;
+			productReference = 5CA7C00215238745000F6E67 /* TriggerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CA7BFD515238744000F6E67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5CA7BFD815238744000F6E67 /* Build configuration list for PBXProject "Trigger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5CA7BFD315238744000F6E67;
+			productRefGroup = 5CA7BFDF15238745000F6E67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CA7BFDD15238745000F6E67 /* Trigger */,
+				5CA7C00115238745000F6E67 /* TriggerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CA7BFDC15238745000F6E67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA7BFED15238745000F6E67 /* InfoPlist.strings in Resources */,
+				5CA7BFF615238745000F6E67 /* MainStoryboard_iPhone.storyboard in Resources */,
+				5CA7BFF915238745000F6E67 /* MainStoryboard_iPad.storyboard in Resources */,
+				5CA7D03616B18B7C0042BC3E /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA7BFFF15238745000F6E67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA7C00E15238745000F6E67 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5CA7C00015238745000F6E67 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CA7BFDA15238745000F6E67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA7BFEF15238745000F6E67 /* main.m in Sources */,
+				5CA7BFF315238745000F6E67 /* TriggerAppDelegate.m in Sources */,
+				5CA7BFFC15238745000F6E67 /* TriggerViewController.m in Sources */,
+				5CF2B9A615B9BB1500BF3CAD /* NXTSecurity.m in Sources */,
+				5CF2B9A715B9BB1500BF3CAD /* NXTSecurityUser.m in Sources */,
+				5CF2B9A815B9BB1500BF3CAD /* NXTServices.m in Sources */,
+				5CF2B9A915B9BB1500BF3CAD /* NXTTicket.m in Sources */,
+				5CF2B9AA15B9BB1500BF3CAD /* Soap+Prefix.m in Sources */,
+				5CF2B9AB15B9BB1500BF3CAD /* NSData+Base64.m in Sources */,
+				5CF2B9AC15B9BB1500BF3CAD /* NSMutableArray+Soap.m in Sources */,
+				5CF2B9AD15B9BB1500BF3CAD /* Soap.m in Sources */,
+				5CF2B9AE15B9BB1500BF3CAD /* SoapArray.m in Sources */,
+				5CF2B9AF15B9BB1500BF3CAD /* SoapFault.m in Sources */,
+				5CF2B9B015B9BB1500BF3CAD /* SoapHandler.m in Sources */,
+				5CF2B9B115B9BB1500BF3CAD /* SoapLiteral.m in Sources */,
+				5CF2B9B215B9BB1500BF3CAD /* SoapNil.m in Sources */,
+				5CF2B9B315B9BB1500BF3CAD /* SoapObject.m in Sources */,
+				5CF2B9B415B9BB1500BF3CAD /* SoapParameter.m in Sources */,
+				5CF2B9B515B9BB1500BF3CAD /* SoapReachability.m in Sources */,
+				5CF2B9B615B9BB1500BF3CAD /* SoapRequest.m in Sources */,
+				5CF2B9B715B9BB1500BF3CAD /* SoapService.m in Sources */,
+				5CF2B9B815B9BB1500BF3CAD /* CXMLDocument.m in Sources */,
+				5CF2B9B915B9BB1500BF3CAD /* CXMLDocument_PrivateExtensions.m in Sources */,
+				5CF2B9BA15B9BB1500BF3CAD /* CXMLElement.m in Sources */,
+				5CF2B9BB15B9BB1500BF3CAD /* CXMLNode.m in Sources */,
+				5CF2B9BC15B9BB1500BF3CAD /* CXMLNode_PrivateExtensions.m in Sources */,
+				5CF2B9BD15B9BB1500BF3CAD /* CXMLNode_XPathExtensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA7BFFD15238745000F6E67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA7C01115238745000F6E67 /* TriggerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CA7C00815238745000F6E67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CA7BFDD15238745000F6E67 /* Trigger */;
+			targetProxy = 5CA7C00715238745000F6E67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CA7BFEB15238745000F6E67 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CA7BFEC15238745000F6E67 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5CA7BFF415238745000F6E67 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CA7BFF515238745000F6E67 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		5CA7BFF715238745000F6E67 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CA7BFF815238745000F6E67 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		5CA7C00C15238745000F6E67 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CA7C00D15238745000F6E67 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CA7C01215238745000F6E67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CA7C01315238745000F6E67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CA7C01515238745000F6E67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trigger/Trigger-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "Trigger/Trigger-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CA7C01615238745000F6E67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trigger/Trigger-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "Trigger/Trigger-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5CA7C01815238745000F6E67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Trigger.app/Trigger";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trigger/Trigger-Prefix.pch";
+				INFOPLIST_FILE = "TriggerTests/TriggerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5CA7C01915238745000F6E67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Trigger.app/Trigger";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trigger/Trigger-Prefix.pch";
+				INFOPLIST_FILE = "TriggerTests/TriggerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CA7BFD815238744000F6E67 /* Build configuration list for PBXProject "Trigger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA7C01215238745000F6E67 /* Debug */,
+				5CA7C01315238745000F6E67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CA7C01415238745000F6E67 /* Build configuration list for PBXNativeTarget "Trigger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA7C01515238745000F6E67 /* Debug */,
+				5CA7C01615238745000F6E67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CA7C01715238745000F6E67 /* Build configuration list for PBXNativeTarget "TriggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA7C01815238745000F6E67 /* Debug */,
+				5CA7C01915238745000F6E67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CA7BFD515238744000F6E67 /* Project object */;
+}

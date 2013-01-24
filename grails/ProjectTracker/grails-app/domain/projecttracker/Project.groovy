@@ -8,7 +8,7 @@ class Project {
     String toString (){
         "${name}"
     }
-    static belongsTo = [owner : EndUser]
+    static belongsTo = [owner : User]
     static hasMany = [tasks : Task]
 
     static constraints = {

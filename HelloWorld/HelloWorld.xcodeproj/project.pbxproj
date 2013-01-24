@@ -20,6 +20,7 @@
 		5C65C1E814E816F100837272 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C65C1C914E816F000837272 /* Foundation.framework */; };
 		5C65C1F014E816F100837272 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C65C1EE14E816F100837272 /* InfoPlist.strings */; };
 		5C65C1F314E816F100837272 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C65C1F214E816F100837272 /* HelloWorldTests.m */; };
+		5CA7D04F16B18F3C0042BC3E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA7D04E16B18F3C0042BC3E /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		5C65C1EF14E816F100837272 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5C65C1F114E816F100837272 /* HelloWorldTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldTests.h; sourceTree = "<group>"; };
 		5C65C1F214E816F100837272 /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
+		5CA7D04E16B18F3C0042BC3E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		5C65C1B814E816F000837272 = {
 			isa = PBXGroup;
 			children = (
+				5CA7D04E16B18F3C0042BC3E /* Default-568h@2x.png */,
 				5C65C1CD14E816F000837272 /* HelloWorld */,
 				5C65C1EB14E816F100837272 /* HelloWorldTests */,
 				5C65C1C614E816F000837272 /* Frameworks */,
@@ -223,6 +226,7 @@
 			files = (
 				5C65C1D214E816F000837272 /* InfoPlist.strings in Resources */,
 				5C65C1DB14E816F000837272 /* MainStoryboard.storyboard in Resources */,
+				5CA7D04F16B18F3C0042BC3E /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +364,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloWorld/HelloWorld-Prefix.pch";
 				INFOPLIST_FILE = "HelloWorld/HelloWorld-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -371,6 +376,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloWorld/HelloWorld-Prefix.pch";
 				INFOPLIST_FILE = "HelloWorld/HelloWorld-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -429,6 +435,7 @@
 				5C65C1F814E816F100837272 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C65C1F914E816F100837272 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +444,7 @@
 				5C65C1FB14E816F100837272 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

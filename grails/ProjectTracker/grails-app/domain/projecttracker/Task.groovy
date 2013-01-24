@@ -7,7 +7,7 @@ class Task {
     String toString (){
         "${name}"
     }
-    static belongsTo = [assignee : EndUser, project : Project]
+    static belongsTo = [assignee : User, project : Project]
 
     static constraints = {
         name()
