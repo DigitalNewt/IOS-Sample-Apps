@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38c9fd74-b2a4-4c04-a228-87f1fce796f4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bookstore/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bookstore/bookstore-grailsPlugins.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Dragging/Default-568h@2x.png" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../KeyValue/SecondViewController.h" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../KeyValue/SecondViewController.m" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaunchImage/LaunchImage.xcodeproj/project.pbxproj" afterPath="" />
@@ -21,6 +20,76 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaunchImage/LaunchImageTests/LaunchImageTests.h" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaunchImage/LaunchImageTests/LaunchImageTests.m" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaunchImage/LaunchImageTests/en.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Default-568h@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Generated/NXTSecurity.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Generated/NXTSecurity.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Generated/NXTSecurityUser.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Generated/NXTSecurityUser.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Generated/NXTServices.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Generated/NXTServices.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Generated/NXTTicket.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Generated/NXTTicket.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Generated/Soap+Prefix.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Generated/Soap+Prefix.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/NSData+Base64.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/NSData+Base64.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/NSMutableArray+Soap.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/NSMutableArray+Soap.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/Soap.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/Soap.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapArray.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapArray.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapFault.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapFault.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapHandler.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapHandler.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapLiteral.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapLiteral.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapNil.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapNil.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapObject.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapObject.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapParameter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapParameter.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapReachability.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapReachability.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapService.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapService.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TouchXML/CXMLDocument.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TouchXML/CXMLDocument.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TouchXML/CXMLDocument_PrivateExtensions.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TouchXML/CXMLDocument_PrivateExtensions.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TouchXML/CXMLElement.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TouchXML/CXMLElement.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TouchXML/CXMLNode.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TouchXML/CXMLNode.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TouchXML/CXMLNode_PrivateExtensions.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TouchXML/CXMLNode_PrivateExtensions.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TouchXML/CXMLNode_XPathExtensions.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TouchXML/CXMLNode_XPathExtensions.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TouchXML/TouchXML.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Trigger.xcodeproj/project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Trigger.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Trigger.xcodeproj/project.xcworkspace/xcuserdata/newt.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Trigger.xcodeproj/xcuserdata/newt.xcuserdatad/xcschemes/Trigger.xcscheme" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Trigger.xcodeproj/xcuserdata/newt.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Trigger/Trigger-Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Trigger/Trigger-Prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Trigger/TriggerAppDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Trigger/TriggerAppDelegate.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Trigger/TriggerViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Trigger/TriggerViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Trigger/en.lproj/InfoPlist.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Trigger/en.lproj/MainStoryboard_iPad.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Trigger/en.lproj/MainStoryboard_iPhone.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Trigger/main.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TriggerTests/TriggerTests-Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TriggerTests/TriggerTests.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TriggerTests/TriggerTests.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TriggerTests/en.lproj/InfoPlist.strings" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/devDb.h2.db" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/devDb.lock.db" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/devDb.trace.db" afterPath="" />
@@ -91,29 +160,12 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../myTestStoryboard/myTestStoryboardTests/myTestStoryboardTests-Info.plist" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../myTestStoryboard/myTestStoryboardTests/myTestStoryboardTests.h" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../myTestStoryboard/myTestStoryboardTests/myTestStoryboardTests.m" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Dragging/Dragging.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/../../Dragging/Dragging.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Dragging/Dragging.xcodeproj/project.xcworkspace/xcuserdata/newt.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/../../Dragging/Dragging.xcodeproj/project.xcworkspace/xcuserdata/newt.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Dragging/Dragging.xcodeproj/xcuserdata/newt.xcuserdatad/xcschemes/Dragging.xcscheme" afterPath="$PROJECT_DIR$/../../Dragging/Dragging.xcodeproj/xcuserdata/newt.xcuserdatad/xcschemes/Dragging.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Dragging/Dragging/en.lproj/MainStoryboard.storyboard" afterPath="$PROJECT_DIR$/../../Dragging/Dragging/en.lproj/MainStoryboard.storyboard" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Happiness/Happiness.xcodeproj/project.xcworkspace/xcuserdata/newt.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/../../Happiness/Happiness.xcodeproj/project.xcworkspace/xcuserdata/newt.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/ApplicationResources.class" afterPath="$PROJECT_DIR$/../ProjectTracker/target/classes/ApplicationResources.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/BootStrap.class" afterPath="$PROJECT_DIR$/../ProjectTracker/target/classes/BootStrap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/BuildConfig$_run_closure1_closure5.class" afterPath="$PROJECT_DIR$/../ProjectTracker/target/classes/BuildConfig$_run_closure1_closure5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/BuildConfig.class" afterPath="$PROJECT_DIR$/../ProjectTracker/target/classes/BuildConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/Config.class" afterPath="$PROJECT_DIR$/../ProjectTracker/target/classes/Config.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/DataSource.class" afterPath="$PROJECT_DIR$/../ProjectTracker/target/classes/DataSource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/UrlMappings.class" afterPath="$PROJECT_DIR$/../ProjectTracker/target/classes/UrlMappings.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/projecttracker/Project.class" afterPath="$PROJECT_DIR$/../ProjectTracker/target/classes/projecttracker/Project.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/projecttracker/ProjectController.class" afterPath="$PROJECT_DIR$/../ProjectTracker/target/classes/projecttracker/ProjectController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/projecttracker/Task.class" afterPath="$PROJECT_DIR$/../ProjectTracker/target/classes/projecttracker/Task.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/projecttracker/TaskController.class" afterPath="$PROJECT_DIR$/../ProjectTracker/target/classes/projecttracker/TaskController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/resources.class" afterPath="$PROJECT_DIR$/../ProjectTracker/target/classes/resources.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProjectTracker/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ProjectTracker/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProjectTracker/ProjectTracker-grailsPlugins.iml" afterPath="$PROJECT_DIR$/../ProjectTracker/ProjectTracker-grailsPlugins.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProjectTracker/ProjectTracker.iml" afterPath="$PROJECT_DIR$/../ProjectTracker/ProjectTracker.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProjectTracker/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/../ProjectTracker/grails-app/conf/BuildConfig.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProjectTracker/grails-app/controllers/projecttracker/ProjectController.groovy" afterPath="$PROJECT_DIR$/../ProjectTracker/grails-app/controllers/projecttracker/ProjectController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProjectTracker/grails-app/controllers/projecttracker/TaskController.groovy" afterPath="$PROJECT_DIR$/../ProjectTracker/grails-app/controllers/projecttracker/TaskController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProjectTracker/grails-app/domain/projecttracker/Project.groovy" afterPath="$PROJECT_DIR$/../ProjectTracker/grails-app/domain/projecttracker/Project.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProjectTracker/grails-app/domain/projecttracker/Task.groovy" afterPath="$PROJECT_DIR$/../ProjectTracker/grails-app/domain/projecttracker/Task.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProjectTracker/target/stacktrace.log" afterPath="$PROJECT_DIR$/../ProjectTracker/target/stacktrace.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../example/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../example/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="couplestats.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -562,7 +614,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962406" sideWeight="0.6706507" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934928" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49136788" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />

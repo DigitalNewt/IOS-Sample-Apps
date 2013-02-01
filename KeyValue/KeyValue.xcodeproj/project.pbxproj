@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C4188F416B45D7C005EF8A9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C4188F316B45D7C005EF8A9 /* Default-568h@2x.png */; };
 		5CA07957158505CE00A7CE71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA07956158505CE00A7CE71 /* UIKit.framework */; };
 		5CA07959158505CE00A7CE71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA07958158505CE00A7CE71 /* Foundation.framework */; };
 		5CA0795B158505CE00A7CE71 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA0795A158505CE00A7CE71 /* CoreGraphics.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C4188F316B45D7C005EF8A9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5CA07952158505CE00A7CE71 /* KeyValue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyValue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CA07956158505CE00A7CE71 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5CA07958158505CE00A7CE71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -84,6 +86,7 @@
 		5CA07947158505CE00A7CE71 = {
 			isa = PBXGroup;
 			children = (
+				5C4188F316B45D7C005EF8A9 /* Default-568h@2x.png */,
 				5CA0795C158505CE00A7CE71 /* KeyValue */,
 				5CA0797A158505CE00A7CE71 /* KeyValueTests */,
 				5CA07955158505CE00A7CE71 /* Frameworks */,
@@ -229,6 +232,7 @@
 			files = (
 				5CA07961158505CE00A7CE71 /* InfoPlist.strings in Resources */,
 				5CA0796A158505CE00A7CE71 /* MainStoryboard.storyboard in Resources */,
+				5C4188F416B45D7C005EF8A9 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +440,7 @@
 				5CA07987158505CE00A7CE71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CA07988158505CE00A7CE71 /* Build configuration list for PBXNativeTarget "KeyValueTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +449,7 @@
 				5CA0798A158505CE00A7CE71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

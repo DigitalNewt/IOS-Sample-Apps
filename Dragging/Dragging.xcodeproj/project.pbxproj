@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CA7D08C16B1CF390042BC3E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA7D08B16B1CF390042BC3E /* Default-568h@2x.png */; };
 		5CA9CEA3156959E900EB62DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA9CEA2156959E900EB62DC /* UIKit.framework */; };
 		5CA9CEA5156959E900EB62DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA9CEA4156959E900EB62DC /* Foundation.framework */; };
 		5CA9CEA7156959E900EB62DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA9CEA6156959E900EB62DC /* CoreGraphics.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5CA7D08B16B1CF390042BC3E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5CA9CE9E156959E900EB62DC /* Dragging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dragging.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CA9CEA2156959E900EB62DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5CA9CEA4156959E900EB62DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -83,6 +85,7 @@
 		5CA9CE93156959E900EB62DC = {
 			isa = PBXGroup;
 			children = (
+				5CA7D08B16B1CF390042BC3E /* Default-568h@2x.png */,
 				5CA9CEA8156959E900EB62DC /* Dragging */,
 				5CA9CEC6156959EA00EB62DC /* DraggingTests */,
 				5CA9CEA1156959E900EB62DC /* Frameworks */,
@@ -199,7 +202,7 @@
 		5CA9CE95156959E900EB62DC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0450;
 			};
 			buildConfigurationList = 5CA9CE98156959E900EB62DC /* Build configuration list for PBXProject "Dragging" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -227,6 +230,7 @@
 				5CA9CEAD156959E900EB62DC /* InfoPlist.strings in Resources */,
 				5CA9CEB6156959EA00EB62DC /* MainStoryboard.storyboard in Resources */,
 				5CA9CED8156959FA00EB62DC /* kelsi.JPG in Resources */,
+				5CA7D08C16B1CF390042BC3E /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +437,7 @@
 				5CA9CED3156959EA00EB62DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CA9CED4156959EA00EB62DC /* Build configuration list for PBXNativeTarget "DraggingTests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +446,7 @@
 				5CA9CED6156959EA00EB62DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

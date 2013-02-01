@@ -14,44 +14,34 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5CA9CE9D156959E900EB62DC"
-               BuildableName = "Dragging.app"
-               BlueprintName = "Dragging"
-               ReferencedContainer = "container:Dragging.xcodeproj">
+               BlueprintIdentifier = "5CA7D05A16B1A76F0042BC3E"
+               BuildableName = "HelloWorld.app"
+               BlueprintName = "HelloWorld"
+               ReferencedContainer = "container:HelloWorld.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5CA9CEBE156959EA00EB62DC"
-               BuildableName = "DraggingTests.octest"
-               BlueprintName = "DraggingTests"
-               ReferencedContainer = "container:Dragging.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5CA9CE9D156959E900EB62DC"
-            BuildableName = "Dragging.app"
-            BlueprintName = "Dragging"
-            ReferencedContainer = "container:Dragging.xcodeproj">
+            BlueprintIdentifier = "5CA7D05A16B1A76F0042BC3E"
+            BuildableName = "HelloWorld.app"
+            BlueprintName = "HelloWorld"
+            ReferencedContainer = "container:HelloWorld.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Debug"
@@ -61,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5CA9CE9D156959E900EB62DC"
-            BuildableName = "Dragging.app"
-            BlueprintName = "Dragging"
-            ReferencedContainer = "container:Dragging.xcodeproj">
+            BlueprintIdentifier = "5CA7D05A16B1A76F0042BC3E"
+            BuildableName = "HelloWorld.app"
+            BlueprintName = "HelloWorld"
+            ReferencedContainer = "container:HelloWorld.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5CA9CE9D156959E900EB62DC"
-            BuildableName = "Dragging.app"
-            BlueprintName = "Dragging"
-            ReferencedContainer = "container:Dragging.xcodeproj">
+            BlueprintIdentifier = "5CA7D05A16B1A76F0042BC3E"
+            BuildableName = "HelloWorld.app"
+            BlueprintName = "HelloWorld"
+            ReferencedContainer = "container:HelloWorld.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
