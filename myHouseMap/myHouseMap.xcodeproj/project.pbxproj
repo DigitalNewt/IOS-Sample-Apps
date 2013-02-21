@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C62C67A16D04F020033450D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C62C67916D04F020033450D /* Default-568h@2x.png */; };
 		5CFCC9A71561F8EA006F5EC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFCC9A61561F8EA006F5EC2 /* UIKit.framework */; };
 		5CFCC9A91561F8EA006F5EC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFCC9A81561F8EA006F5EC2 /* Foundation.framework */; };
 		5CFCC9AB1561F8EA006F5EC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFCC9AA1561F8EA006F5EC2 /* CoreGraphics.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C62C67916D04F020033450D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5CFCC9A21561F8EA006F5EC2 /* myHouseMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myHouseMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CFCC9A61561F8EA006F5EC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5CFCC9A81561F8EA006F5EC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -84,6 +86,7 @@
 		5CFCC9971561F8EA006F5EC2 = {
 			isa = PBXGroup;
 			children = (
+				5C62C67916D04F020033450D /* Default-568h@2x.png */,
 				5CFCC9AC1561F8EA006F5EC2 /* myHouseMap */,
 				5CFCC9CA1561F8EA006F5EC2 /* myHouseMapTests */,
 				5CFCC9A51561F8EA006F5EC2 /* Frameworks */,
@@ -200,7 +203,7 @@
 		5CFCC9991561F8EA006F5EC2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0460;
 			};
 			buildConfigurationList = 5CFCC99C1561F8EA006F5EC2 /* Build configuration list for PBXProject "myHouseMap" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -227,6 +230,7 @@
 			files = (
 				5CFCC9B11561F8EA006F5EC2 /* InfoPlist.strings in Resources */,
 				5CFCC9BA1561F8EA006F5EC2 /* MainStoryboard.storyboard in Resources */,
+				5C62C67A16D04F020033450D /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +323,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -332,6 +340,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
@@ -344,12 +353,17 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
@@ -433,6 +447,7 @@
 				5CFCC9D71561F8EA006F5EC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CFCC9D81561F8EA006F5EC2 /* Build configuration list for PBXNativeTarget "myHouseMapTests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +456,7 @@
 				5CFCC9DA1561F8EA006F5EC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

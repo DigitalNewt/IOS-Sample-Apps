@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CFCC9A71561F8EA006F5EC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFCC9A61561F8EA006F5EC2 /* UIKit.framework */; };
+		5CFCC9A91561F8EA006F5EC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFCC9A81561F8EA006F5EC2 /* Foundation.framework */; };
+		5CFCC9AB1561F8EA006F5EC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFCC9AA1561F8EA006F5EC2 /* CoreGraphics.framework */; };
+		5CFCC9B11561F8EA006F5EC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CFCC9AF1561F8EA006F5EC2 /* InfoPlist.strings */; };
+		5CFCC9B31561F8EA006F5EC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFCC9B21561F8EA006F5EC2 /* main.m */; };
+		5CFCC9B71561F8EA006F5EC2 /* myHouseMapAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFCC9B61561F8EA006F5EC2 /* myHouseMapAppDelegate.m */; };
+		5CFCC9BA1561F8EA006F5EC2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CFCC9B81561F8EA006F5EC2 /* MainStoryboard.storyboard */; };
+		5CFCC9BD1561F8EA006F5EC2 /* myHouseMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFCC9BC1561F8EA006F5EC2 /* myHouseMapViewController.m */; };
+		5CFCC9C51561F8EA006F5EC2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFCC9C41561F8EA006F5EC2 /* SenTestingKit.framework */; };
+		5CFCC9C61561F8EA006F5EC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFCC9A61561F8EA006F5EC2 /* UIKit.framework */; };
+		5CFCC9C71561F8EA006F5EC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFCC9A81561F8EA006F5EC2 /* Foundation.framework */; };
+		5CFCC9CF1561F8EA006F5EC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CFCC9CD1561F8EA006F5EC2 /* InfoPlist.strings */; };
+		5CFCC9D21561F8EA006F5EC2 /* myHouseMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFCC9D11561F8EA006F5EC2 /* myHouseMapTests.m */; };
+		5CFCC9DC1561FA9B006F5EC2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFCC9DB1561FA9B006F5EC2 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CFCC9C81561F8EA006F5EC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CFCC9991561F8EA006F5EC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CFCC9A11561F8EA006F5EC2;
+			remoteInfo = myHouseMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CFCC9A21561F8EA006F5EC2 /* myHouseMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myHouseMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CFCC9A61561F8EA006F5EC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5CFCC9A81561F8EA006F5EC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CFCC9AA1561F8EA006F5EC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5CFCC9AE1561F8EA006F5EC2 /* myHouseMap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "myHouseMap-Info.plist"; sourceTree = "<group>"; };
+		5CFCC9B01561F8EA006F5EC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CFCC9B21561F8EA006F5EC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CFCC9B41561F8EA006F5EC2 /* myHouseMap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "myHouseMap-Prefix.pch"; sourceTree = "<group>"; };
+		5CFCC9B51561F8EA006F5EC2 /* myHouseMapAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myHouseMapAppDelegate.h; sourceTree = "<group>"; };
+		5CFCC9B61561F8EA006F5EC2 /* myHouseMapAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myHouseMapAppDelegate.m; sourceTree = "<group>"; };
+		5CFCC9B91561F8EA006F5EC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5CFCC9BB1561F8EA006F5EC2 /* myHouseMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myHouseMapViewController.h; sourceTree = "<group>"; };
+		5CFCC9BC1561F8EA006F5EC2 /* myHouseMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myHouseMapViewController.m; sourceTree = "<group>"; };
+		5CFCC9C31561F8EA006F5EC2 /* myHouseMapTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myHouseMapTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CFCC9C41561F8EA006F5EC2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5CFCC9CC1561F8EA006F5EC2 /* myHouseMapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "myHouseMapTests-Info.plist"; sourceTree = "<group>"; };
+		5CFCC9CE1561F8EA006F5EC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CFCC9D01561F8EA006F5EC2 /* myHouseMapTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myHouseMapTests.h; sourceTree = "<group>"; };
+		5CFCC9D11561F8EA006F5EC2 /* myHouseMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myHouseMapTests.m; sourceTree = "<group>"; };
+		5CFCC9DB1561FA9B006F5EC2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CFCC99F1561F8EA006F5EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFCC9DC1561FA9B006F5EC2 /* MapKit.framework in Frameworks */,
+				5CFCC9A71561F8EA006F5EC2 /* UIKit.framework in Frameworks */,
+				5CFCC9A91561F8EA006F5EC2 /* Foundation.framework in Frameworks */,
+				5CFCC9AB1561F8EA006F5EC2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CFCC9BF1561F8EA006F5EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFCC9C51561F8EA006F5EC2 /* SenTestingKit.framework in Frameworks */,
+				5CFCC9C61561F8EA006F5EC2 /* UIKit.framework in Frameworks */,
+				5CFCC9C71561F8EA006F5EC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CFCC9971561F8EA006F5EC2 = {
+			isa = PBXGroup;
+			children = (
+				5CFCC9AC1561F8EA006F5EC2 /* myHouseMap */,
+				5CFCC9CA1561F8EA006F5EC2 /* myHouseMapTests */,
+				5CFCC9A51561F8EA006F5EC2 /* Frameworks */,
+				5CFCC9A31561F8EA006F5EC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CFCC9A31561F8EA006F5EC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CFCC9A21561F8EA006F5EC2 /* myHouseMap.app */,
+				5CFCC9C31561F8EA006F5EC2 /* myHouseMapTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CFCC9A51561F8EA006F5EC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CFCC9DB1561FA9B006F5EC2 /* MapKit.framework */,
+				5CFCC9A61561F8EA006F5EC2 /* UIKit.framework */,
+				5CFCC9A81561F8EA006F5EC2 /* Foundation.framework */,
+				5CFCC9AA1561F8EA006F5EC2 /* CoreGraphics.framework */,
+				5CFCC9C41561F8EA006F5EC2 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CFCC9AC1561F8EA006F5EC2 /* myHouseMap */ = {
+			isa = PBXGroup;
+			children = (
+				5CFCC9B51561F8EA006F5EC2 /* myHouseMapAppDelegate.h */,
+				5CFCC9B61561F8EA006F5EC2 /* myHouseMapAppDelegate.m */,
+				5CFCC9B81561F8EA006F5EC2 /* MainStoryboard.storyboard */,
+				5CFCC9BB1561F8EA006F5EC2 /* myHouseMapViewController.h */,
+				5CFCC9BC1561F8EA006F5EC2 /* myHouseMapViewController.m */,
+				5CFCC9AD1561F8EA006F5EC2 /* Supporting Files */,
+			);
+			path = myHouseMap;
+			sourceTree = "<group>";
+		};
+		5CFCC9AD1561F8EA006F5EC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CFCC9AE1561F8EA006F5EC2 /* myHouseMap-Info.plist */,
+				5CFCC9AF1561F8EA006F5EC2 /* InfoPlist.strings */,
+				5CFCC9B21561F8EA006F5EC2 /* main.m */,
+				5CFCC9B41561F8EA006F5EC2 /* myHouseMap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CFCC9CA1561F8EA006F5EC2 /* myHouseMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CFCC9D01561F8EA006F5EC2 /* myHouseMapTests.h */,
+				5CFCC9D11561F8EA006F5EC2 /* myHouseMapTests.m */,
+				5CFCC9CB1561F8EA006F5EC2 /* Supporting Files */,
+			);
+			path = myHouseMapTests;
+			sourceTree = "<group>";
+		};
+		5CFCC9CB1561F8EA006F5EC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CFCC9CC1561F8EA006F5EC2 /* myHouseMapTests-Info.plist */,
+				5CFCC9CD1561F8EA006F5EC2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CFCC9A11561F8EA006F5EC2 /* myHouseMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CFCC9D51561F8EA006F5EC2 /* Build configuration list for PBXNativeTarget "myHouseMap" */;
+			buildPhases = (
+				5CFCC99E1561F8EA006F5EC2 /* Sources */,
+				5CFCC99F1561F8EA006F5EC2 /* Frameworks */,
+				5CFCC9A01561F8EA006F5EC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myHouseMap;
+			productName = myHouseMap;
+			productReference = 5CFCC9A21561F8EA006F5EC2 /* myHouseMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CFCC9C21561F8EA006F5EC2 /* myHouseMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CFCC9D81561F8EA006F5EC2 /* Build configuration list for PBXNativeTarget "myHouseMapTests" */;
+			buildPhases = (
+				5CFCC9BE1561F8EA006F5EC2 /* Sources */,
+				5CFCC9BF1561F8EA006F5EC2 /* Frameworks */,
+				5CFCC9C01561F8EA006F5EC2 /* Resources */,
+				5CFCC9C11561F8EA006F5EC2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CFCC9C91561F8EA006F5EC2 /* PBXTargetDependency */,
+			);
+			name = myHouseMapTests;
+			productName = myHouseMapTests;
+			productReference = 5CFCC9C31561F8EA006F5EC2 /* myHouseMapTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CFCC9991561F8EA006F5EC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5CFCC99C1561F8EA006F5EC2 /* Build configuration list for PBXProject "myHouseMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5CFCC9971561F8EA006F5EC2;
+			productRefGroup = 5CFCC9A31561F8EA006F5EC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CFCC9A11561F8EA006F5EC2 /* myHouseMap */,
+				5CFCC9C21561F8EA006F5EC2 /* myHouseMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CFCC9A01561F8EA006F5EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFCC9B11561F8EA006F5EC2 /* InfoPlist.strings in Resources */,
+				5CFCC9BA1561F8EA006F5EC2 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CFCC9C01561F8EA006F5EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFCC9CF1561F8EA006F5EC2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5CFCC9C11561F8EA006F5EC2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CFCC99E1561F8EA006F5EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFCC9B31561F8EA006F5EC2 /* main.m in Sources */,
+				5CFCC9B71561F8EA006F5EC2 /* myHouseMapAppDelegate.m in Sources */,
+				5CFCC9BD1561F8EA006F5EC2 /* myHouseMapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CFCC9BE1561F8EA006F5EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFCC9D21561F8EA006F5EC2 /* myHouseMapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CFCC9C91561F8EA006F5EC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CFCC9A11561F8EA006F5EC2 /* myHouseMap */;
+			targetProxy = 5CFCC9C81561F8EA006F5EC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CFCC9AF1561F8EA006F5EC2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CFCC9B01561F8EA006F5EC2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5CFCC9B81561F8EA006F5EC2 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CFCC9B91561F8EA006F5EC2 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		5CFCC9CD1561F8EA006F5EC2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CFCC9CE1561F8EA006F5EC2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CFCC9D31561F8EA006F5EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5CFCC9D41561F8EA006F5EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CFCC9D61561F8EA006F5EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myHouseMap/myHouseMap-Prefix.pch";
+				INFOPLIST_FILE = "myHouseMap/myHouseMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CFCC9D71561F8EA006F5EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myHouseMap/myHouseMap-Prefix.pch";
+				INFOPLIST_FILE = "myHouseMap/myHouseMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5CFCC9D91561F8EA006F5EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/myHouseMap.app/myHouseMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myHouseMap/myHouseMap-Prefix.pch";
+				INFOPLIST_FILE = "myHouseMapTests/myHouseMapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5CFCC9DA1561F8EA006F5EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/myHouseMap.app/myHouseMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myHouseMap/myHouseMap-Prefix.pch";
+				INFOPLIST_FILE = "myHouseMapTests/myHouseMapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CFCC99C1561F8EA006F5EC2 /* Build configuration list for PBXProject "myHouseMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CFCC9D31561F8EA006F5EC2 /* Debug */,
+				5CFCC9D41561F8EA006F5EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CFCC9D51561F8EA006F5EC2 /* Build configuration list for PBXNativeTarget "myHouseMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CFCC9D61561F8EA006F5EC2 /* Debug */,
+				5CFCC9D71561F8EA006F5EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CFCC9D81561F8EA006F5EC2 /* Build configuration list for PBXNativeTarget "myHouseMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CFCC9D91561F8EA006F5EC2 /* Debug */,
+				5CFCC9DA1561F8EA006F5EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CFCC9991561F8EA006F5EC2 /* Project object */;
+}

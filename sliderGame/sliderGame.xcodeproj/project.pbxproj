@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C31D8CD16BF2D5F00230EE5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C31D8CC16BF2D5F00230EE5 /* Default-568h@2x.png */; };
 		5C9887521561B538001F1E05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9887511561B538001F1E05 /* UIKit.framework */; };
 		5C9887541561B538001F1E05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9887531561B538001F1E05 /* Foundation.framework */; };
 		5C9887561561B538001F1E05 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9887551561B538001F1E05 /* CoreGraphics.framework */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C31D8CC16BF2D5F00230EE5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5C98874D1561B538001F1E05 /* sliderGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sliderGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C9887511561B538001F1E05 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5C9887531561B538001F1E05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -78,10 +80,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C31D8CE16BF2ED700230EE5 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				5C9887601561B539001F1E05 /* sliderGameAppDelegate.h */,
+				5C9887611561B539001F1E05 /* sliderGameAppDelegate.m */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		5C31D8CF16BF2EF700230EE5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5C9887661561B539001F1E05 /* sliderGameViewController.h */,
+				5C9887671561B539001F1E05 /* sliderGameViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5C31D8D016BF2F2E00230EE5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5C31D8D216BF2F4100230EE5 /* Stroyboards */,
+				5C31D8D116BF2F3500230EE5 /* images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5C31D8D116BF2F3500230EE5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5C31D8CC16BF2D5F00230EE5 /* Default-568h@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		5C31D8D216BF2F4100230EE5 /* Stroyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5C9887631561B539001F1E05 /* MainStoryboard.storyboard */,
+			);
+			name = Stroyboards;
+			sourceTree = "<group>";
+		};
 		5C9887421561B538001F1E05 = {
 			isa = PBXGroup;
 			children = (
-				5C9887571561B538001F1E05 /* sliderGame */,
+				5C9887571561B538001F1E05 /* Classes */,
+				5C31D8D016BF2F2E00230EE5 /* Resources */,
+				5C9887581561B539001F1E05 /* Supporting Files */,
 				5C9887751561B539001F1E05 /* sliderGameTests */,
 				5C9887501561B538001F1E05 /* Frameworks */,
 				5C98874E1561B538001F1E05 /* Products */,
@@ -108,16 +155,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5C9887571561B538001F1E05 /* sliderGame */ = {
+		5C9887571561B538001F1E05 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				5C9887601561B539001F1E05 /* sliderGameAppDelegate.h */,
-				5C9887611561B539001F1E05 /* sliderGameAppDelegate.m */,
-				5C9887631561B539001F1E05 /* MainStoryboard.storyboard */,
-				5C9887661561B539001F1E05 /* sliderGameViewController.h */,
-				5C9887671561B539001F1E05 /* sliderGameViewController.m */,
-				5C9887581561B539001F1E05 /* Supporting Files */,
+				5C31D8CF16BF2EF700230EE5 /* Controllers */,
+				5C31D8CE16BF2ED700230EE5 /* Delegates */,
 			);
+			name = Classes;
 			path = sliderGame;
 			sourceTree = "<group>";
 		};
@@ -130,6 +174,7 @@
 				5C98875F1561B539001F1E05 /* sliderGame-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = sliderGame;
 			sourceTree = "<group>";
 		};
 		5C9887751561B539001F1E05 /* sliderGameTests */ = {
@@ -196,7 +241,7 @@
 		5C9887441561B538001F1E05 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0460;
 			};
 			buildConfigurationList = 5C9887471561B538001F1E05 /* Build configuration list for PBXProject "sliderGame" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -223,6 +268,7 @@
 			files = (
 				5C98875C1561B539001F1E05 /* InfoPlist.strings in Resources */,
 				5C9887651561B539001F1E05 /* MainStoryboard.storyboard in Resources */,
+				5C31D8CD16BF2D5F00230EE5 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +342,7 @@
 				5C9887641561B539001F1E05 /* en */,
 			);
 			name = MainStoryboard.storyboard;
+			path = sliderGame;
 			sourceTree = "<group>";
 		};
 		5C9887781561B539001F1E05 /* InfoPlist.strings */ = {
@@ -315,6 +362,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -328,6 +379,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
@@ -340,12 +392,17 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
@@ -429,6 +486,7 @@
 				5C9887821561B539001F1E05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C9887831561B539001F1E05 /* Build configuration list for PBXNativeTarget "sliderGameTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +495,7 @@
 				5C9887851561B539001F1E05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

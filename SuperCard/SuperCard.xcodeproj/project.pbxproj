@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CA047DF16D17B420027E1C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA047DE16D17B420027E1C7 /* UIKit.framework */; };
+		5CA047E116D17B420027E1C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA047E016D17B420027E1C7 /* Foundation.framework */; };
+		5CA047E316D17B420027E1C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA047E216D17B420027E1C7 /* CoreGraphics.framework */; };
+		5CA047E916D17B420027E1C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CA047E716D17B420027E1C7 /* InfoPlist.strings */; };
+		5CA047EB16D17B420027E1C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA047EA16D17B420027E1C7 /* main.m */; };
+		5CA047EF16D17B420027E1C7 /* SuperCardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA047EE16D17B420027E1C7 /* SuperCardAppDelegate.m */; };
+		5CA047F116D17B420027E1C7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA047F016D17B420027E1C7 /* Default.png */; };
+		5CA047F316D17B420027E1C7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA047F216D17B420027E1C7 /* Default@2x.png */; };
+		5CA047F516D17B420027E1C7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA047F416D17B420027E1C7 /* Default-568h@2x.png */; };
+		5CA047F816D17B420027E1C7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA047F616D17B420027E1C7 /* MainStoryboard.storyboard */; };
+		5CA047FB16D17B420027E1C7 /* SuperCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA047FA16D17B420027E1C7 /* SuperCardViewController.m */; };
+		5CA0480316D17B930027E1C7 /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA0480216D17B930027E1C7 /* PlayingCardView.m */; };
+		5CA0480F16D19EC90027E1C7 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA0480616D19EC90027E1C7 /* Card.m */; };
+		5CA0481016D19EC90027E1C7 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA0480816D19EC90027E1C7 /* CardMatchingGame.m */; };
+		5CA0481116D19EC90027E1C7 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA0480A16D19EC90027E1C7 /* Deck.m */; };
+		5CA0481216D19EC90027E1C7 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA0480C16D19EC90027E1C7 /* PlayingCard.m */; };
+		5CA0481316D19EC90027E1C7 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA0480E16D19EC90027E1C7 /* PlayingCardDeck.m */; };
+		5CA0481716D4362B0027E1C7 /* cardback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0481616D4362B0027E1C7 /* cardback.jpg */; };
+		5CA0481B16D4587D0027E1C7 /* K♦.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0481916D4587D0027E1C7 /* K♦.png */; };
+		5CA0481C16D4587D0027E1C7 /* K♦@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0481A16D4587D0027E1C7 /* K♦@2x.png */; };
+		5CA0481F16D45ACF0027E1C7 /* K♠.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0481D16D45ACF0027E1C7 /* K♠.png */; };
+		5CA0482016D45ACF0027E1C7 /* K♠@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0481E16D45ACF0027E1C7 /* K♠@2x.png */; };
+		5CA0482316D4F19D0027E1C7 /* K♥.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0482116D4F19D0027E1C7 /* K♥.png */; };
+		5CA0482416D4F19D0027E1C7 /* K♥@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0482216D4F19D0027E1C7 /* K♥@2x.png */; };
+		5CA0482716D5947D0027E1C7 /* K♣.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0482516D5947D0027E1C7 /* K♣.png */; };
+		5CA0482816D5947D0027E1C7 /* K♣@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0482616D5947D0027E1C7 /* K♣@2x.png */; };
+		5CA0483116D5A2BF0027E1C7 /* Q♠.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0482916D5A2BF0027E1C7 /* Q♠.png */; };
+		5CA0483216D5A2BF0027E1C7 /* Q♠@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0482A16D5A2BF0027E1C7 /* Q♠@2x.png */; };
+		5CA0483316D5A2BF0027E1C7 /* Q♣.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0482B16D5A2BF0027E1C7 /* Q♣.png */; };
+		5CA0483416D5A2BF0027E1C7 /* Q♣@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0482C16D5A2BF0027E1C7 /* Q♣@2x.png */; };
+		5CA0483516D5A2BF0027E1C7 /* Q♥.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0482D16D5A2BF0027E1C7 /* Q♥.png */; };
+		5CA0483616D5A2BF0027E1C7 /* Q♥@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0482E16D5A2BF0027E1C7 /* Q♥@2x.png */; };
+		5CA0483716D5A2BF0027E1C7 /* Q♦.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0482F16D5A2BF0027E1C7 /* Q♦.png */; };
+		5CA0483816D5A2BF0027E1C7 /* Q♦@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0483016D5A2BF0027E1C7 /* Q♦@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5CA047DB16D17B420027E1C7 /* SuperCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA047DE16D17B420027E1C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5CA047E016D17B420027E1C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CA047E216D17B420027E1C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5CA047E616D17B420027E1C7 /* SuperCard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SuperCard-Info.plist"; sourceTree = "<group>"; };
+		5CA047E816D17B420027E1C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CA047EA16D17B420027E1C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CA047EC16D17B420027E1C7 /* SuperCard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SuperCard-Prefix.pch"; sourceTree = "<group>"; };
+		5CA047ED16D17B420027E1C7 /* SuperCardAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperCardAppDelegate.h; sourceTree = "<group>"; };
+		5CA047EE16D17B420027E1C7 /* SuperCardAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCardAppDelegate.m; sourceTree = "<group>"; };
+		5CA047F016D17B420027E1C7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5CA047F216D17B420027E1C7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5CA047F416D17B420027E1C7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5CA047F716D17B420027E1C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5CA047F916D17B420027E1C7 /* SuperCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperCardViewController.h; sourceTree = "<group>"; };
+		5CA047FA16D17B420027E1C7 /* SuperCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCardViewController.m; sourceTree = "<group>"; };
+		5CA0480116D17B930027E1C7 /* PlayingCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardView.h; sourceTree = "<group>"; };
+		5CA0480216D17B930027E1C7 /* PlayingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardView.m; sourceTree = "<group>"; };
+		5CA0480516D19EC90027E1C7 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		5CA0480616D19EC90027E1C7 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		5CA0480716D19EC90027E1C7 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
+		5CA0480816D19EC90027E1C7 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
+		5CA0480916D19EC90027E1C7 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		5CA0480A16D19EC90027E1C7 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		5CA0480B16D19EC90027E1C7 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		5CA0480C16D19EC90027E1C7 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		5CA0480D16D19EC90027E1C7 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		5CA0480E16D19EC90027E1C7 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		5CA0481616D4362B0027E1C7 /* cardback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cardback.jpg; sourceTree = "<group>"; };
+		5CA0481916D4587D0027E1C7 /* K♦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K♦.png"; sourceTree = "<group>"; };
+		5CA0481A16D4587D0027E1C7 /* K♦@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K♦@2x.png"; sourceTree = "<group>"; };
+		5CA0481D16D45ACF0027E1C7 /* K♠.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K♠.png"; sourceTree = "<group>"; };
+		5CA0481E16D45ACF0027E1C7 /* K♠@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K♠@2x.png"; sourceTree = "<group>"; };
+		5CA0482116D4F19D0027E1C7 /* K♥.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K♥.png"; sourceTree = "<group>"; };
+		5CA0482216D4F19D0027E1C7 /* K♥@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K♥@2x.png"; sourceTree = "<group>"; };
+		5CA0482516D5947D0027E1C7 /* K♣.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K♣.png"; sourceTree = "<group>"; };
+		5CA0482616D5947D0027E1C7 /* K♣@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K♣@2x.png"; sourceTree = "<group>"; };
+		5CA0482916D5A2BF0027E1C7 /* Q♠.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Q♠.png"; sourceTree = "<group>"; };
+		5CA0482A16D5A2BF0027E1C7 /* Q♠@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Q♠@2x.png"; sourceTree = "<group>"; };
+		5CA0482B16D5A2BF0027E1C7 /* Q♣.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Q♣.png"; sourceTree = "<group>"; };
+		5CA0482C16D5A2BF0027E1C7 /* Q♣@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Q♣@2x.png"; sourceTree = "<group>"; };
+		5CA0482D16D5A2BF0027E1C7 /* Q♥.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Q♥.png"; sourceTree = "<group>"; };
+		5CA0482E16D5A2BF0027E1C7 /* Q♥@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Q♥@2x.png"; sourceTree = "<group>"; };
+		5CA0482F16D5A2BF0027E1C7 /* Q♦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Q♦.png"; sourceTree = "<group>"; };
+		5CA0483016D5A2BF0027E1C7 /* Q♦@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Q♦@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CA047D816D17B420027E1C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA047DF16D17B420027E1C7 /* UIKit.framework in Frameworks */,
+				5CA047E116D17B420027E1C7 /* Foundation.framework in Frameworks */,
+				5CA047E316D17B420027E1C7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CA047D216D17B420027E1C7 = {
+			isa = PBXGroup;
+			children = (
+				5CA047E416D17B420027E1C7 /* SuperCard */,
+				5CA047DD16D17B420027E1C7 /* Frameworks */,
+				5CA047DC16D17B420027E1C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CA047DC16D17B420027E1C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CA047DB16D17B420027E1C7 /* SuperCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CA047DD16D17B420027E1C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CA047DE16D17B420027E1C7 /* UIKit.framework */,
+				5CA047E016D17B420027E1C7 /* Foundation.framework */,
+				5CA047E216D17B420027E1C7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CA047E416D17B420027E1C7 /* SuperCard */ = {
+			isa = PBXGroup;
+			children = (
+				5CA0480416D19EC90027E1C7 /* Model */,
+				5CA0480116D17B930027E1C7 /* PlayingCardView.h */,
+				5CA0480216D17B930027E1C7 /* PlayingCardView.m */,
+				5CA047ED16D17B420027E1C7 /* SuperCardAppDelegate.h */,
+				5CA047EE16D17B420027E1C7 /* SuperCardAppDelegate.m */,
+				5CA047F616D17B420027E1C7 /* MainStoryboard.storyboard */,
+				5CA047F916D17B420027E1C7 /* SuperCardViewController.h */,
+				5CA047FA16D17B420027E1C7 /* SuperCardViewController.m */,
+				5CA047E516D17B420027E1C7 /* Supporting Files */,
+			);
+			path = SuperCard;
+			sourceTree = "<group>";
+		};
+		5CA047E516D17B420027E1C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CA0481816D4587D0027E1C7 /* Card Model */,
+				5CA0481616D4362B0027E1C7 /* cardback.jpg */,
+				5CA047E616D17B420027E1C7 /* SuperCard-Info.plist */,
+				5CA047E716D17B420027E1C7 /* InfoPlist.strings */,
+				5CA047EA16D17B420027E1C7 /* main.m */,
+				5CA047EC16D17B420027E1C7 /* SuperCard-Prefix.pch */,
+				5CA047F016D17B420027E1C7 /* Default.png */,
+				5CA047F216D17B420027E1C7 /* Default@2x.png */,
+				5CA047F416D17B420027E1C7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CA0480416D19EC90027E1C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5CA0480516D19EC90027E1C7 /* Card.h */,
+				5CA0480616D19EC90027E1C7 /* Card.m */,
+				5CA0480716D19EC90027E1C7 /* CardMatchingGame.h */,
+				5CA0480816D19EC90027E1C7 /* CardMatchingGame.m */,
+				5CA0480916D19EC90027E1C7 /* Deck.h */,
+				5CA0480A16D19EC90027E1C7 /* Deck.m */,
+				5CA0480B16D19EC90027E1C7 /* PlayingCard.h */,
+				5CA0480C16D19EC90027E1C7 /* PlayingCard.m */,
+				5CA0480D16D19EC90027E1C7 /* PlayingCardDeck.h */,
+				5CA0480E16D19EC90027E1C7 /* PlayingCardDeck.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CA0481816D4587D0027E1C7 /* Card Model */ = {
+			isa = PBXGroup;
+			children = (
+				5CA0482916D5A2BF0027E1C7 /* Q♠.png */,
+				5CA0482A16D5A2BF0027E1C7 /* Q♠@2x.png */,
+				5CA0482B16D5A2BF0027E1C7 /* Q♣.png */,
+				5CA0482C16D5A2BF0027E1C7 /* Q♣@2x.png */,
+				5CA0482D16D5A2BF0027E1C7 /* Q♥.png */,
+				5CA0482E16D5A2BF0027E1C7 /* Q♥@2x.png */,
+				5CA0482F16D5A2BF0027E1C7 /* Q♦.png */,
+				5CA0483016D5A2BF0027E1C7 /* Q♦@2x.png */,
+				5CA0482516D5947D0027E1C7 /* K♣.png */,
+				5CA0482616D5947D0027E1C7 /* K♣@2x.png */,
+				5CA0481D16D45ACF0027E1C7 /* K♠.png */,
+				5CA0481E16D45ACF0027E1C7 /* K♠@2x.png */,
+				5CA0481916D4587D0027E1C7 /* K♦.png */,
+				5CA0481A16D4587D0027E1C7 /* K♦@2x.png */,
+				5CA0482116D4F19D0027E1C7 /* K♥.png */,
+				5CA0482216D4F19D0027E1C7 /* K♥@2x.png */,
+			);
+			path = "Card Model";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CA047DA16D17B420027E1C7 /* SuperCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA047FE16D17B420027E1C7 /* Build configuration list for PBXNativeTarget "SuperCard" */;
+			buildPhases = (
+				5CA047D716D17B420027E1C7 /* Sources */,
+				5CA047D816D17B420027E1C7 /* Frameworks */,
+				5CA047D916D17B420027E1C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperCard;
+			productName = SuperCard;
+			productReference = 5CA047DB16D17B420027E1C7 /* SuperCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CA047D316D17B420027E1C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SuperCard;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Digital Newt LLC";
+			};
+			buildConfigurationList = 5CA047D616D17B420027E1C7 /* Build configuration list for PBXProject "SuperCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5CA047D216D17B420027E1C7;
+			productRefGroup = 5CA047DC16D17B420027E1C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CA047DA16D17B420027E1C7 /* SuperCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CA047D916D17B420027E1C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA047E916D17B420027E1C7 /* InfoPlist.strings in Resources */,
+				5CA047F116D17B420027E1C7 /* Default.png in Resources */,
+				5CA047F316D17B420027E1C7 /* Default@2x.png in Resources */,
+				5CA047F516D17B420027E1C7 /* Default-568h@2x.png in Resources */,
+				5CA047F816D17B420027E1C7 /* MainStoryboard.storyboard in Resources */,
+				5CA0481716D4362B0027E1C7 /* cardback.jpg in Resources */,
+				5CA0481B16D4587D0027E1C7 /* K♦.png in Resources */,
+				5CA0481C16D4587D0027E1C7 /* K♦@2x.png in Resources */,
+				5CA0481F16D45ACF0027E1C7 /* K♠.png in Resources */,
+				5CA0482016D45ACF0027E1C7 /* K♠@2x.png in Resources */,
+				5CA0482316D4F19D0027E1C7 /* K♥.png in Resources */,
+				5CA0482416D4F19D0027E1C7 /* K♥@2x.png in Resources */,
+				5CA0482716D5947D0027E1C7 /* K♣.png in Resources */,
+				5CA0482816D5947D0027E1C7 /* K♣@2x.png in Resources */,
+				5CA0483116D5A2BF0027E1C7 /* Q♠.png in Resources */,
+				5CA0483216D5A2BF0027E1C7 /* Q♠@2x.png in Resources */,
+				5CA0483316D5A2BF0027E1C7 /* Q♣.png in Resources */,
+				5CA0483416D5A2BF0027E1C7 /* Q♣@2x.png in Resources */,
+				5CA0483516D5A2BF0027E1C7 /* Q♥.png in Resources */,
+				5CA0483616D5A2BF0027E1C7 /* Q♥@2x.png in Resources */,
+				5CA0483716D5A2BF0027E1C7 /* Q♦.png in Resources */,
+				5CA0483816D5A2BF0027E1C7 /* Q♦@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CA047D716D17B420027E1C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA047EB16D17B420027E1C7 /* main.m in Sources */,
+				5CA047EF16D17B420027E1C7 /* SuperCardAppDelegate.m in Sources */,
+				5CA047FB16D17B420027E1C7 /* SuperCardViewController.m in Sources */,
+				5CA0480316D17B930027E1C7 /* PlayingCardView.m in Sources */,
+				5CA0480F16D19EC90027E1C7 /* Card.m in Sources */,
+				5CA0481016D19EC90027E1C7 /* CardMatchingGame.m in Sources */,
+				5CA0481116D19EC90027E1C7 /* Deck.m in Sources */,
+				5CA0481216D19EC90027E1C7 /* PlayingCard.m in Sources */,
+				5CA0481316D19EC90027E1C7 /* PlayingCardDeck.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5CA047E716D17B420027E1C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CA047E816D17B420027E1C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5CA047F616D17B420027E1C7 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CA047F716D17B420027E1C7 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CA047FC16D17B420027E1C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5CA047FD16D17B420027E1C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CA047FF16D17B420027E1C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperCard/SuperCard-Prefix.pch";
+				INFOPLIST_FILE = "SuperCard/SuperCard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CA0480016D17B420027E1C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuperCard/SuperCard-Prefix.pch";
+				INFOPLIST_FILE = "SuperCard/SuperCard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CA047D616D17B420027E1C7 /* Build configuration list for PBXProject "SuperCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA047FC16D17B420027E1C7 /* Debug */,
+				5CA047FD16D17B420027E1C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CA047FE16D17B420027E1C7 /* Build configuration list for PBXNativeTarget "SuperCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA047FF16D17B420027E1C7 /* Debug */,
+				5CA0480016D17B420027E1C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CA047D316D17B420027E1C7 /* Project object */;
+}

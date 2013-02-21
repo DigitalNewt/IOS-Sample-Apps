@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C62C67C16D050B90033450D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C62C67B16D050B90033450D /* Default-568h@2x.png */; };
 		5CA9CDCD15694A4E00EB62DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA9CDCC15694A4E00EB62DC /* UIKit.framework */; };
 		5CA9CDCF15694A4E00EB62DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA9CDCE15694A4E00EB62DC /* Foundation.framework */; };
 		5CA9CDD115694A4E00EB62DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA9CDD015694A4E00EB62DC /* CoreGraphics.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C62C67B16D050B90033450D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5CA9CDC815694A4E00EB62DC /* PinchProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinchProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CA9CDCC15694A4E00EB62DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5CA9CDCE15694A4E00EB62DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -83,6 +85,7 @@
 		5CA9CDBD15694A4E00EB62DC = {
 			isa = PBXGroup;
 			children = (
+				5C62C67B16D050B90033450D /* Default-568h@2x.png */,
 				5CA9CDD215694A4E00EB62DC /* PinchProject */,
 				5CA9CDF015694A4F00EB62DC /* PinchProjectTests */,
 				5CA9CDCB15694A4E00EB62DC /* Frameworks */,
@@ -199,7 +202,7 @@
 		5CA9CDBF15694A4E00EB62DC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0460;
 			};
 			buildConfigurationList = 5CA9CDC215694A4E00EB62DC /* Build configuration list for PBXProject "PinchProject" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -227,6 +230,7 @@
 				5CA9CDD715694A4E00EB62DC /* InfoPlist.strings in Resources */,
 				5CA9CDE015694A4F00EB62DC /* MainStoryboard.storyboard in Resources */,
 				5CA9CE0215694A8900EB62DC /* kelsi.JPG in Resources */,
+				5C62C67C16D050B90033450D /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +323,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -332,6 +340,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
@@ -344,12 +353,17 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
@@ -433,6 +447,7 @@
 				5CA9CDFD15694A4F00EB62DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CA9CDFE15694A4F00EB62DC /* Build configuration list for PBXNativeTarget "PinchProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +456,7 @@
 				5CA9CE0015694A4F00EB62DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

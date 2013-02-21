@@ -10,4 +10,7 @@
 
 @interface PicDecorViewController : UIViewController
 
+- (IBAction)doCameraBtn:(id)sender;
+- (IBAction)doPhotoAlbumBtn:(id)sender;
+
 @end

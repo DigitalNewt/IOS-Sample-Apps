@@ -21,6 +21,7 @@
 		5C5B7790158E1D69009E0AFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C5B778E158E1D69009E0AFF /* InfoPlist.strings */; };
 		5C5B7793158E1D69009E0AFF /* TablesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5B7792158E1D69009E0AFF /* TablesTests.m */; };
 		5C5B779E158E1E74009E0AFF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5B779D158E1E74009E0AFF /* SecondViewController.m */; };
+		5C62C68016D053010033450D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C62C67F16D053010033450D /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		5C5B7792158E1D69009E0AFF /* TablesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TablesTests.m; sourceTree = "<group>"; };
 		5C5B779C158E1E74009E0AFF /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		5C5B779D158E1E74009E0AFF /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		5C62C67F16D053010033450D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		5C5B7758158E1D68009E0AFF = {
 			isa = PBXGroup;
 			children = (
+				5C62C67F16D053010033450D /* Default-568h@2x.png */,
 				5C5B776D158E1D68009E0AFF /* Tables */,
 				5C5B778B158E1D69009E0AFF /* TablesTests */,
 				5C5B7766158E1D68009E0AFF /* Frameworks */,
@@ -229,6 +232,7 @@
 			files = (
 				5C5B7772158E1D68009E0AFF /* InfoPlist.strings in Resources */,
 				5C5B777B158E1D68009E0AFF /* MainStoryboard.storyboard in Resources */,
+				5C62C68016D053010033450D /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +440,7 @@
 				5C5B7798158E1D69009E0AFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C5B7799158E1D69009E0AFF /* Build configuration list for PBXNativeTarget "TablesTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +449,7 @@
 				5C5B779B158E1D69009E0AFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

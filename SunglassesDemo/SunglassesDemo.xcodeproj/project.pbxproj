@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CC574AC16CB27D3001209A1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CC574AB16CB27D3001209A1 /* Default-568h@2x.png */; };
+		9AD447D81451D9B200DC1EA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD447D71451D9B200DC1EA3 /* UIKit.framework */; };
+		9AD447DA1451D9B200DC1EA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD447D91451D9B200DC1EA3 /* Foundation.framework */; };
+		9AD447DC1451D9B200DC1EA3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD447DB1451D9B200DC1EA3 /* CoreGraphics.framework */; };
+		9AD447E21451D9B200DC1EA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AD447E01451D9B200DC1EA3 /* InfoPlist.strings */; };
+		9AD447E41451D9B200DC1EA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD447E31451D9B200DC1EA3 /* main.m */; };
+		9AD447E81451D9B200DC1EA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD447E71451D9B200DC1EA3 /* AppDelegate.m */; };
+		9AD447EB1451D9B200DC1EA3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD447E91451D9B200DC1EA3 /* MainStoryboard_iPhone.storyboard */; };
+		9AD447EE1451D9B200DC1EA3 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD447EC1451D9B200DC1EA3 /* MainStoryboard_iPad.storyboard */; };
+		9AD447F11451D9B200DC1EA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD447F01451D9B200DC1EA3 /* ViewController.m */; };
+		9AD447F91451D9B200DC1EA3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD447F81451D9B200DC1EA3 /* SenTestingKit.framework */; };
+		9AD447FA1451D9B200DC1EA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD447D71451D9B200DC1EA3 /* UIKit.framework */; };
+		9AD447FB1451D9B200DC1EA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD447D91451D9B200DC1EA3 /* Foundation.framework */; };
+		9AD448031451D9B200DC1EA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AD448011451D9B200DC1EA3 /* InfoPlist.strings */; };
+		9AD448061451D9B200DC1EA3 /* SunglassesDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD448051451D9B200DC1EA3 /* SunglassesDemoTests.m */; };
+		9AD448121451D9D500DC1EA3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD4480F1451D9D500DC1EA3 /* AVFoundation.framework */; };
+		9AD448131451D9D500DC1EA3 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD448101451D9D500DC1EA3 /* CoreImage.framework */; };
+		9AD448141451D9D500DC1EA3 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD448111451D9D500DC1EA3 /* CoreVideo.framework */; };
+		9AD4481A1451DD0A00DC1EA3 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD448191451DD0A00DC1EA3 /* CoreMedia.framework */; };
+		9AD4481C1451E06000DC1EA3 /* glasses.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AD4481B1451E06000DC1EA3 /* glasses.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AD447FC1451D9B200DC1EA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AD447CA1451D9B100DC1EA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AD447D21451D9B200DC1EA3;
+			remoteInfo = SunglassesDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CC574AB16CB27D3001209A1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9AD447D31451D9B200DC1EA3 /* SunglassesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunglassesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD447D71451D9B200DC1EA3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9AD447D91451D9B200DC1EA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9AD447DB1451D9B200DC1EA3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9AD447DF1451D9B200DC1EA3 /* SunglassesDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SunglassesDemo-Info.plist"; sourceTree = "<group>"; };
+		9AD447E11451D9B200DC1EA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9AD447E31451D9B200DC1EA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AD447E51451D9B200DC1EA3 /* SunglassesDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SunglassesDemo-Prefix.pch"; sourceTree = "<group>"; };
+		9AD447E61451D9B200DC1EA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9AD447E71451D9B200DC1EA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9AD447EA1451D9B200DC1EA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		9AD447ED1451D9B200DC1EA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		9AD447EF1451D9B200DC1EA3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9AD447F01451D9B200DC1EA3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9AD447F71451D9B200DC1EA3 /* SunglassesDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunglassesDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD447F81451D9B200DC1EA3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9AD448001451D9B200DC1EA3 /* SunglassesDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SunglassesDemoTests-Info.plist"; sourceTree = "<group>"; };
+		9AD448021451D9B200DC1EA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9AD448041451D9B200DC1EA3 /* SunglassesDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SunglassesDemoTests.h; sourceTree = "<group>"; };
+		9AD448051451D9B200DC1EA3 /* SunglassesDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunglassesDemoTests.m; sourceTree = "<group>"; };
+		9AD4480F1451D9D500DC1EA3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9AD448101451D9D500DC1EA3 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		9AD448111451D9D500DC1EA3 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		9AD448191451DD0A00DC1EA3 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		9AD4481B1451E06000DC1EA3 /* glasses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glasses.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AD447D01451D9B200DC1EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD4481A1451DD0A00DC1EA3 /* CoreMedia.framework in Frameworks */,
+				9AD448121451D9D500DC1EA3 /* AVFoundation.framework in Frameworks */,
+				9AD448131451D9D500DC1EA3 /* CoreImage.framework in Frameworks */,
+				9AD448141451D9D500DC1EA3 /* CoreVideo.framework in Frameworks */,
+				9AD447DC1451D9B200DC1EA3 /* CoreGraphics.framework in Frameworks */,
+				9AD447D81451D9B200DC1EA3 /* UIKit.framework in Frameworks */,
+				9AD447DA1451D9B200DC1EA3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD447F31451D9B200DC1EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD447F91451D9B200DC1EA3 /* SenTestingKit.framework in Frameworks */,
+				9AD447FA1451D9B200DC1EA3 /* UIKit.framework in Frameworks */,
+				9AD447FB1451D9B200DC1EA3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AD447C81451D9B100DC1EA3 = {
+			isa = PBXGroup;
+			children = (
+				5CC574AB16CB27D3001209A1 /* Default-568h@2x.png */,
+				9AD448191451DD0A00DC1EA3 /* CoreMedia.framework */,
+				9AD4480F1451D9D500DC1EA3 /* AVFoundation.framework */,
+				9AD448101451D9D500DC1EA3 /* CoreImage.framework */,
+				9AD448111451D9D500DC1EA3 /* CoreVideo.framework */,
+				9AD447DD1451D9B200DC1EA3 /* SunglassesDemo */,
+				9AD447FE1451D9B200DC1EA3 /* SunglassesDemoTests */,
+				9AD447D61451D9B200DC1EA3 /* Frameworks */,
+				9AD447D41451D9B200DC1EA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AD447D41451D9B200DC1EA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AD447D31451D9B200DC1EA3 /* SunglassesDemo.app */,
+				9AD447F71451D9B200DC1EA3 /* SunglassesDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AD447D61451D9B200DC1EA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AD447D71451D9B200DC1EA3 /* UIKit.framework */,
+				9AD447D91451D9B200DC1EA3 /* Foundation.framework */,
+				9AD447DB1451D9B200DC1EA3 /* CoreGraphics.framework */,
+				9AD447F81451D9B200DC1EA3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AD447DD1451D9B200DC1EA3 /* SunglassesDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9AD447E61451D9B200DC1EA3 /* AppDelegate.h */,
+				9AD447E71451D9B200DC1EA3 /* AppDelegate.m */,
+				9AD4481B1451E06000DC1EA3 /* glasses.png */,
+				9AD447E91451D9B200DC1EA3 /* MainStoryboard_iPhone.storyboard */,
+				9AD447EC1451D9B200DC1EA3 /* MainStoryboard_iPad.storyboard */,
+				9AD447EF1451D9B200DC1EA3 /* ViewController.h */,
+				9AD447F01451D9B200DC1EA3 /* ViewController.m */,
+				9AD447DE1451D9B200DC1EA3 /* Supporting Files */,
+			);
+			path = SunglassesDemo;
+			sourceTree = "<group>";
+		};
+		9AD447DE1451D9B200DC1EA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AD447DF1451D9B200DC1EA3 /* SunglassesDemo-Info.plist */,
+				9AD447E01451D9B200DC1EA3 /* InfoPlist.strings */,
+				9AD447E31451D9B200DC1EA3 /* main.m */,
+				9AD447E51451D9B200DC1EA3 /* SunglassesDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AD447FE1451D9B200DC1EA3 /* SunglassesDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AD448041451D9B200DC1EA3 /* SunglassesDemoTests.h */,
+				9AD448051451D9B200DC1EA3 /* SunglassesDemoTests.m */,
+				9AD447FF1451D9B200DC1EA3 /* Supporting Files */,
+			);
+			path = SunglassesDemoTests;
+			sourceTree = "<group>";
+		};
+		9AD447FF1451D9B200DC1EA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AD448001451D9B200DC1EA3 /* SunglassesDemoTests-Info.plist */,
+				9AD448011451D9B200DC1EA3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AD447D21451D9B200DC1EA3 /* SunglassesDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AD448091451D9B200DC1EA3 /* Build configuration list for PBXNativeTarget "SunglassesDemo" */;
+			buildPhases = (
+				9AD447CF1451D9B200DC1EA3 /* Sources */,
+				9AD447D01451D9B200DC1EA3 /* Frameworks */,
+				9AD447D11451D9B200DC1EA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SunglassesDemo;
+			productName = SunglassesDemo;
+			productReference = 9AD447D31451D9B200DC1EA3 /* SunglassesDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AD447F61451D9B200DC1EA3 /* SunglassesDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AD4480C1451D9B200DC1EA3 /* Build configuration list for PBXNativeTarget "SunglassesDemoTests" */;
+			buildPhases = (
+				9AD447F21451D9B200DC1EA3 /* Sources */,
+				9AD447F31451D9B200DC1EA3 /* Frameworks */,
+				9AD447F41451D9B200DC1EA3 /* Resources */,
+				9AD447F51451D9B200DC1EA3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AD447FD1451D9B200DC1EA3 /* PBXTargetDependency */,
+			);
+			name = SunglassesDemoTests;
+			productName = SunglassesDemoTests;
+			productReference = 9AD447F71451D9B200DC1EA3 /* SunglassesDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AD447CA1451D9B100DC1EA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Stanford;
+			};
+			buildConfigurationList = 9AD447CD1451D9B100DC1EA3 /* Build configuration list for PBXProject "SunglassesDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9AD447C81451D9B100DC1EA3;
+			productRefGroup = 9AD447D41451D9B200DC1EA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AD447D21451D9B200DC1EA3 /* SunglassesDemo */,
+				9AD447F61451D9B200DC1EA3 /* SunglassesDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AD447D11451D9B200DC1EA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD447E21451D9B200DC1EA3 /* InfoPlist.strings in Resources */,
+				9AD447EB1451D9B200DC1EA3 /* MainStoryboard_iPhone.storyboard in Resources */,
+				9AD447EE1451D9B200DC1EA3 /* MainStoryboard_iPad.storyboard in Resources */,
+				9AD4481C1451E06000DC1EA3 /* glasses.png in Resources */,
+				5CC574AC16CB27D3001209A1 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD447F41451D9B200DC1EA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD448031451D9B200DC1EA3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9AD447F51451D9B200DC1EA3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AD447CF1451D9B200DC1EA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD447E41451D9B200DC1EA3 /* main.m in Sources */,
+				9AD447E81451D9B200DC1EA3 /* AppDelegate.m in Sources */,
+				9AD447F11451D9B200DC1EA3 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD447F21451D9B200DC1EA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD448061451D9B200DC1EA3 /* SunglassesDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AD447FD1451D9B200DC1EA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AD447D21451D9B200DC1EA3 /* SunglassesDemo */;
+			targetProxy = 9AD447FC1451D9B200DC1EA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AD447E01451D9B200DC1EA3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AD447E11451D9B200DC1EA3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9AD447E91451D9B200DC1EA3 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AD447EA1451D9B200DC1EA3 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9AD447EC1451D9B200DC1EA3 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AD447ED1451D9B200DC1EA3 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9AD448011451D9B200DC1EA3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AD448021451D9B200DC1EA3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AD448071451D9B200DC1EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AD448081451D9B200DC1EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AD4480A1451D9B200DC1EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SunglassesDemo/SunglassesDemo-Prefix.pch";
+				INFOPLIST_FILE = "SunglassesDemo/SunglassesDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9AD4480B1451D9B200DC1EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SunglassesDemo/SunglassesDemo-Prefix.pch";
+				INFOPLIST_FILE = "SunglassesDemo/SunglassesDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9AD4480D1451D9B200DC1EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SunglassesDemo.app/SunglassesDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SunglassesDemo/SunglassesDemo-Prefix.pch";
+				INFOPLIST_FILE = "SunglassesDemoTests/SunglassesDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9AD4480E1451D9B200DC1EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SunglassesDemo.app/SunglassesDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SunglassesDemo/SunglassesDemo-Prefix.pch";
+				INFOPLIST_FILE = "SunglassesDemoTests/SunglassesDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AD447CD1451D9B100DC1EA3 /* Build configuration list for PBXProject "SunglassesDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD448071451D9B200DC1EA3 /* Debug */,
+				9AD448081451D9B200DC1EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AD448091451D9B200DC1EA3 /* Build configuration list for PBXNativeTarget "SunglassesDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD4480A1451D9B200DC1EA3 /* Debug */,
+				9AD4480B1451D9B200DC1EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AD4480C1451D9B200DC1EA3 /* Build configuration list for PBXNativeTarget "SunglassesDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD4480D1451D9B200DC1EA3 /* Debug */,
+				9AD4480E1451D9B200DC1EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AD447CA1451D9B100DC1EA3 /* Project object */;
+}

@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CA9CEE91569607400EB62DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA9CEE81569607400EB62DC /* UIKit.framework */; };
+		5CA9CEEB1569607400EB62DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA9CEEA1569607400EB62DC /* Foundation.framework */; };
+		5CA9CEED1569607400EB62DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA9CEEC1569607400EB62DC /* CoreGraphics.framework */; };
+		5CA9CEF31569607400EB62DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CA9CEF11569607400EB62DC /* InfoPlist.strings */; };
+		5CA9CEF51569607400EB62DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA9CEF41569607400EB62DC /* main.m */; };
+		5CA9CEF91569607400EB62DC /* MainAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA9CEF81569607400EB62DC /* MainAppDelegate.m */; };
+		5CA9CEFC1569607400EB62DC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA9CEFA1569607400EB62DC /* MainStoryboard.storyboard */; };
+		5CA9CEFF1569607400EB62DC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA9CEFE1569607400EB62DC /* MainViewController.m */; };
+		5CA9CF071569607400EB62DC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA9CF061569607400EB62DC /* SenTestingKit.framework */; };
+		5CA9CF081569607400EB62DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA9CEE81569607400EB62DC /* UIKit.framework */; };
+		5CA9CF091569607400EB62DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA9CEEA1569607400EB62DC /* Foundation.framework */; };
+		5CA9CF111569607500EB62DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CA9CF0F1569607500EB62DC /* InfoPlist.strings */; };
+		5CA9CF141569607500EB62DC /* LONGPressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA9CF131569607500EB62DC /* LONGPressTests.m */; };
+		5CA9CF1E1569608400EB62DC /* kelsi.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5CA9CF1D1569608400EB62DC /* kelsi.JPG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CA9CF0A1569607400EB62DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CA9CEDB1569607400EB62DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CA9CEE31569607400EB62DC;
+			remoteInfo = LONGPress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CA9CEE41569607400EB62DC /* LONGPress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LONGPress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA9CEE81569607400EB62DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5CA9CEEA1569607400EB62DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CA9CEEC1569607400EB62DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5CA9CEF01569607400EB62DC /* LONGPress-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LONGPress-Info.plist"; sourceTree = "<group>"; };
+		5CA9CEF21569607400EB62DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CA9CEF41569607400EB62DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CA9CEF61569607400EB62DC /* LONGPress-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LONGPress-Prefix.pch"; sourceTree = "<group>"; };
+		5CA9CEF71569607400EB62DC /* MainAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainAppDelegate.h; sourceTree = "<group>"; };
+		5CA9CEF81569607400EB62DC /* MainAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainAppDelegate.m; sourceTree = "<group>"; };
+		5CA9CEFB1569607400EB62DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5CA9CEFD1569607400EB62DC /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5CA9CEFE1569607400EB62DC /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		5CA9CF051569607400EB62DC /* LONGPressTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LONGPressTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA9CF061569607400EB62DC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5CA9CF0E1569607500EB62DC /* LONGPressTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LONGPressTests-Info.plist"; sourceTree = "<group>"; };
+		5CA9CF101569607500EB62DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CA9CF121569607500EB62DC /* LONGPressTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LONGPressTests.h; sourceTree = "<group>"; };
+		5CA9CF131569607500EB62DC /* LONGPressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LONGPressTests.m; sourceTree = "<group>"; };
+		5CA9CF1D1569608400EB62DC /* kelsi.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kelsi.JPG; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CA9CEE11569607400EB62DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA9CEE91569607400EB62DC /* UIKit.framework in Frameworks */,
+				5CA9CEEB1569607400EB62DC /* Foundation.framework in Frameworks */,
+				5CA9CEED1569607400EB62DC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA9CF011569607400EB62DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA9CF071569607400EB62DC /* SenTestingKit.framework in Frameworks */,
+				5CA9CF081569607400EB62DC /* UIKit.framework in Frameworks */,
+				5CA9CF091569607400EB62DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CA9CED91569607400EB62DC = {
+			isa = PBXGroup;
+			children = (
+				5CA9CEEE1569607400EB62DC /* LONGPress */,
+				5CA9CF0C1569607400EB62DC /* LONGPressTests */,
+				5CA9CEE71569607400EB62DC /* Frameworks */,
+				5CA9CEE51569607400EB62DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CA9CEE51569607400EB62DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CA9CEE41569607400EB62DC /* LONGPress.app */,
+				5CA9CF051569607400EB62DC /* LONGPressTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CA9CEE71569607400EB62DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CA9CEE81569607400EB62DC /* UIKit.framework */,
+				5CA9CEEA1569607400EB62DC /* Foundation.framework */,
+				5CA9CEEC1569607400EB62DC /* CoreGraphics.framework */,
+				5CA9CF061569607400EB62DC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CA9CEEE1569607400EB62DC /* LONGPress */ = {
+			isa = PBXGroup;
+			children = (
+				5CA9CEF71569607400EB62DC /* MainAppDelegate.h */,
+				5CA9CEF81569607400EB62DC /* MainAppDelegate.m */,
+				5CA9CEFA1569607400EB62DC /* MainStoryboard.storyboard */,
+				5CA9CEFD1569607400EB62DC /* MainViewController.h */,
+				5CA9CEFE1569607400EB62DC /* MainViewController.m */,
+				5CA9CEEF1569607400EB62DC /* Supporting Files */,
+			);
+			path = LONGPress;
+			sourceTree = "<group>";
+		};
+		5CA9CEEF1569607400EB62DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CA9CF1D1569608400EB62DC /* kelsi.JPG */,
+				5CA9CEF01569607400EB62DC /* LONGPress-Info.plist */,
+				5CA9CEF11569607400EB62DC /* InfoPlist.strings */,
+				5CA9CEF41569607400EB62DC /* main.m */,
+				5CA9CEF61569607400EB62DC /* LONGPress-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CA9CF0C1569607400EB62DC /* LONGPressTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CA9CF121569607500EB62DC /* LONGPressTests.h */,
+				5CA9CF131569607500EB62DC /* LONGPressTests.m */,
+				5CA9CF0D1569607500EB62DC /* Supporting Files */,
+			);
+			path = LONGPressTests;
+			sourceTree = "<group>";
+		};
+		5CA9CF0D1569607500EB62DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CA9CF0E1569607500EB62DC /* LONGPressTests-Info.plist */,
+				5CA9CF0F1569607500EB62DC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CA9CEE31569607400EB62DC /* LONGPress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA9CF171569607500EB62DC /* Build configuration list for PBXNativeTarget "LONGPress" */;
+			buildPhases = (
+				5CA9CEE01569607400EB62DC /* Sources */,
+				5CA9CEE11569607400EB62DC /* Frameworks */,
+				5CA9CEE21569607400EB62DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LONGPress;
+			productName = LONGPress;
+			productReference = 5CA9CEE41569607400EB62DC /* LONGPress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CA9CF041569607400EB62DC /* LONGPressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA9CF1A1569607500EB62DC /* Build configuration list for PBXNativeTarget "LONGPressTests" */;
+			buildPhases = (
+				5CA9CF001569607400EB62DC /* Sources */,
+				5CA9CF011569607400EB62DC /* Frameworks */,
+				5CA9CF021569607400EB62DC /* Resources */,
+				5CA9CF031569607400EB62DC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CA9CF0B1569607400EB62DC /* PBXTargetDependency */,
+			);
+			name = LONGPressTests;
+			productName = LONGPressTests;
+			productReference = 5CA9CF051569607400EB62DC /* LONGPressTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CA9CEDB1569607400EB62DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5CA9CEDE1569607400EB62DC /* Build configuration list for PBXProject "LONGPress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5CA9CED91569607400EB62DC;
+			productRefGroup = 5CA9CEE51569607400EB62DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CA9CEE31569607400EB62DC /* LONGPress */,
+				5CA9CF041569607400EB62DC /* LONGPressTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CA9CEE21569607400EB62DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA9CEF31569607400EB62DC /* InfoPlist.strings in Resources */,
+				5CA9CEFC1569607400EB62DC /* MainStoryboard.storyboard in Resources */,
+				5CA9CF1E1569608400EB62DC /* kelsi.JPG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA9CF021569607400EB62DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA9CF111569607500EB62DC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5CA9CF031569607400EB62DC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CA9CEE01569607400EB62DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA9CEF51569607400EB62DC /* main.m in Sources */,
+				5CA9CEF91569607400EB62DC /* MainAppDelegate.m in Sources */,
+				5CA9CEFF1569607400EB62DC /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA9CF001569607400EB62DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA9CF141569607500EB62DC /* LONGPressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CA9CF0B1569607400EB62DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CA9CEE31569607400EB62DC /* LONGPress */;
+			targetProxy = 5CA9CF0A1569607400EB62DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CA9CEF11569607400EB62DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CA9CEF21569607400EB62DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5CA9CEFA1569607400EB62DC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CA9CEFB1569607400EB62DC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		5CA9CF0F1569607500EB62DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CA9CF101569607500EB62DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CA9CF151569607500EB62DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5CA9CF161569607500EB62DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CA9CF181569607500EB62DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LONGPress/LONGPress-Prefix.pch";
+				INFOPLIST_FILE = "LONGPress/LONGPress-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CA9CF191569607500EB62DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LONGPress/LONGPress-Prefix.pch";
+				INFOPLIST_FILE = "LONGPress/LONGPress-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5CA9CF1B1569607500EB62DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LONGPress.app/LONGPress";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LONGPress/LONGPress-Prefix.pch";
+				INFOPLIST_FILE = "LONGPressTests/LONGPressTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5CA9CF1C1569607500EB62DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LONGPress.app/LONGPress";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LONGPress/LONGPress-Prefix.pch";
+				INFOPLIST_FILE = "LONGPressTests/LONGPressTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CA9CEDE1569607400EB62DC /* Build configuration list for PBXProject "LONGPress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA9CF151569607500EB62DC /* Debug */,
+				5CA9CF161569607500EB62DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CA9CF171569607500EB62DC /* Build configuration list for PBXNativeTarget "LONGPress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA9CF181569607500EB62DC /* Debug */,
+				5CA9CF191569607500EB62DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CA9CF1A1569607500EB62DC /* Build configuration list for PBXNativeTarget "LONGPressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA9CF1B1569607500EB62DC /* Debug */,
+				5CA9CF1C1569607500EB62DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CA9CEDB1569607400EB62DC /* Project object */;
+}
