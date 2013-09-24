@@ -96,7 +96,6 @@
     }
     
     // apply hue adjustment filter:
-    
     CIFilter * filter = [CIFilter filterWithName:@"CIHueAdjust"];
     [filter setDefaults];
     [filter setValue:ciImage forKey:@"inputImage"];

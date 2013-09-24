@@ -26,6 +26,10 @@
     }
 }
 
+/*! Return random card from Deck
+ 
+    @return     Returns Card object.
+ */
 - (Card *)drawRandomCard {
     Card *randomCard = nil;
     

@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
     <scenes>
         <!--Super Card View Controller-->
         <scene sceneID="5">
             <objects>
                 <viewController id="2" customClass="SuperCardViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="e11-2Y-eYO"/>
+                        <viewControllerLayoutGuide type="bottom" id="aZv-mI-30e"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Awh-8Z-27g" customClass="PlayingCardView">
+                                <rect key="frame" x="70" y="90" width="180" height="300"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
                                 <connections>
@@ -22,10 +28,10 @@
                         </subviews>
                         <color key="backgroundColor" red="0.13672014712962141" green="0.56502632472826086" blue="0.13903019410201276" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="Awh-8Z-27g" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="Q58-XB-WsX"/>
+                            <constraint firstItem="Awh-8Z-27g" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" id="Q58-XB-WsX"/>
                             <constraint firstItem="Awh-8Z-27g" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="70" id="RVk-qP-abI"/>
                             <constraint firstItem="Awh-8Z-27g" firstAttribute="top" secondItem="3" secondAttribute="top" constant="90" id="ZMJ-aa-1iL"/>
-                            <constraint firstItem="Awh-8Z-27g" firstAttribute="centerY" secondItem="3" secondAttribute="centerY" type="default" id="zZV-4g-RZa"/>
+                            <constraint firstItem="Awh-8Z-27g" firstAttribute="centerY" secondItem="3" secondAttribute="centerY" id="zZV-4g-RZa"/>
                         </constraints>
                     </view>
                     <connections>
@@ -41,21 +47,6 @@
             </objects>
         </scene>
     </scenes>
-    <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="PlayingCardView" superclassName="UIView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/PlayingCardView.h"/>
-        </class>
-        <class className="SuperCardViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SuperCardViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="swipe:" candidateClass="UISwipeGestureRecognizer"/>
-                <relationship kind="outlet" name="playingCardView" candidateClass="PlayingCardView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

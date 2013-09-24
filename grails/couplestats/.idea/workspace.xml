@@ -2,169 +2,316 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38c9fd74-b2a4-4c04-a228-87f1fce796f4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Dragging/Default-568h@2x.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../KeyValue/SecondViewController.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../KeyValue/SecondViewController.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaunchImage/LaunchImage.xcodeproj/project.pbxproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaunchImage/LaunchImage/LaunchImage-Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaunchImage/LaunchImage/LaunchImage-Prefix.pch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaunchImage/LaunchImage/LaunchImageAppDelegate.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaunchImage/LaunchImage/LaunchImageAppDelegate.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaunchImage/LaunchImage/LaunchImageViewController.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaunchImage/LaunchImage/LaunchImageViewController.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaunchImage/LaunchImage/en.lproj/InfoPlist.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaunchImage/LaunchImage/en.lproj/MainStoryboard_iPad.storyboard" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaunchImage/LaunchImage/en.lproj/MainStoryboard_iPhone.storyboard" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaunchImage/LaunchImage/main.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaunchImage/LaunchImageTests/LaunchImageTests-Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaunchImage/LaunchImageTests/LaunchImageTests.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaunchImage/LaunchImageTests/LaunchImageTests.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../LaunchImage/LaunchImageTests/en.lproj/InfoPlist.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Default-568h@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Generated/NXTSecurity.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Generated/NXTSecurity.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Generated/NXTSecurityUser.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Generated/NXTSecurityUser.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Generated/NXTServices.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Generated/NXTServices.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Generated/NXTTicket.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Generated/NXTTicket.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Generated/Soap+Prefix.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Generated/Soap+Prefix.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/NSData+Base64.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/NSData+Base64.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/NSMutableArray+Soap.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/NSMutableArray+Soap.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/Soap.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/Soap.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapArray.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapArray.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapDelegate.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapFault.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapFault.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapHandler.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapHandler.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapLiteral.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapLiteral.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapNil.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapNil.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapObject.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapObject.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapParameter.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapParameter.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapReachability.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapReachability.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapRequest.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapRequest.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapService.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Soap/SoapService.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TouchXML/CXMLDocument.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TouchXML/CXMLDocument.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TouchXML/CXMLDocument_PrivateExtensions.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TouchXML/CXMLDocument_PrivateExtensions.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TouchXML/CXMLElement.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TouchXML/CXMLElement.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TouchXML/CXMLNode.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TouchXML/CXMLNode.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TouchXML/CXMLNode_PrivateExtensions.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TouchXML/CXMLNode_PrivateExtensions.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TouchXML/CXMLNode_XPathExtensions.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TouchXML/CXMLNode_XPathExtensions.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TouchXML/TouchXML.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Trigger.xcodeproj/project.pbxproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Trigger.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Trigger.xcodeproj/project.xcworkspace/xcuserdata/newt.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Trigger.xcodeproj/xcuserdata/newt.xcuserdatad/xcschemes/Trigger.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Trigger.xcodeproj/xcuserdata/newt.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Trigger/Trigger-Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Trigger/Trigger-Prefix.pch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Trigger/TriggerAppDelegate.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Trigger/TriggerAppDelegate.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Trigger/TriggerViewController.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Trigger/TriggerViewController.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Trigger/en.lproj/InfoPlist.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Trigger/en.lproj/MainStoryboard_iPad.storyboard" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Trigger/en.lproj/MainStoryboard_iPhone.storyboard" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/Trigger/main.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TriggerTests/TriggerTests-Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TriggerTests/TriggerTests.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TriggerTests/TriggerTests.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Trigger/TriggerTests/en.lproj/InfoPlist.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/devDb.h2.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/devDb.lock.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/devDb.trace.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/grails-app/controllers/projecttracker/EndUserController.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/grails-app/domain/projecttracker/EndUser.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/grails-app/views/endUser/_form.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/grails-app/views/endUser/create.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/grails-app/views/endUser/edit.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/grails-app/views/endUser/list.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/grails-app/views/endUser/login.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/grails-app/views/endUser/show.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/Config$_run_closure1_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/Config$_run_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/Config$_run_closure3_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/Config$_run_closure3_closure6_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/Config$_run_closure3_closure6_closure9_closure10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/Config$_run_closure3_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/Config$_run_closure3_closure7_closure11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/Config$_run_closure3_closure7_closure11_closure12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/Config$_run_closure3_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/Config$_run_closure3_closure8_closure13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/Config$_run_closure3_closure8_closure13_closure14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/DataSource$_run_closure1_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/DataSource$_run_closure1_closure2_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/DataSource$_run_closure1_closure2_closure3_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/DataSource$_run_closure1_closure2_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/DataSource$_run_closure1_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/DataSource$_run_closure1_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/DataSource$_run_closure2_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/DataSource$_run_closure2_closure4_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/DataSource$_run_closure2_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/DataSource$_run_closure2_closure5_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/DataSource$_run_closure2_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/DataSource$_run_closure2_closure6_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/DataSource$_run_closure2_closure6_closure9_closure10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/DataSource$_run_closure2_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/DataSource$_run_closure2_closure7_closure10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/DataSource$_run_closure3_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/DataSource$_run_closure3_closure4_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/DataSource$_run_closure3_closure4_closure7_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/DataSource$_run_closure3_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/DataSource$_run_closure3_closure5_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/DataSource$_run_closure3_closure5_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/DataSource$_run_closure3_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/DataSource$_run_closure3_closure6_closure10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/DataSource$_run_closure3_closure6_closure10_closure11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/DataSource$_run_closure3_closure6_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/DataSource$_run_closure3_closure6_closure9_closure10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/projecttracker/EndUser$__clinit__closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/projecttracker/EndUser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/projecttracker/EndUserController$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/projecttracker/EndUserController$_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/projecttracker/EndUserController$_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/target/classes/projecttracker/EndUserController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/test/unit/projecttracker/EndUserControllerTests.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ProjectTracker/test/unit/projecttracker/EndUserTests.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../myTestStoryboard/myTestStoryboard.xcodeproj/project.pbxproj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../myTestStoryboard/myTestStoryboard/MainAppDelegate.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../myTestStoryboard/myTestStoryboard/MainAppDelegate.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../myTestStoryboard/myTestStoryboard/MainViewController.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../myTestStoryboard/myTestStoryboard/MainViewController.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../myTestStoryboard/myTestStoryboard/en.lproj/InfoPlist.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../myTestStoryboard/myTestStoryboard/en.lproj/MainStoryboard.storyboard" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../myTestStoryboard/myTestStoryboard/main.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../myTestStoryboard/myTestStoryboard/myTestStoryboard-Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../myTestStoryboard/myTestStoryboard/myTestStoryboard-Prefix.pch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../myTestStoryboard/myTestStoryboardTests/en.lproj/InfoPlist.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../myTestStoryboard/myTestStoryboardTests/myTestStoryboardTests-Info.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../myTestStoryboard/myTestStoryboardTests/myTestStoryboardTests.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../myTestStoryboard/myTestStoryboardTests/myTestStoryboardTests.m" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Dragging/Dragging.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/../../Dragging/Dragging.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Dragging/Dragging.xcodeproj/project.xcworkspace/xcuserdata/newt.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/../../Dragging/Dragging.xcodeproj/project.xcworkspace/xcuserdata/newt.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Dragging/Dragging.xcodeproj/xcuserdata/newt.xcuserdatad/xcschemes/Dragging.xcscheme" afterPath="$PROJECT_DIR$/../../Dragging/Dragging.xcodeproj/xcuserdata/newt.xcuserdatad/xcschemes/Dragging.xcscheme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Dragging/Dragging/en.lproj/MainStoryboard.storyboard" afterPath="$PROJECT_DIR$/../../Dragging/Dragging/en.lproj/MainStoryboard.storyboard" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Happiness/Happiness.xcodeproj/project.xcworkspace/xcuserdata/newt.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/../../Happiness/Happiness.xcodeproj/project.xcworkspace/xcuserdata/newt.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Awesome Faces/Awesome Faces.xcodeproj/project.pbxproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Awesome Faces/Awesome Faces/Awesome Faces-Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Awesome Faces/Awesome Faces/Awesome Faces-Prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Awesome Faces/Awesome Faces/AwesomeFaceAppDelegate.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Awesome Faces/Awesome Faces/Default-568h@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Awesome Faces/Awesome Faces/Default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Awesome Faces/Awesome Faces/Default@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Awesome Faces/Awesome Faces/MainViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Awesome Faces/Awesome Faces/en.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Awesome Faces/Awesome Faces/iPad.storyboard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Awesome Faces/Awesome Faces/iPhone.storyboard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Awesome Faces/Awesome Faces/main.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Awesome Faces/Awesome FacesTests/Awesome FacesTests-Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Awesome Faces/Awesome FacesTests/Awesome_FacesTests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Awesome Faces/Awesome FacesTests/en.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../CoolFace/CoolFace.xcodeproj/project.pbxproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../CoolFace/CoolFace/CoolFace-Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../CoolFace/CoolFace/CoolFace-Prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../CoolFace/CoolFace/CoolFaceAppDelegate.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../CoolFace/CoolFace/Default-568h@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../CoolFace/CoolFace/Default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../CoolFace/CoolFace/Default@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../CoolFace/CoolFace/MainViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../CoolFace/CoolFace/en.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../CoolFace/CoolFace/glasses.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../CoolFace/CoolFace/main.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../CoolFace/CoolFace/squarePNG.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../CoolFace/CoolFaceTests/CoolFaceTests-Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../CoolFace/CoolFaceTests/CoolFaceTests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../CoolFace/CoolFaceTests/en.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../CoolFace/iPad.storyboard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../CoolFace/iPhone.storyboard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HelloWorld2012/HelloWorld2012.xcodeproj/project.pbxproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HelloWorld2012/HelloWorld2012/Default-568h@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HelloWorld2012/HelloWorld2012/Default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HelloWorld2012/HelloWorld2012/Default@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HelloWorld2012/HelloWorld2012/HelloWorld2012-Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HelloWorld2012/HelloWorld2012/HelloWorld2012-Prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HelloWorld2012/HelloWorld2012/HelloWorldAppDelegate.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HelloWorld2012/HelloWorld2012/HelloWorldViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HelloWorld2012/HelloWorld2012/en.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HelloWorld2012/HelloWorld2012/en.lproj/MainStoryboard.storyboard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HelloWorld2012/HelloWorld2012/main.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../KitchenSink/KitchenSink.xcodeproj/project.pbxproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../KitchenSink/KitchenSink/AskerViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../KitchenSink/KitchenSink/CMMotionManager+Shared.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../KitchenSink/KitchenSink/Default-568h@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../KitchenSink/KitchenSink/Default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../KitchenSink/KitchenSink/Default@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../KitchenSink/KitchenSink/KitchenSink-Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../KitchenSink/KitchenSink/KitchenSink-Prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../KitchenSink/KitchenSink/KitchenSinkAppDelegate.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../KitchenSink/KitchenSink/KitchenSinkViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../KitchenSink/KitchenSink/en.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../KitchenSink/KitchenSink/en.lproj/MainStoryboard.storyboard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../KitchenSink/KitchenSink/main.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania.xcodeproj/project.pbxproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/AppDelegate.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/CoreDataTableViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/Default-568h@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/Default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/Default@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/DemoPhotographerCDTVC.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/DemoPhotographerMapViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/ImageViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/MapViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/Photo+Flicker.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/Photo+MKAnnotation.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/Photo.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/PhotoViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/Photographer+Create.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/Photographer+MKAnnotation.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/Photographer.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/PhotographerCDTVC.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/PhotographerMapViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/Photomania-Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/Photomania-Prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/Photomania.xcdatamodeld/Photomania.xcdatamodel/contents" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/PhotosByPhotographerCDTVC.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/PhotosByPhotographerMapViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/en.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/en.lproj/iPhone.storyboard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/main.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/iPad.storyboard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Shutterbug/Shutterbug/AttributedStringViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Shutterbug/Shutterbug/FlickrFetcher/FlickrFetcher.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Shutterbug/Shutterbug/FlickrPhotoTVC.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Shutterbug/Shutterbug/LatestFlickrPhotoTVC.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Shutterbug/iPad.storyboard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SYSoapTool.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SYXmlParser.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SYXmlParserTags.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest.xcodeproj/project.pbxproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/AFNetworking/AFHTTPClient.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/AFNetworking/AFHTTPRequestOperation.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/AFNetworking/AFImageRequestOperation.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/AFNetworking/AFJSONRequestOperation.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/AFNetworking/AFNetworkActivityIndicatorManager.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/AFNetworking/AFPropertyListRequestOperation.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/AFNetworking/AFURLConnectionOperation.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/AFNetworking/AFXMLRequestOperation.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/AFNetworking/UIImageView+AFNetworking.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/CustomerService.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/Default-568h@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/Default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/Default@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/SoapTest-Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/SoapTest-Prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/SoapTestAppDelegate.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/SoapTestViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/en.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/en.lproj/MainStoryboard.storyboard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/main.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTestTests/SoapTestTests-Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTestTests/SoapTestTests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTestTests/en.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SquareCam/glasses.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/Trigger.xcodeproj/project.pbxproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/Trigger/Default-568h@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/Trigger/Default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/Trigger/Default@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/Trigger/Trigger-Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/Trigger/Trigger-Prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/Trigger/TriggerAppDelegate.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/Trigger/TriggerViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/Trigger/en.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/Trigger/en.lproj/MainStoryboard_iPad.storyboard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/Trigger/en.lproj/MainStoryboard_iPhone.storyboard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/Trigger/main.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/TriggerTests/TriggerTests-Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/TriggerTests/TriggerTests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/TriggerTests/en.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Examples/NXTSecurityExample.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Generated/NXTSecurity.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Generated/NXTSecurityUser.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Generated/NXTSudzc.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Generated/NXTTicket.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Generated/Soap+Prefix.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Soap/NSData+Base64.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Soap/NSMutableArray+Soap.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Soap/Soap.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Soap/SoapArray.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Soap/SoapDictionary.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Soap/SoapFault.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Soap/SoapHandler.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Soap/SoapLiteral.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Soap/SoapNil.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Soap/SoapObject.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Soap/SoapParameter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Soap/SoapReachability.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Soap/SoapRequest.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Soap/SoapService.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/TouchXML/CTidy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/TouchXML/CXHTMLDocument.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/TouchXML/CXMLDocument.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/TouchXML/CXMLDocument_CreationExtensions.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/TouchXML/CXMLDocument_PrivateExtensions.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/TouchXML/CXMLElement.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/TouchXML/CXMLElement_CreationExtensions.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/TouchXML/CXMLElement_ElementTreeExtensions.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/TouchXML/CXMLNamespaceNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/TouchXML/CXMLNode.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/TouchXML/CXMLNode_CreationExtensions.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/TouchXML/CXMLNode_PrivateExtensions.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/TouchXML/CXMLNode_XPathExtensions.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo-master/WebServiceDemo.xcodeproj/project.pbxproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo-master/WebServiceDemo.xcodeproj/project.xcworkspace/contents.xcworkspacedata" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo-master/WebServiceDemo.xcodeproj/project.xcworkspace/xcuserdata/abarba.xcuserdatad/WorkspaceSettings.xcsettings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo-master/WebServiceDemo.xcodeproj/xcuserdata/abarba.xcuserdatad/xcdebugger/Breakpoints.xcbkptlist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo-master/WebServiceDemo.xcodeproj/xcuserdata/abarba.xcuserdatad/xcschemes/WebServiceDemo.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo-master/WebServiceDemo.xcodeproj/xcuserdata/abarba.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo-master/WebServiceDemo.xcodeproj/xcuserdata/newt.xcuserdatad/xcschemes/WebServiceDemo.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo-master/WebServiceDemo.xcodeproj/xcuserdata/newt.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo-master/WebServiceDemo/AppDelegate.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo-master/WebServiceDemo/Default-568h@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo-master/WebServiceDemo/Default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo-master/WebServiceDemo/Default@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo-master/WebServiceDemo/HelloWorldViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo-master/WebServiceDemo/LoginTableViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo-master/WebServiceDemo/NSString+WebService.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo-master/WebServiceDemo/SkillsTableViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo-master/WebServiceDemo/WebServiceDemo-Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo-master/WebServiceDemo/WebServiceDemo-Prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo-master/WebServiceDemo/en.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo-master/WebServiceDemo/en.lproj/MainStoryboard.storyboard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo-master/WebServiceDemo/iOSRequest.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo-master/WebServiceDemo/main.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo/WebServiceDemo.xcodeproj/project.pbxproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo/WebServiceDemo/Default-568h@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo/WebServiceDemo/Default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo/WebServiceDemo/Default@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo/WebServiceDemo/WebServiceDemo-Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo/WebServiceDemo/WebServiceDemo-Prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo/WebServiceDemo/WebServiceDemoAppDelegate.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo/WebServiceDemo/WebServiceDemoViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo/WebServiceDemo/en.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo/WebServiceDemo/en.lproj/MainStoryboard.storyboard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo/WebServiceDemo/main.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo/WebServiceDemoTests/WebServiceDemoTests-Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo/WebServiceDemoTests/WebServiceDemoTests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo/WebServiceDemoTests/en.lproj/InfoPlist.strings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Awesome Faces/Awesome Faces/AwesomeFaceAppDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Awesome Faces/Awesome Faces/MainViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Awesome Faces/Awesome FacesTests/Awesome_FacesTests.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../CoolFace/CoolFace/CoolFaceAppDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../CoolFace/CoolFace/MainViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../CoolFace/CoolFaceTests/CoolFaceTests.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HelloWorld2012/HelloWorld2012/HelloWorldAppDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../HelloWorld2012/HelloWorld2012/HelloWorldViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../KitchenSink/KitchenSink/AskerViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../KitchenSink/KitchenSink/CMMotionManager+Shared.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../KitchenSink/KitchenSink/KitchenSinkAppDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../KitchenSink/KitchenSink/KitchenSinkViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/AppDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/CoreDataTableViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/DemoPhotographerCDTVC.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/DemoPhotographerMapViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/MapViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/Photo+Flicker.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/Photo+MKAnnotation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/Photo.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/PhotoViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/Photographer+Create.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/Photographer+MKAnnotation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/Photographer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/PhotographerCDTVC.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/PhotographerMapViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/PhotosByPhotographerCDTVC.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Photomania/Photomania/PhotosByPhotographerMapViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Shutterbug/Shutterbug/AttributedStringViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Shutterbug/Shutterbug/FlickrFetcher/FlickrAPIKey.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Shutterbug/Shutterbug/FlickrFetcher/FlickrFetcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Shutterbug/Shutterbug/FlickrPhotoTVC.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Shutterbug/Shutterbug/LatestFlickrPhotoTVC.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SYSoapTool.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SYXmlParser.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/AFNetworking/AFHTTPClient.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/AFNetworking/AFHTTPRequestOperation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/AFNetworking/AFImageRequestOperation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/AFNetworking/AFJSONRequestOperation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/AFNetworking/AFNetworkActivityIndicatorManager.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/AFNetworking/AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/AFNetworking/AFPropertyListRequestOperation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/AFNetworking/AFURLConnectionOperation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/AFNetworking/AFXMLRequestOperation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/AFNetworking/UIImageView+AFNetworking.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/CustomerService.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/SoapTestAppDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTest/SoapTestViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../SoapTest/SoapTestTests/SoapTestTests.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/Trigger/TriggerAppDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/Trigger/TriggerViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/TriggerTests/TriggerTests.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Examples/NXTSecurityExample.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Generated/NXTSecurity.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Generated/NXTSecurityUser.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Generated/NXTSudzc.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Generated/NXTTicket.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Generated/Soap+Prefix.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Soap/NSData+Base64.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Soap/NSMutableArray+Soap.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Soap/Soap.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Soap/SoapArray.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Soap/SoapDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Soap/SoapDictionary.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Soap/SoapFault.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Soap/SoapHandler.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Soap/SoapLiteral.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Soap/SoapNil.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Soap/SoapObject.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Soap/SoapParameter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Soap/SoapReachability.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Soap/SoapRequest.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/Soap/SoapService.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/TouchXML/CTidy.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/TouchXML/CXHTMLDocument.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/TouchXML/CXMLDocument.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/TouchXML/CXMLDocument_CreationExtensions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/TouchXML/CXMLDocument_PrivateExtensions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/TouchXML/CXMLElement.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/TouchXML/CXMLElement_CreationExtensions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/TouchXML/CXMLElement_ElementTreeExtensions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/TouchXML/CXMLNamespaceNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/TouchXML/CXMLNode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/TouchXML/CXMLNode_CreationExtensions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/TouchXML/CXMLNode_PrivateExtensions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/TouchXML/CXMLNode_XPathExtensions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Trigger/WebService/TouchXML/TouchXML.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo-master/WebServiceDemo/AppDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo-master/WebServiceDemo/HelloWorldViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo-master/WebServiceDemo/LoginTableViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo-master/WebServiceDemo/NSString+WebService.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo-master/WebServiceDemo/SkillsTableViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo-master/WebServiceDemo/iOSRequest.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo/WebServiceDemo/WebServiceDemoAppDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo/WebServiceDemo/WebServiceDemoViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../WebServiceDemo/WebServiceDemoTests/WebServiceDemoTests.h" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Brainwash/PicDecor/Default-568h@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Brainwash/PicDecor/PicDecor/ClassesAppDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Brainwash/PicDecor/PicDecor/ClassesAppDelegate.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Brainwash/PicDecor/PicDecor/ClassesViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Brainwash/PicDecor/PicDecor/ClassesViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Brainwash/PicDecor/PicDecor/en.lproj/ClassesViewController.xib" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../../Shutterbug/Shutterbug/en.lproj/MainStoryboard.storyboard" afterPath="$PROJECT_DIR$/../../Shutterbug/Shutterbug/en.lproj/iPhone.storyboard" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Shutterbug/Shutterbug.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/../../Shutterbug/Shutterbug.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Shutterbug/Shutterbug/ImageViewController.m" afterPath="$PROJECT_DIR$/../../Shutterbug/Shutterbug/ImageViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Shutterbug/Shutterbug/Shutterbug-Info.plist" afterPath="$PROJECT_DIR$/../../Shutterbug/Shutterbug/Shutterbug-Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../SunglassesDemo/SunglassesDemo.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/../../SunglassesDemo/SunglassesDemo.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../SunglassesDemo/SunglassesDemo/ViewController.m" afterPath="$PROJECT_DIR$/../../SunglassesDemo/SunglassesDemo/ViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../SuperCard/SuperCard.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/../../SuperCard/SuperCard.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="couplestats.iws" />
@@ -224,15 +371,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BuildConfig.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="47" selection-start="1690" selection-end="1690" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BootStrap.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
           <provider selected="true" editor-type-id="text-editor">
@@ -244,25 +382,25 @@
       </file>
       <file leaf-file-name="Role.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/com/digitalnewt/couplestatus/secure/Role.groovy">
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state line="2" column="6" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="User.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/com/digitalnewt/couplestatus/secure/User.groovy">
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state line="14" column="67" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0">
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -277,20 +415,29 @@
       </file>
       <file leaf-file-name="UserInfo.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/com/digitalnewt/couplestatus/userdata/UserInfo.groovy">
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state line="9" column="5" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginController.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="LoginController.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/LoginController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="49" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.034642033">
+            <state line="30" column="49" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth.gsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/login/auth.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="25" selection-start="184" selection-end="184" vertical-scroll-proportion="0.023291925">
               <folding />
             </state>
           </provider>
@@ -298,25 +445,25 @@
       </file>
       <file leaf-file-name="CoupleType.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/com/digitalnewt/couplestatus/userdata/CoupleType.groovy">
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state line="9" column="21" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="UserRole.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/com/digitalnewt/couplestatus/secure/UserRole.groovy">
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state line="4" column="6" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -353,7 +500,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="38" />
+    <option name="x" value="39" />
     <option name="y" value="22" />
     <option name="width" value="1378" />
     <option name="height" value="874" />
@@ -397,9 +544,9 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -592,8 +739,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="38" y="22" width="1378" height="874" extended-state="0" />
-    <editor active="true" />
+    <frame x="39" y="22" width="1378" height="874" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -605,7 +752,7 @@
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32932332" sideWeight="0.6706507" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22180451" sideWeight="0.6706507" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -698,52 +845,53 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/digitalnewt/couplestatus/secure/Role.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="6" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/digitalnewt/couplestatus/secure/User.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/digitalnewt/couplestatus/secure/User.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="67" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0" />
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/digitalnewt/couplestatus/user/UserController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="28" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="28" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/digitalnewt/couplestatus/userdata/UserInfo.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="5" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" />
+      </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/LoginController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="5" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="30" column="49" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/digitalnewt/couplestatus/userdata/CoupleType.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="21" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/digitalnewt/couplestatus/secure/UserRole.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/digitalnewt/couplestatus/secure/UserRole.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="6" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" />
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
@@ -751,9 +899,9 @@
         <state line="17" column="37" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/LoginController.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/login/auth.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="49" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.034642033">
+        <state line="6" column="25" selection-start="184" selection-end="184" vertical-scroll-proportion="0.023291925">
           <folding />
         </state>
       </provider>

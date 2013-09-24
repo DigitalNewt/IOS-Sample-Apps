@@ -100,10 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				5CC574AB16CB27D3001209A1 /* Default-568h@2x.png */,
-				9AD448191451DD0A00DC1EA3 /* CoreMedia.framework */,
-				9AD4480F1451D9D500DC1EA3 /* AVFoundation.framework */,
-				9AD448101451D9D500DC1EA3 /* CoreImage.framework */,
-				9AD448111451D9D500DC1EA3 /* CoreVideo.framework */,
 				9AD447DD1451D9B200DC1EA3 /* SunglassesDemo */,
 				9AD447FE1451D9B200DC1EA3 /* SunglassesDemoTests */,
 				9AD447D61451D9B200DC1EA3 /* Frameworks */,
@@ -123,6 +119,10 @@
 		9AD447D61451D9B200DC1EA3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9AD448191451DD0A00DC1EA3 /* CoreMedia.framework */,
+				9AD4480F1451D9D500DC1EA3 /* AVFoundation.framework */,
+				9AD448101451D9D500DC1EA3 /* CoreImage.framework */,
+				9AD448111451D9D500DC1EA3 /* CoreVideo.framework */,
 				9AD447D71451D9B200DC1EA3 /* UIKit.framework */,
 				9AD447D91451D9B200DC1EA3 /* Foundation.framework */,
 				9AD447DB1451D9B200DC1EA3 /* CoreGraphics.framework */,

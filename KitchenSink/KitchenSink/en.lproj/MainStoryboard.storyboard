@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Kitchen Sink View Controller-->
+        <scene sceneID="4">
+            <objects>
+                <viewController id="2" customClass="KitchenSinkViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bCS-sF-9pL">
+                                <items>
+                                    <barButtonItem title="Add Food" id="xdv-B2-jkD">
+                                        <connections>
+                                            <segue destination="a11-yv-Cg7" kind="modal" identifier="Ask" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="X8s-Mc-Kho"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="CPu-x8-zx6"/>
+                                    <barButtonItem title="Add Food Photo" id="cRS-Mf-ECj">
+                                        <connections>
+                                            <action selector="addFoodPhoto:" destination="2" id="GH7-9f-aDj"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Take Food Photo" id="Si6-36-FWp">
+                                        <connections>
+                                            <action selector="takeFoodPhoto:" destination="2" id="TeK-vn-NeC"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Control Sink" id="frX-Z6-yPp">
+                                        <connections>
+                                            <action selector="controlSink:" destination="2" id="vyI-uB-xJT"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RJu-QP-orv">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="cg7-kP-hbK" appends="YES" id="J2u-tf-Gwa"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RJu-QP-orv" firstAttribute="top" secondItem="bCS-sF-9pL" secondAttribute="bottom" type="default" id="28C-At-As5"/>
+                            <constraint firstItem="RJu-QP-orv" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" type="default" id="6HV-Ka-8zu"/>
+                            <constraint firstItem="bCS-sF-9pL" firstAttribute="top" secondItem="5" secondAttribute="top" type="default" id="Dcp-Hu-KdQ"/>
+                            <constraint firstItem="bCS-sF-9pL" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" type="default" id="Df6-YS-ado"/>
+                            <constraint firstItem="RJu-QP-orv" firstAttribute="leading" secondItem="5" secondAttribute="leading" type="default" id="bd1-sZ-c1X"/>
+                            <constraint firstItem="RJu-QP-orv" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" type="default" id="wO7-NZ-dUx"/>
+                            <constraint firstItem="bCS-sF-9pL" firstAttribute="leading" secondItem="5" secondAttribute="leading" type="default" id="xfk-YP-Ogp"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="kitchenSink" destination="RJu-QP-orv" id="oWS-YZ-PbY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="cg7-kP-hbK">
+                    <connections>
+                        <action selector="tap:" destination="2" id="oQW-5m-LNG"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-375" y="-123"/>
+        </scene>
+        <!--Asker View Controller-->
+        <scene sceneID="gfx-59-8Ma">
+            <objects>
+                <viewController id="a11-yv-Cg7" customClass="AskerViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LY2-Li-yl3">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Question" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kfa-vn-J1R">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="D6d-lm-TM5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AsQ-7J-cl4">
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ekd-Oi-M8J">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Cancel">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="v9K-zw-Be3" kind="unwind" unwindAction="cancelAsking:" id="MYz-9I-x3E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rDK-Zp-DYz">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Done">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="v9K-zw-Be3" kind="unwind" unwindAction="doneAsking:" id="TjG-QE-Tck"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40000000596046448" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="AsQ-7J-cl4" firstAttribute="top" secondItem="Kfa-vn-J1R" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="CCj-5m-v2m"/>
+                            <constraint firstItem="rDK-Zp-DYz" firstAttribute="leading" secondItem="ekd-Oi-M8J" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="GYS-nG-U9k"/>
+                            <constraint firstAttribute="trailing" secondItem="AsQ-7J-cl4" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="OYK-pL-ogz"/>
+                            <constraint firstItem="Kfa-vn-J1R" firstAttribute="leading" secondItem="LY2-Li-yl3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="TVH-6l-qWj"/>
+                            <constraint firstAttribute="trailing" secondItem="rDK-Zp-DYz" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Uob-VU-Nd4"/>
+                            <constraint firstItem="AsQ-7J-cl4" firstAttribute="leading" secondItem="LY2-Li-yl3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Zjl-Ux-azK"/>
+                            <constraint firstAttribute="trailing" secondItem="Kfa-vn-J1R" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="ceb-ZD-q9B"/>
+                            <constraint firstItem="ekd-Oi-M8J" firstAttribute="top" secondItem="AsQ-7J-cl4" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="hpA-5P-j4a"/>
+                            <constraint firstItem="Kfa-vn-J1R" firstAttribute="top" secondItem="LY2-Li-yl3" secondAttribute="top" constant="283" id="jqv-hP-w8u"/>
+                            <constraint firstItem="rDK-Zp-DYz" firstAttribute="baseline" secondItem="ekd-Oi-M8J" secondAttribute="baseline" type="default" id="njt-Hz-Ejt"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="answerTextField" destination="AsQ-7J-cl4" id="g6j-o9-d2B"/>
+                        <outlet property="questionLabel" destination="Kfa-vn-J1R" id="zJs-0n-Od0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VAS-ej-6Lb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="v9K-zw-Be3" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="508" y="-164"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

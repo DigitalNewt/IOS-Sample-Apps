@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C12E7F71722F02D00995CB0 /* SYSoapTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C12E7F31722F02D00995CB0 /* SYSoapTool.m */; };
+		5C12E7F81722F02D00995CB0 /* SYXmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C12E7F51722F02D00995CB0 /* SYXmlParser.m */; };
+		5C12E7F91722F02D00995CB0 /* SYXmlParserTags.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C12E7F61722F02D00995CB0 /* SYXmlParserTags.plist */; };
+		5C9AC7C5171F52CD0020F26B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9AC7C4171F52CD0020F26B /* UIKit.framework */; };
+		5C9AC7C7171F52CD0020F26B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9AC7C6171F52CD0020F26B /* Foundation.framework */; };
+		5C9AC7C9171F52CD0020F26B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9AC7C8171F52CD0020F26B /* CoreGraphics.framework */; };
+		5C9AC7CF171F52CD0020F26B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C9AC7CD171F52CD0020F26B /* InfoPlist.strings */; };
+		5C9AC7D1171F52CD0020F26B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9AC7D0171F52CD0020F26B /* main.m */; };
+		5C9AC7D5171F52CD0020F26B /* SoapTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9AC7D4171F52CD0020F26B /* SoapTestAppDelegate.m */; };
+		5C9AC7D7171F52CE0020F26B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C9AC7D6171F52CE0020F26B /* Default.png */; };
+		5C9AC7D9171F52CE0020F26B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C9AC7D8171F52CE0020F26B /* Default@2x.png */; };
+		5C9AC7DB171F52CE0020F26B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C9AC7DA171F52CE0020F26B /* Default-568h@2x.png */; };
+		5C9AC7DE171F52CE0020F26B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C9AC7DC171F52CE0020F26B /* MainStoryboard.storyboard */; };
+		5C9AC7E1171F52CE0020F26B /* SoapTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9AC7E0171F52CE0020F26B /* SoapTestViewController.m */; };
+		5C9AC7E9171F52CE0020F26B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9AC7E8171F52CE0020F26B /* SenTestingKit.framework */; };
+		5C9AC7EA171F52CE0020F26B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9AC7C4171F52CD0020F26B /* UIKit.framework */; };
+		5C9AC7EB171F52CE0020F26B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9AC7C6171F52CD0020F26B /* Foundation.framework */; };
+		5C9AC7F3171F52CF0020F26B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C9AC7F1171F52CF0020F26B /* InfoPlist.strings */; };
+		5C9AC7F6171F52CF0020F26B /* SoapTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9AC7F5171F52CF0020F26B /* SoapTestTests.m */; };
+		5C9AC80A1720961B0020F26B /* CustomerService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9AC8091720961B0020F26B /* CustomerService.m */; };
+		5C9AC81F1721532D0020F26B /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9AC80D1721532D0020F26B /* AFHTTPClient.m */; };
+		5C9AC8201721532D0020F26B /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9AC80F1721532D0020F26B /* AFHTTPRequestOperation.m */; };
+		5C9AC8211721532D0020F26B /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9AC8111721532D0020F26B /* AFImageRequestOperation.m */; };
+		5C9AC8221721532D0020F26B /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9AC8131721532D0020F26B /* AFJSONRequestOperation.m */; };
+		5C9AC8231721532D0020F26B /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9AC8151721532D0020F26B /* AFNetworkActivityIndicatorManager.m */; };
+		5C9AC8241721532D0020F26B /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9AC8181721532D0020F26B /* AFPropertyListRequestOperation.m */; };
+		5C9AC8251721532D0020F26B /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9AC81A1721532D0020F26B /* AFURLConnectionOperation.m */; };
+		5C9AC8261721532D0020F26B /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9AC81C1721532D0020F26B /* AFXMLRequestOperation.m */; };
+		5C9AC8271721532D0020F26B /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9AC81E1721532D0020F26B /* UIImageView+AFNetworking.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C9AC7EC171F52CE0020F26B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C9AC7B9171F52CD0020F26B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C9AC7C0171F52CD0020F26B;
+			remoteInfo = SoapTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C12E7F21722F02D00995CB0 /* SYSoapTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYSoapTool.h; sourceTree = "<group>"; };
+		5C12E7F31722F02D00995CB0 /* SYSoapTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYSoapTool.m; sourceTree = "<group>"; };
+		5C12E7F41722F02D00995CB0 /* SYXmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYXmlParser.h; sourceTree = "<group>"; };
+		5C12E7F51722F02D00995CB0 /* SYXmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYXmlParser.m; sourceTree = "<group>"; };
+		5C12E7F61722F02D00995CB0 /* SYXmlParserTags.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SYXmlParserTags.plist; sourceTree = "<group>"; };
+		5C9AC7C1171F52CD0020F26B /* SoapTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoapTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C9AC7C4171F52CD0020F26B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5C9AC7C6171F52CD0020F26B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5C9AC7C8171F52CD0020F26B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5C9AC7CC171F52CD0020F26B /* SoapTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoapTest-Info.plist"; sourceTree = "<group>"; };
+		5C9AC7CE171F52CD0020F26B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5C9AC7D0171F52CD0020F26B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C9AC7D2171F52CD0020F26B /* SoapTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SoapTest-Prefix.pch"; sourceTree = "<group>"; };
+		5C9AC7D3171F52CD0020F26B /* SoapTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoapTestAppDelegate.h; sourceTree = "<group>"; };
+		5C9AC7D4171F52CD0020F26B /* SoapTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoapTestAppDelegate.m; sourceTree = "<group>"; };
+		5C9AC7D6171F52CE0020F26B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5C9AC7D8171F52CE0020F26B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5C9AC7DA171F52CE0020F26B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5C9AC7DD171F52CE0020F26B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5C9AC7DF171F52CE0020F26B /* SoapTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoapTestViewController.h; sourceTree = "<group>"; };
+		5C9AC7E0171F52CE0020F26B /* SoapTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoapTestViewController.m; sourceTree = "<group>"; };
+		5C9AC7E7171F52CE0020F26B /* SoapTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoapTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C9AC7E8171F52CE0020F26B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5C9AC7F0171F52CE0020F26B /* SoapTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoapTestTests-Info.plist"; sourceTree = "<group>"; };
+		5C9AC7F2171F52CF0020F26B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5C9AC7F4171F52CF0020F26B /* SoapTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoapTestTests.h; sourceTree = "<group>"; };
+		5C9AC7F5171F52CF0020F26B /* SoapTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoapTestTests.m; sourceTree = "<group>"; };
+		5C9AC8081720961B0020F26B /* CustomerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerService.h; sourceTree = "<group>"; };
+		5C9AC8091720961B0020F26B /* CustomerService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerService.m; sourceTree = "<group>"; };
+		5C9AC80C1721532D0020F26B /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		5C9AC80D1721532D0020F26B /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		5C9AC80E1721532D0020F26B /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		5C9AC80F1721532D0020F26B /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		5C9AC8101721532D0020F26B /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		5C9AC8111721532D0020F26B /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		5C9AC8121721532D0020F26B /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		5C9AC8131721532D0020F26B /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		5C9AC8141721532D0020F26B /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		5C9AC8151721532D0020F26B /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		5C9AC8161721532D0020F26B /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		5C9AC8171721532D0020F26B /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		5C9AC8181721532D0020F26B /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		5C9AC8191721532D0020F26B /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		5C9AC81A1721532D0020F26B /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		5C9AC81B1721532D0020F26B /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		5C9AC81C1721532D0020F26B /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		5C9AC81D1721532D0020F26B /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		5C9AC81E1721532D0020F26B /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C9AC7BE171F52CD0020F26B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C9AC7C5171F52CD0020F26B /* UIKit.framework in Frameworks */,
+				5C9AC7C7171F52CD0020F26B /* Foundation.framework in Frameworks */,
+				5C9AC7C9171F52CD0020F26B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C9AC7E3171F52CE0020F26B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C9AC7E9171F52CE0020F26B /* SenTestingKit.framework in Frameworks */,
+				5C9AC7EA171F52CE0020F26B /* UIKit.framework in Frameworks */,
+				5C9AC7EB171F52CE0020F26B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C12E7F11722F01900995CB0 /* SoapTool */ = {
+			isa = PBXGroup;
+			children = (
+				5C12E7F21722F02D00995CB0 /* SYSoapTool.h */,
+				5C12E7F31722F02D00995CB0 /* SYSoapTool.m */,
+				5C12E7F41722F02D00995CB0 /* SYXmlParser.h */,
+				5C12E7F51722F02D00995CB0 /* SYXmlParser.m */,
+				5C12E7F61722F02D00995CB0 /* SYXmlParserTags.plist */,
+			);
+			name = SoapTool;
+			sourceTree = "<group>";
+		};
+		5C9AC7B8171F52CD0020F26B = {
+			isa = PBXGroup;
+			children = (
+				5C12E7F11722F01900995CB0 /* SoapTool */,
+				5C9AC80B1721532D0020F26B /* AFNetworking */,
+				5C9AC7CA171F52CD0020F26B /* SoapTest */,
+				5C9AC7EE171F52CE0020F26B /* SoapTestTests */,
+				5C9AC7C3171F52CD0020F26B /* Frameworks */,
+				5C9AC7C2171F52CD0020F26B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C9AC7C2171F52CD0020F26B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C9AC7C1171F52CD0020F26B /* SoapTest.app */,
+				5C9AC7E7171F52CE0020F26B /* SoapTestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C9AC7C3171F52CD0020F26B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C9AC7C4171F52CD0020F26B /* UIKit.framework */,
+				5C9AC7C6171F52CD0020F26B /* Foundation.framework */,
+				5C9AC7C8171F52CD0020F26B /* CoreGraphics.framework */,
+				5C9AC7E8171F52CE0020F26B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C9AC7CA171F52CD0020F26B /* SoapTest */ = {
+			isa = PBXGroup;
+			children = (
+				5C9AC7D3171F52CD0020F26B /* SoapTestAppDelegate.h */,
+				5C9AC7D4171F52CD0020F26B /* SoapTestAppDelegate.m */,
+				5C9AC7DC171F52CE0020F26B /* MainStoryboard.storyboard */,
+				5C9AC7DF171F52CE0020F26B /* SoapTestViewController.h */,
+				5C9AC7E0171F52CE0020F26B /* SoapTestViewController.m */,
+				5C9AC7CB171F52CD0020F26B /* Supporting Files */,
+				5C9AC8081720961B0020F26B /* CustomerService.h */,
+				5C9AC8091720961B0020F26B /* CustomerService.m */,
+			);
+			path = SoapTest;
+			sourceTree = "<group>";
+		};
+		5C9AC7CB171F52CD0020F26B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C9AC7CC171F52CD0020F26B /* SoapTest-Info.plist */,
+				5C9AC7CD171F52CD0020F26B /* InfoPlist.strings */,
+				5C9AC7D0171F52CD0020F26B /* main.m */,
+				5C9AC7D2171F52CD0020F26B /* SoapTest-Prefix.pch */,
+				5C9AC7D6171F52CE0020F26B /* Default.png */,
+				5C9AC7D8171F52CE0020F26B /* Default@2x.png */,
+				5C9AC7DA171F52CE0020F26B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C9AC7EE171F52CE0020F26B /* SoapTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C9AC7F4171F52CF0020F26B /* SoapTestTests.h */,
+				5C9AC7F5171F52CF0020F26B /* SoapTestTests.m */,
+				5C9AC7EF171F52CE0020F26B /* Supporting Files */,
+			);
+			path = SoapTestTests;
+			sourceTree = "<group>";
+		};
+		5C9AC7EF171F52CE0020F26B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C9AC7F0171F52CE0020F26B /* SoapTestTests-Info.plist */,
+				5C9AC7F1171F52CF0020F26B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C9AC80B1721532D0020F26B /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				5C9AC80C1721532D0020F26B /* AFHTTPClient.h */,
+				5C9AC80D1721532D0020F26B /* AFHTTPClient.m */,
+				5C9AC80E1721532D0020F26B /* AFHTTPRequestOperation.h */,
+				5C9AC80F1721532D0020F26B /* AFHTTPRequestOperation.m */,
+				5C9AC8101721532D0020F26B /* AFImageRequestOperation.h */,
+				5C9AC8111721532D0020F26B /* AFImageRequestOperation.m */,
+				5C9AC8121721532D0020F26B /* AFJSONRequestOperation.h */,
+				5C9AC8131721532D0020F26B /* AFJSONRequestOperation.m */,
+				5C9AC8141721532D0020F26B /* AFNetworkActivityIndicatorManager.h */,
+				5C9AC8151721532D0020F26B /* AFNetworkActivityIndicatorManager.m */,
+				5C9AC8161721532D0020F26B /* AFNetworking.h */,
+				5C9AC8171721532D0020F26B /* AFPropertyListRequestOperation.h */,
+				5C9AC8181721532D0020F26B /* AFPropertyListRequestOperation.m */,
+				5C9AC8191721532D0020F26B /* AFURLConnectionOperation.h */,
+				5C9AC81A1721532D0020F26B /* AFURLConnectionOperation.m */,
+				5C9AC81B1721532D0020F26B /* AFXMLRequestOperation.h */,
+				5C9AC81C1721532D0020F26B /* AFXMLRequestOperation.m */,
+				5C9AC81D1721532D0020F26B /* UIImageView+AFNetworking.h */,
+				5C9AC81E1721532D0020F26B /* UIImageView+AFNetworking.m */,
+			);
+			name = AFNetworking;
+			path = SoapTest/AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C9AC7C0171F52CD0020F26B /* SoapTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C9AC7F9171F52CF0020F26B /* Build configuration list for PBXNativeTarget "SoapTest" */;
+			buildPhases = (
+				5C9AC7BD171F52CD0020F26B /* Sources */,
+				5C9AC7BE171F52CD0020F26B /* Frameworks */,
+				5C9AC7BF171F52CD0020F26B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoapTest;
+			productName = SoapTest;
+			productReference = 5C9AC7C1171F52CD0020F26B /* SoapTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C9AC7E6171F52CE0020F26B /* SoapTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C9AC7FC171F52CF0020F26B /* Build configuration list for PBXNativeTarget "SoapTestTests" */;
+			buildPhases = (
+				5C9AC7E2171F52CE0020F26B /* Sources */,
+				5C9AC7E3171F52CE0020F26B /* Frameworks */,
+				5C9AC7E4171F52CE0020F26B /* Resources */,
+				5C9AC7E5171F52CE0020F26B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C9AC7ED171F52CE0020F26B /* PBXTargetDependency */,
+			);
+			name = SoapTestTests;
+			productName = SoapTestTests;
+			productReference = 5C9AC7E7171F52CE0020F26B /* SoapTestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C9AC7B9171F52CD0020F26B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SoapTest;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Mobile Newt LLC";
+			};
+			buildConfigurationList = 5C9AC7BC171F52CD0020F26B /* Build configuration list for PBXProject "SoapTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5C9AC7B8171F52CD0020F26B;
+			productRefGroup = 5C9AC7C2171F52CD0020F26B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C9AC7C0171F52CD0020F26B /* SoapTest */,
+				5C9AC7E6171F52CE0020F26B /* SoapTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C9AC7BF171F52CD0020F26B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C9AC7CF171F52CD0020F26B /* InfoPlist.strings in Resources */,
+				5C9AC7D7171F52CE0020F26B /* Default.png in Resources */,
+				5C9AC7D9171F52CE0020F26B /* Default@2x.png in Resources */,
+				5C9AC7DB171F52CE0020F26B /* Default-568h@2x.png in Resources */,
+				5C9AC7DE171F52CE0020F26B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C9AC7E4171F52CE0020F26B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C9AC7F3171F52CF0020F26B /* InfoPlist.strings in Resources */,
+				5C12E7F91722F02D00995CB0 /* SYXmlParserTags.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C9AC7E5171F52CE0020F26B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C9AC7BD171F52CD0020F26B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C9AC7D1171F52CD0020F26B /* main.m in Sources */,
+				5C9AC7D5171F52CD0020F26B /* SoapTestAppDelegate.m in Sources */,
+				5C9AC7E1171F52CE0020F26B /* SoapTestViewController.m in Sources */,
+				5C9AC80A1720961B0020F26B /* CustomerService.m in Sources */,
+				5C9AC81F1721532D0020F26B /* AFHTTPClient.m in Sources */,
+				5C9AC8201721532D0020F26B /* AFHTTPRequestOperation.m in Sources */,
+				5C9AC8211721532D0020F26B /* AFImageRequestOperation.m in Sources */,
+				5C9AC8221721532D0020F26B /* AFJSONRequestOperation.m in Sources */,
+				5C9AC8231721532D0020F26B /* AFNetworkActivityIndicatorManager.m in Sources */,
+				5C9AC8241721532D0020F26B /* AFPropertyListRequestOperation.m in Sources */,
+				5C9AC8251721532D0020F26B /* AFURLConnectionOperation.m in Sources */,
+				5C9AC8261721532D0020F26B /* AFXMLRequestOperation.m in Sources */,
+				5C9AC8271721532D0020F26B /* UIImageView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C9AC7E2171F52CE0020F26B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C9AC7F6171F52CF0020F26B /* SoapTestTests.m in Sources */,
+				5C12E7F71722F02D00995CB0 /* SYSoapTool.m in Sources */,
+				5C12E7F81722F02D00995CB0 /* SYXmlParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C9AC7ED171F52CE0020F26B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C9AC7C0171F52CD0020F26B /* SoapTest */;
+			targetProxy = 5C9AC7EC171F52CE0020F26B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C9AC7CD171F52CD0020F26B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C9AC7CE171F52CD0020F26B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5C9AC7DC171F52CE0020F26B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C9AC7DD171F52CE0020F26B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		5C9AC7F1171F52CF0020F26B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C9AC7F2171F52CF0020F26B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C9AC7F7171F52CF0020F26B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5C9AC7F8171F52CF0020F26B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C9AC7FA171F52CF0020F26B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoapTest/SoapTest-Prefix.pch";
+				INFOPLIST_FILE = "SoapTest/SoapTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5C9AC7FB171F52CF0020F26B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoapTest/SoapTest-Prefix.pch";
+				INFOPLIST_FILE = "SoapTest/SoapTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5C9AC7FD171F52CF0020F26B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SoapTest.app/SoapTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoapTest/SoapTest-Prefix.pch";
+				INFOPLIST_FILE = "SoapTestTests/SoapTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5C9AC7FE171F52CF0020F26B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SoapTest.app/SoapTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoapTest/SoapTest-Prefix.pch";
+				INFOPLIST_FILE = "SoapTestTests/SoapTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C9AC7BC171F52CD0020F26B /* Build configuration list for PBXProject "SoapTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C9AC7F7171F52CF0020F26B /* Debug */,
+				5C9AC7F8171F52CF0020F26B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C9AC7F9171F52CF0020F26B /* Build configuration list for PBXNativeTarget "SoapTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C9AC7FA171F52CF0020F26B /* Debug */,
+				5C9AC7FB171F52CF0020F26B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C9AC7FC171F52CF0020F26B /* Build configuration list for PBXNativeTarget "SoapTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C9AC7FD171F52CF0020F26B /* Debug */,
+				5C9AC7FE171F52CF0020F26B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C9AC7B9171F52CD0020F26B /* Project object */;
+}

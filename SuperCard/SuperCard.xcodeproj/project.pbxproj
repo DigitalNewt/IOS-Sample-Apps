@@ -13,9 +13,6 @@
 		5CA047E916D17B420027E1C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CA047E716D17B420027E1C7 /* InfoPlist.strings */; };
 		5CA047EB16D17B420027E1C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA047EA16D17B420027E1C7 /* main.m */; };
 		5CA047EF16D17B420027E1C7 /* SuperCardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA047EE16D17B420027E1C7 /* SuperCardAppDelegate.m */; };
-		5CA047F116D17B420027E1C7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA047F016D17B420027E1C7 /* Default.png */; };
-		5CA047F316D17B420027E1C7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA047F216D17B420027E1C7 /* Default@2x.png */; };
-		5CA047F516D17B420027E1C7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA047F416D17B420027E1C7 /* Default-568h@2x.png */; };
 		5CA047F816D17B420027E1C7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA047F616D17B420027E1C7 /* MainStoryboard.storyboard */; };
 		5CA047FB16D17B420027E1C7 /* SuperCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA047FA16D17B420027E1C7 /* SuperCardViewController.m */; };
 		5CA0480316D17B930027E1C7 /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA0480216D17B930027E1C7 /* PlayingCardView.m */; };
@@ -25,22 +22,7 @@
 		5CA0481216D19EC90027E1C7 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA0480C16D19EC90027E1C7 /* PlayingCard.m */; };
 		5CA0481316D19EC90027E1C7 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA0480E16D19EC90027E1C7 /* PlayingCardDeck.m */; };
 		5CA0481716D4362B0027E1C7 /* cardback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0481616D4362B0027E1C7 /* cardback.jpg */; };
-		5CA0481B16D4587D0027E1C7 /* K♦.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0481916D4587D0027E1C7 /* K♦.png */; };
-		5CA0481C16D4587D0027E1C7 /* K♦@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0481A16D4587D0027E1C7 /* K♦@2x.png */; };
-		5CA0481F16D45ACF0027E1C7 /* K♠.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0481D16D45ACF0027E1C7 /* K♠.png */; };
-		5CA0482016D45ACF0027E1C7 /* K♠@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0481E16D45ACF0027E1C7 /* K♠@2x.png */; };
-		5CA0482316D4F19D0027E1C7 /* K♥.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0482116D4F19D0027E1C7 /* K♥.png */; };
-		5CA0482416D4F19D0027E1C7 /* K♥@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0482216D4F19D0027E1C7 /* K♥@2x.png */; };
-		5CA0482716D5947D0027E1C7 /* K♣.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0482516D5947D0027E1C7 /* K♣.png */; };
-		5CA0482816D5947D0027E1C7 /* K♣@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0482616D5947D0027E1C7 /* K♣@2x.png */; };
-		5CA0483116D5A2BF0027E1C7 /* Q♠.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0482916D5A2BF0027E1C7 /* Q♠.png */; };
-		5CA0483216D5A2BF0027E1C7 /* Q♠@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0482A16D5A2BF0027E1C7 /* Q♠@2x.png */; };
-		5CA0483316D5A2BF0027E1C7 /* Q♣.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0482B16D5A2BF0027E1C7 /* Q♣.png */; };
-		5CA0483416D5A2BF0027E1C7 /* Q♣@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0482C16D5A2BF0027E1C7 /* Q♣@2x.png */; };
-		5CA0483516D5A2BF0027E1C7 /* Q♥.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0482D16D5A2BF0027E1C7 /* Q♥.png */; };
-		5CA0483616D5A2BF0027E1C7 /* Q♥@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0482E16D5A2BF0027E1C7 /* Q♥@2x.png */; };
-		5CA0483716D5A2BF0027E1C7 /* Q♦.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0482F16D5A2BF0027E1C7 /* Q♦.png */; };
-		5CA0483816D5A2BF0027E1C7 /* Q♦@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA0483016D5A2BF0027E1C7 /* Q♦@2x.png */; };
+		5CEF277117EA03870067683F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CEF277017EA03870067683F /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,9 +36,6 @@
 		5CA047EC16D17B420027E1C7 /* SuperCard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SuperCard-Prefix.pch"; sourceTree = "<group>"; };
 		5CA047ED16D17B420027E1C7 /* SuperCardAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperCardAppDelegate.h; sourceTree = "<group>"; };
 		5CA047EE16D17B420027E1C7 /* SuperCardAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCardAppDelegate.m; sourceTree = "<group>"; };
-		5CA047F016D17B420027E1C7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		5CA047F216D17B420027E1C7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		5CA047F416D17B420027E1C7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5CA047F716D17B420027E1C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		5CA047F916D17B420027E1C7 /* SuperCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperCardViewController.h; sourceTree = "<group>"; };
 		5CA047FA16D17B420027E1C7 /* SuperCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCardViewController.m; sourceTree = "<group>"; };
@@ -73,22 +52,7 @@
 		5CA0480D16D19EC90027E1C7 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
 		5CA0480E16D19EC90027E1C7 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
 		5CA0481616D4362B0027E1C7 /* cardback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cardback.jpg; sourceTree = "<group>"; };
-		5CA0481916D4587D0027E1C7 /* K♦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K♦.png"; sourceTree = "<group>"; };
-		5CA0481A16D4587D0027E1C7 /* K♦@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K♦@2x.png"; sourceTree = "<group>"; };
-		5CA0481D16D45ACF0027E1C7 /* K♠.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K♠.png"; sourceTree = "<group>"; };
-		5CA0481E16D45ACF0027E1C7 /* K♠@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K♠@2x.png"; sourceTree = "<group>"; };
-		5CA0482116D4F19D0027E1C7 /* K♥.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K♥.png"; sourceTree = "<group>"; };
-		5CA0482216D4F19D0027E1C7 /* K♥@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K♥@2x.png"; sourceTree = "<group>"; };
-		5CA0482516D5947D0027E1C7 /* K♣.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K♣.png"; sourceTree = "<group>"; };
-		5CA0482616D5947D0027E1C7 /* K♣@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "K♣@2x.png"; sourceTree = "<group>"; };
-		5CA0482916D5A2BF0027E1C7 /* Q♠.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Q♠.png"; sourceTree = "<group>"; };
-		5CA0482A16D5A2BF0027E1C7 /* Q♠@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Q♠@2x.png"; sourceTree = "<group>"; };
-		5CA0482B16D5A2BF0027E1C7 /* Q♣.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Q♣.png"; sourceTree = "<group>"; };
-		5CA0482C16D5A2BF0027E1C7 /* Q♣@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Q♣@2x.png"; sourceTree = "<group>"; };
-		5CA0482D16D5A2BF0027E1C7 /* Q♥.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Q♥.png"; sourceTree = "<group>"; };
-		5CA0482E16D5A2BF0027E1C7 /* Q♥@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Q♥@2x.png"; sourceTree = "<group>"; };
-		5CA0482F16D5A2BF0027E1C7 /* Q♦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Q♦.png"; sourceTree = "<group>"; };
-		5CA0483016D5A2BF0027E1C7 /* Q♦@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Q♦@2x.png"; sourceTree = "<group>"; };
+		5CEF277017EA03870067683F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +107,7 @@
 				5CA047F616D17B420027E1C7 /* MainStoryboard.storyboard */,
 				5CA047F916D17B420027E1C7 /* SuperCardViewController.h */,
 				5CA047FA16D17B420027E1C7 /* SuperCardViewController.m */,
+				5CEF277017EA03870067683F /* Images.xcassets */,
 				5CA047E516D17B420027E1C7 /* Supporting Files */,
 			);
 			path = SuperCard;
@@ -157,9 +122,6 @@
 				5CA047E716D17B420027E1C7 /* InfoPlist.strings */,
 				5CA047EA16D17B420027E1C7 /* main.m */,
 				5CA047EC16D17B420027E1C7 /* SuperCard-Prefix.pch */,
-				5CA047F016D17B420027E1C7 /* Default.png */,
-				5CA047F216D17B420027E1C7 /* Default@2x.png */,
-				5CA047F416D17B420027E1C7 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -184,22 +146,6 @@
 		5CA0481816D4587D0027E1C7 /* Card Model */ = {
 			isa = PBXGroup;
 			children = (
-				5CA0482916D5A2BF0027E1C7 /* Q♠.png */,
-				5CA0482A16D5A2BF0027E1C7 /* Q♠@2x.png */,
-				5CA0482B16D5A2BF0027E1C7 /* Q♣.png */,
-				5CA0482C16D5A2BF0027E1C7 /* Q♣@2x.png */,
-				5CA0482D16D5A2BF0027E1C7 /* Q♥.png */,
-				5CA0482E16D5A2BF0027E1C7 /* Q♥@2x.png */,
-				5CA0482F16D5A2BF0027E1C7 /* Q♦.png */,
-				5CA0483016D5A2BF0027E1C7 /* Q♦@2x.png */,
-				5CA0482516D5947D0027E1C7 /* K♣.png */,
-				5CA0482616D5947D0027E1C7 /* K♣@2x.png */,
-				5CA0481D16D45ACF0027E1C7 /* K♠.png */,
-				5CA0481E16D45ACF0027E1C7 /* K♠@2x.png */,
-				5CA0481916D4587D0027E1C7 /* K♦.png */,
-				5CA0481A16D4587D0027E1C7 /* K♦@2x.png */,
-				5CA0482116D4F19D0027E1C7 /* K♥.png */,
-				5CA0482216D4F19D0027E1C7 /* K♥@2x.png */,
 			);
 			path = "Card Model";
 			sourceTree = "<group>";
@@ -257,27 +203,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CA047E916D17B420027E1C7 /* InfoPlist.strings in Resources */,
-				5CA047F116D17B420027E1C7 /* Default.png in Resources */,
-				5CA047F316D17B420027E1C7 /* Default@2x.png in Resources */,
-				5CA047F516D17B420027E1C7 /* Default-568h@2x.png in Resources */,
+				5CEF277117EA03870067683F /* Images.xcassets in Resources */,
 				5CA047F816D17B420027E1C7 /* MainStoryboard.storyboard in Resources */,
 				5CA0481716D4362B0027E1C7 /* cardback.jpg in Resources */,
-				5CA0481B16D4587D0027E1C7 /* K♦.png in Resources */,
-				5CA0481C16D4587D0027E1C7 /* K♦@2x.png in Resources */,
-				5CA0481F16D45ACF0027E1C7 /* K♠.png in Resources */,
-				5CA0482016D45ACF0027E1C7 /* K♠@2x.png in Resources */,
-				5CA0482316D4F19D0027E1C7 /* K♥.png in Resources */,
-				5CA0482416D4F19D0027E1C7 /* K♥@2x.png in Resources */,
-				5CA0482716D5947D0027E1C7 /* K♣.png in Resources */,
-				5CA0482816D5947D0027E1C7 /* K♣@2x.png in Resources */,
-				5CA0483116D5A2BF0027E1C7 /* Q♠.png in Resources */,
-				5CA0483216D5A2BF0027E1C7 /* Q♠@2x.png in Resources */,
-				5CA0483316D5A2BF0027E1C7 /* Q♣.png in Resources */,
-				5CA0483416D5A2BF0027E1C7 /* Q♣@2x.png in Resources */,
-				5CA0483516D5A2BF0027E1C7 /* Q♥.png in Resources */,
-				5CA0483616D5A2BF0027E1C7 /* Q♥@2x.png in Resources */,
-				5CA0483716D5A2BF0027E1C7 /* Q♦.png in Resources */,
-				5CA0483816D5A2BF0027E1C7 /* Q♦@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +309,8 @@
 		5CA047FF16D17B420027E1C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SuperCard/SuperCard-Prefix.pch";
 				INFOPLIST_FILE = "SuperCard/SuperCard-Info.plist";
@@ -392,6 +322,8 @@
 		5CA0480016D17B420027E1C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SuperCard/SuperCard-Prefix.pch";
 				INFOPLIST_FILE = "SuperCard/SuperCard-Info.plist";
@@ -419,6 +351,7 @@
 				5CA0480016D17B420027E1C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

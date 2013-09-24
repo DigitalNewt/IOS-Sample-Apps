@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="lzf-dn-7R0">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="mME-Q4-Rlo">
+            <objects>
+                <viewController id="lzf-dn-7R0" customClass="MainViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2ns-uD-PPC">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ca6-H4-uS4">
+                                <items>
+                                    <barButtonItem title="Item" id="NVQ-EH-vy1"/>
+                                </items>
+                            </toolbar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oxI-ms-pMB"/>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ca6-H4-uS4" firstAttribute="bottom" secondItem="2ns-uD-PPC" secondAttribute="bottom" type="default" id="2I7-MU-eZL"/>
+                            <constraint firstItem="ca6-H4-uS4" firstAttribute="top" secondItem="oxI-ms-pMB" secondAttribute="bottom" type="default" id="2Zj-ka-C23"/>
+                            <constraint firstItem="oxI-ms-pMB" firstAttribute="trailing" secondItem="2ns-uD-PPC" secondAttribute="trailing" type="default" id="3XJ-lf-NcO"/>
+                            <constraint firstItem="ca6-H4-uS4" firstAttribute="trailing" secondItem="2ns-uD-PPC" secondAttribute="trailing" type="default" id="AoL-Xb-fXZ"/>
+                            <constraint firstItem="ca6-H4-uS4" firstAttribute="leading" secondItem="2ns-uD-PPC" secondAttribute="leading" type="default" id="WWr-EL-UsF"/>
+                            <constraint firstItem="oxI-ms-pMB" firstAttribute="top" secondItem="2ns-uD-PPC" secondAttribute="top" type="default" id="XGg-IY-kkc"/>
+                            <constraint firstItem="oxI-ms-pMB" firstAttribute="leading" secondItem="2ns-uD-PPC" secondAttribute="leading" type="default" id="Z78-54-zK7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="previewView" destination="oxI-ms-pMB" id="KB4-eO-QRM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rx7-Rx-7Tf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="99" y="58"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
