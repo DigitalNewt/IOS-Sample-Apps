@@ -5,34 +5,46 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>6BB11059-65CB-47A4-B834-8776FB5EB858</string>
+	<string>3F7E7504-FC38-4B79-BC18-F34BE5135549</string>
 	<key>IDESourceControlProjectName</key>
 	<string>SuperCard</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>6CC9A649-DC49-4CE3-83B8-955238E83DEC</key>
+		<key>382E9057-8A1A-4A1A-B825-3EFD494B9B96</key>
+		<string>https://github.com/DigitalNewt/IOS.git</string>
+		<key>D7E557EF69718FC57BEB5C15D5A8669D3F13AAC9</key>
 		<string>https://github.com/DigitalNewt/IOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>SuperCard/SuperCard.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>6CC9A649-DC49-4CE3-83B8-955238E83DEC</key>
+		<key>382E9057-8A1A-4A1A-B825-3EFD494B9B96</key>
+		<string>../../..</string>
+		<key>D7E557EF69718FC57BEB5C15D5A8669D3F13AAC9</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/DigitalNewt/IOS.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>6CC9A649-DC49-4CE3-83B8-955238E83DEC</string>
+	<string>D7E557EF69718FC57BEB5C15D5A8669D3F13AAC9</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>6CC9A649-DC49-4CE3-83B8-955238E83DEC</string>
+			<string>D7E557EF69718FC57BEB5C15D5A8669D3F13AAC9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IOS</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>382E9057-8A1A-4A1A-B825-3EFD494B9B96</string>
 			<key>IDESourceControlWCCName</key>
 			<string>IOS</string>
 		</dict>

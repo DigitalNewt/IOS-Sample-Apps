@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C57874F17F48CEB00577A3A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6C875317EE25440065EFD5 /* XCTest.framework */; };
+		5C57875017F48CEB00577A3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6C873417EE25440065EFD5 /* Foundation.framework */; };
+		5C57875117F48CEB00577A3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6C873817EE25440065EFD5 /* UIKit.framework */; };
+		5C57875717F48CEB00577A3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C57875517F48CEB00577A3A /* InfoPlist.strings */; };
+		5C57875917F48CEB00577A3A /* JogrMyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C57875817F48CEB00577A3A /* JogrMyTests.m */; };
 		5C6C873517EE25440065EFD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6C873417EE25440065EFD5 /* Foundation.framework */; };
 		5C6C873717EE25440065EFD5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6C873617EE25440065EFD5 /* CoreGraphics.framework */; };
 		5C6C873917EE25440065EFD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6C873817EE25440065EFD5 /* UIKit.framework */; };
@@ -19,13 +24,18 @@
 		5C6C875417EE25440065EFD5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6C875317EE25440065EFD5 /* XCTest.framework */; };
 		5C6C875517EE25440065EFD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6C873417EE25440065EFD5 /* Foundation.framework */; };
 		5C6C875617EE25440065EFD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C6C873817EE25440065EFD5 /* UIKit.framework */; };
-		5C6C875E17EE25440065EFD5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C6C875C17EE25440065EFD5 /* InfoPlist.strings */; };
-		5C6C876017EE25440065EFD5 /* JogrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6C875F17EE25440065EFD5 /* JogrTests.m */; };
 		5C6C876B17EE32040065EFD5 /* RunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6C876A17EE32040065EFD5 /* RunViewController.m */; };
 		5C6C876E17F09CE50065EFD5 /* MapRoutesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6C876D17F09CE50065EFD5 /* MapRoutesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5C57875B17F48CEB00577A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C6C872917EE25440065EFD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C6C873017EE25440065EFD5;
+			remoteInfo = Jogr;
+		};
 		5C6C875717EE25440065EFD5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5C6C872917EE25440065EFD5 /* Project object */;
@@ -36,6 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C57874E17F48CEB00577A3A /* JogrMyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JogrMyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C57875417F48CEB00577A3A /* JogrMyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JogrMyTests-Info.plist"; sourceTree = "<group>"; };
+		5C57875617F48CEB00577A3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5C57875817F48CEB00577A3A /* JogrMyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JogrMyTests.m; sourceTree = "<group>"; };
+		5C57875A17F48CEB00577A3A /* JogrMyTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JogrMyTests-Prefix.pch"; sourceTree = "<group>"; };
 		5C6C873117EE25440065EFD5 /* Jogr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jogr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C6C873417EE25440065EFD5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5C6C873617EE25440065EFD5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -52,9 +67,6 @@
 		5C6C874C17EE25440065EFD5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5C6C875217EE25440065EFD5 /* JogrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JogrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C6C875317EE25440065EFD5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5C6C875B17EE25440065EFD5 /* JogrTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JogrTests-Info.plist"; sourceTree = "<group>"; };
-		5C6C875D17EE25440065EFD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5C6C875F17EE25440065EFD5 /* JogrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JogrTests.m; sourceTree = "<group>"; };
 		5C6C876917EE32040065EFD5 /* RunViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunViewController.h; sourceTree = "<group>"; };
 		5C6C876A17EE32040065EFD5 /* RunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunViewController.m; sourceTree = "<group>"; };
 		5C6C876C17F09CE50065EFD5 /* MapRoutesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapRoutesViewController.h; sourceTree = "<group>"; };
@@ -62,6 +74,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5C57874B17F48CEB00577A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C57874F17F48CEB00577A3A /* XCTest.framework in Frameworks */,
+				5C57875117F48CEB00577A3A /* UIKit.framework in Frameworks */,
+				5C57875017F48CEB00577A3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5C6C872E17EE25440065EFD5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -85,11 +107,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C57875217F48CEB00577A3A /* JogrMyTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C57875817F48CEB00577A3A /* JogrMyTests.m */,
+				5C57875317F48CEB00577A3A /* Supporting Files */,
+			);
+			path = JogrMyTests;
+			sourceTree = "<group>";
+		};
+		5C57875317F48CEB00577A3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C57875417F48CEB00577A3A /* JogrMyTests-Info.plist */,
+				5C57875517F48CEB00577A3A /* InfoPlist.strings */,
+				5C57875A17F48CEB00577A3A /* JogrMyTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		5C6C872817EE25440065EFD5 = {
 			isa = PBXGroup;
 			children = (
 				5C6C873A17EE25440065EFD5 /* Jogr */,
-				5C6C875917EE25440065EFD5 /* JogrTests */,
+				5C57875217F48CEB00577A3A /* JogrMyTests */,
 				5C6C873317EE25440065EFD5 /* Frameworks */,
 				5C6C873217EE25440065EFD5 /* Products */,
 			);
@@ -100,6 +141,7 @@
 			children = (
 				5C6C873117EE25440065EFD5 /* Jogr.app */,
 				5C6C875217EE25440065EFD5 /* JogrTests.xctest */,
+				5C57874E17F48CEB00577A3A /* JogrMyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,27 +186,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5C6C875917EE25440065EFD5 /* JogrTests */ = {
-			isa = PBXGroup;
-			children = (
-				5C6C875F17EE25440065EFD5 /* JogrTests.m */,
-				5C6C875A17EE25440065EFD5 /* Supporting Files */,
-			);
-			path = JogrTests;
-			sourceTree = "<group>";
-		};
-		5C6C875A17EE25440065EFD5 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5C6C875B17EE25440065EFD5 /* JogrTests-Info.plist */,
-				5C6C875C17EE25440065EFD5 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5C57874D17F48CEB00577A3A /* JogrMyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C57875D17F48CEB00577A3A /* Build configuration list for PBXNativeTarget "JogrMyTests" */;
+			buildPhases = (
+				5C57874A17F48CEB00577A3A /* Sources */,
+				5C57874B17F48CEB00577A3A /* Frameworks */,
+				5C57874C17F48CEB00577A3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C57875C17F48CEB00577A3A /* PBXTargetDependency */,
+			);
+			name = JogrMyTests;
+			productName = JogrMyTests;
+			productReference = 5C57874E17F48CEB00577A3A /* JogrMyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		5C6C873017EE25440065EFD5 /* Jogr */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C6C876317EE25440065EFD5 /* Build configuration list for PBXNativeTarget "Jogr" */;
@@ -209,6 +251,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Xcode;
 				TargetAttributes = {
+					5C57874D17F48CEB00577A3A = {
+						TestTargetID = 5C6C873017EE25440065EFD5;
+					};
 					5C6C875117EE25440065EFD5 = {
 						TestTargetID = 5C6C873017EE25440065EFD5;
 					};
@@ -229,11 +274,20 @@
 			targets = (
 				5C6C873017EE25440065EFD5 /* Jogr */,
 				5C6C875117EE25440065EFD5 /* JogrTests */,
+				5C57874D17F48CEB00577A3A /* JogrMyTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5C57874C17F48CEB00577A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C57875717F48CEB00577A3A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5C6C872F17EE25440065EFD5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -248,13 +302,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C6C875E17EE25440065EFD5 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5C57874A17F48CEB00577A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C57875917F48CEB00577A3A /* JogrMyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5C6C872D17EE25440065EFD5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -271,13 +332,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C6C876017EE25440065EFD5 /* JogrTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		5C57875C17F48CEB00577A3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C6C873017EE25440065EFD5 /* Jogr */;
+			targetProxy = 5C57875B17F48CEB00577A3A /* PBXContainerItemProxy */;
+		};
 		5C6C875817EE25440065EFD5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5C6C873017EE25440065EFD5 /* Jogr */;
@@ -286,6 +351,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		5C57875517F48CEB00577A3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C57875617F48CEB00577A3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		5C6C873D17EE25440065EFD5 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -302,17 +375,51 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5C6C875C17EE25440065EFD5 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5C6C875D17EE25440065EFD5 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5C57875E17F48CEB00577A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jogr.app/Jogr";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JogrMyTests/JogrMyTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JogrMyTests/JogrMyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5C57875F17F48CEB00577A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jogr.app/Jogr";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JogrMyTests/JogrMyTests-Prefix.pch";
+				INFOPLIST_FILE = "JogrMyTests/JogrMyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 		5C6C876117EE25440065EFD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -393,6 +500,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Jogr/Jogr-Prefix.pch";
 				INFOPLIST_FILE = "Jogr/Jogr-Info.plist";
+				LLVM_LTO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -403,9 +511,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Jogr/Jogr-Prefix.pch";
 				INFOPLIST_FILE = "Jogr/Jogr-Info.plist";
+				LLVM_LTO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +566,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5C57875D17F48CEB00577A3A /* Build configuration list for PBXNativeTarget "JogrMyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C57875E17F48CEB00577A3A /* Debug */,
+				5C57875F17F48CEB00577A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		5C6C872C17EE25440065EFD5 /* Build configuration list for PBXProject "Jogr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -472,6 +590,7 @@
 				5C6C876517EE25440065EFD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C6C876617EE25440065EFD5 /* Build configuration list for PBXNativeTarget "JogrTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +599,7 @@
 				5C6C876817EE25440065EFD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

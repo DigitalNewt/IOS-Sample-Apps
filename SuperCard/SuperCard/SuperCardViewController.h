@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Digital Newt LLC. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 @interface SuperCardViewController : UIViewController
 

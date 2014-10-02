@@ -216,7 +216,7 @@
 			name = AVFoundationDemoTests;
 			productName = AVFoundationDemoTests;
 			productReference = 5CC5748916C6BF28001209A1 /* AVFoundationDemoTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -225,8 +225,14 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = AVFoundationDemo;
+				LastTestingUpgradeCheck = 0600;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = DigitalNewt.com;
+				TargetAttributes = {
+					5CC5746216C6BF28001209A1 = {
+						DevelopmentTeam = 9KBWF7YKW8;
+					};
+				};
 			};
 			buildConfigurationList = 5CC5745E16C6BF28001209A1 /* Build configuration list for PBXProject "AVFoundationDemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -404,11 +410,14 @@
 		5CC5749C16C6BF28001209A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AVFoundationDemo/AVFoundationDemo-Prefix.pch";
 				INFOPLIST_FILE = "AVFoundationDemo/AVFoundationDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -417,11 +426,14 @@
 		5CC5749D16C6BF28001209A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AVFoundationDemo/AVFoundationDemo-Prefix.pch";
 				INFOPLIST_FILE = "AVFoundationDemo/AVFoundationDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};

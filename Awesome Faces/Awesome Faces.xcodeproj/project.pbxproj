@@ -220,7 +220,7 @@
 			name = "Awesome FacesTests";
 			productName = "Awesome FacesTests";
 			productReference = 5CA9A6471739DCE6008ECDCF /* Awesome FacesTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -229,6 +229,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = AwesomeFace;
+				LastTestingUpgradeCheck = 0600;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Mobile Newt LLC";
 			};

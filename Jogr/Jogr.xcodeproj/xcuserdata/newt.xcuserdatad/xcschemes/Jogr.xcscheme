@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5C6C875117EE25440065EFD5"
-               BuildableName = "JogrTests.xctest"
-               BlueprintName = "JogrTests"
+               BlueprintIdentifier = "5C57874D17F48CEB00577A3A"
+               BuildableName = "JogrMyTests.xctest"
+               BlueprintName = "JogrMyTests"
                ReferencedContainer = "container:Jogr.xcodeproj">
             </BuildableReference>
          </TestableReference>

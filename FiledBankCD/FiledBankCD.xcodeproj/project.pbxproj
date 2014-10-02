@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CC840A91861FDA400B8D03A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC840A81861FDA400B8D03A /* Foundation.framework */; };
+		5CC840AB1861FDA400B8D03A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC840AA1861FDA400B8D03A /* CoreGraphics.framework */; };
+		5CC840AD1861FDA400B8D03A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC840AC1861FDA400B8D03A /* UIKit.framework */; };
+		5CC840AF1861FDA400B8D03A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC840AE1861FDA400B8D03A /* CoreData.framework */; };
+		5CC840B51861FDA400B8D03A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CC840B31861FDA400B8D03A /* InfoPlist.strings */; };
+		5CC840B71861FDA400B8D03A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC840B61861FDA400B8D03A /* main.m */; };
+		5CC840BB1861FDA400B8D03A /* FBCDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC840BA1861FDA400B8D03A /* FBCDAppDelegate.m */; };
+		5CC840BE1861FDA400B8D03A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC840BC1861FDA400B8D03A /* Main_iPhone.storyboard */; };
+		5CC840C11861FDA400B8D03A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC840BF1861FDA400B8D03A /* Main_iPad.storyboard */; };
+		5CC840C41861FDA400B8D03A /* FiledBankCD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5CC840C21861FDA400B8D03A /* FiledBankCD.xcdatamodeld */; };
+		5CC840C71861FDA400B8D03A /* FBCDMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC840C61861FDA400B8D03A /* FBCDMasterViewController.m */; };
+		5CC840CA1861FDA400B8D03A /* FBCDDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC840C91861FDA400B8D03A /* FBCDDetailViewController.m */; };
+		5CC840CC1861FDA400B8D03A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CC840CB1861FDA400B8D03A /* Images.xcassets */; };
+		5CC840D31861FDA400B8D03A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC840D21861FDA400B8D03A /* XCTest.framework */; };
+		5CC840D41861FDA400B8D03A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC840A81861FDA400B8D03A /* Foundation.framework */; };
+		5CC840D51861FDA400B8D03A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC840AC1861FDA400B8D03A /* UIKit.framework */; };
+		5CC840D61861FDA400B8D03A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC840AE1861FDA400B8D03A /* CoreData.framework */; };
+		5CC840DE1861FDA400B8D03A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CC840DC1861FDA400B8D03A /* InfoPlist.strings */; };
+		5CC840E01861FDA400B8D03A /* FiledBankCDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC840DF1861FDA400B8D03A /* FiledBankCDTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CC840D71861FDA400B8D03A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CC8409D1861FDA400B8D03A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CC840A41861FDA400B8D03A;
+			remoteInfo = FiledBankCD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CC840A51861FDA400B8D03A /* FiledBankCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiledBankCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC840A81861FDA400B8D03A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CC840AA1861FDA400B8D03A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5CC840AC1861FDA400B8D03A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5CC840AE1861FDA400B8D03A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5CC840B21861FDA400B8D03A /* FiledBankCD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FiledBankCD-Info.plist"; sourceTree = "<group>"; };
+		5CC840B41861FDA400B8D03A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CC840B61861FDA400B8D03A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CC840B81861FDA400B8D03A /* FiledBankCD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FiledBankCD-Prefix.pch"; sourceTree = "<group>"; };
+		5CC840B91861FDA400B8D03A /* FBCDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBCDAppDelegate.h; sourceTree = "<group>"; };
+		5CC840BA1861FDA400B8D03A /* FBCDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBCDAppDelegate.m; sourceTree = "<group>"; };
+		5CC840BD1861FDA400B8D03A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		5CC840C01861FDA400B8D03A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		5CC840C31861FDA400B8D03A /* FiledBankCD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FiledBankCD.xcdatamodel; sourceTree = "<group>"; };
+		5CC840C51861FDA400B8D03A /* FBCDMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBCDMasterViewController.h; sourceTree = "<group>"; };
+		5CC840C61861FDA400B8D03A /* FBCDMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBCDMasterViewController.m; sourceTree = "<group>"; };
+		5CC840C81861FDA400B8D03A /* FBCDDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBCDDetailViewController.h; sourceTree = "<group>"; };
+		5CC840C91861FDA400B8D03A /* FBCDDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBCDDetailViewController.m; sourceTree = "<group>"; };
+		5CC840CB1861FDA400B8D03A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5CC840D11861FDA400B8D03A /* FiledBankCDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiledBankCDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC840D21861FDA400B8D03A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5CC840DB1861FDA400B8D03A /* FiledBankCDTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FiledBankCDTests-Info.plist"; sourceTree = "<group>"; };
+		5CC840DD1861FDA400B8D03A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CC840DF1861FDA400B8D03A /* FiledBankCDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiledBankCDTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CC840A21861FDA400B8D03A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC840AB1861FDA400B8D03A /* CoreGraphics.framework in Frameworks */,
+				5CC840AF1861FDA400B8D03A /* CoreData.framework in Frameworks */,
+				5CC840AD1861FDA400B8D03A /* UIKit.framework in Frameworks */,
+				5CC840A91861FDA400B8D03A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC840CE1861FDA400B8D03A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC840D31861FDA400B8D03A /* XCTest.framework in Frameworks */,
+				5CC840D61861FDA400B8D03A /* CoreData.framework in Frameworks */,
+				5CC840D51861FDA400B8D03A /* UIKit.framework in Frameworks */,
+				5CC840D41861FDA400B8D03A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CC8409C1861FDA400B8D03A = {
+			isa = PBXGroup;
+			children = (
+				5CC840B01861FDA400B8D03A /* FiledBankCD */,
+				5CC840D91861FDA400B8D03A /* FiledBankCDTests */,
+				5CC840A71861FDA400B8D03A /* Frameworks */,
+				5CC840A61861FDA400B8D03A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CC840A61861FDA400B8D03A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CC840A51861FDA400B8D03A /* FiledBankCD.app */,
+				5CC840D11861FDA400B8D03A /* FiledBankCDTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CC840A71861FDA400B8D03A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CC840A81861FDA400B8D03A /* Foundation.framework */,
+				5CC840AA1861FDA400B8D03A /* CoreGraphics.framework */,
+				5CC840AC1861FDA400B8D03A /* UIKit.framework */,
+				5CC840AE1861FDA400B8D03A /* CoreData.framework */,
+				5CC840D21861FDA400B8D03A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CC840B01861FDA400B8D03A /* FiledBankCD */ = {
+			isa = PBXGroup;
+			children = (
+				5CC840B91861FDA400B8D03A /* FBCDAppDelegate.h */,
+				5CC840BA1861FDA400B8D03A /* FBCDAppDelegate.m */,
+				5CC840BC1861FDA400B8D03A /* Main_iPhone.storyboard */,
+				5CC840BF1861FDA400B8D03A /* Main_iPad.storyboard */,
+				5CC840C51861FDA400B8D03A /* FBCDMasterViewController.h */,
+				5CC840C61861FDA400B8D03A /* FBCDMasterViewController.m */,
+				5CC840C81861FDA400B8D03A /* FBCDDetailViewController.h */,
+				5CC840C91861FDA400B8D03A /* FBCDDetailViewController.m */,
+				5CC840CB1861FDA400B8D03A /* Images.xcassets */,
+				5CC840C21861FDA400B8D03A /* FiledBankCD.xcdatamodeld */,
+				5CC840B11861FDA400B8D03A /* Supporting Files */,
+			);
+			path = FiledBankCD;
+			sourceTree = "<group>";
+		};
+		5CC840B11861FDA400B8D03A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CC840B21861FDA400B8D03A /* FiledBankCD-Info.plist */,
+				5CC840B31861FDA400B8D03A /* InfoPlist.strings */,
+				5CC840B61861FDA400B8D03A /* main.m */,
+				5CC840B81861FDA400B8D03A /* FiledBankCD-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CC840D91861FDA400B8D03A /* FiledBankCDTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CC840DF1861FDA400B8D03A /* FiledBankCDTests.m */,
+				5CC840DA1861FDA400B8D03A /* Supporting Files */,
+			);
+			path = FiledBankCDTests;
+			sourceTree = "<group>";
+		};
+		5CC840DA1861FDA400B8D03A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CC840DB1861FDA400B8D03A /* FiledBankCDTests-Info.plist */,
+				5CC840DC1861FDA400B8D03A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CC840A41861FDA400B8D03A /* FiledBankCD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC840E31861FDA400B8D03A /* Build configuration list for PBXNativeTarget "FiledBankCD" */;
+			buildPhases = (
+				5CC840A11861FDA400B8D03A /* Sources */,
+				5CC840A21861FDA400B8D03A /* Frameworks */,
+				5CC840A31861FDA400B8D03A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FiledBankCD;
+			productName = FiledBankCD;
+			productReference = 5CC840A51861FDA400B8D03A /* FiledBankCD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CC840D01861FDA400B8D03A /* FiledBankCDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC840E61861FDA400B8D03A /* Build configuration list for PBXNativeTarget "FiledBankCDTests" */;
+			buildPhases = (
+				5CC840CD1861FDA400B8D03A /* Sources */,
+				5CC840CE1861FDA400B8D03A /* Frameworks */,
+				5CC840CF1861FDA400B8D03A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CC840D81861FDA400B8D03A /* PBXTargetDependency */,
+			);
+			name = FiledBankCDTests;
+			productName = FiledBankCDTests;
+			productReference = 5CC840D11861FDA400B8D03A /* FiledBankCDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CC8409D1861FDA400B8D03A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FBCD;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Ravetree;
+				TargetAttributes = {
+					5CC840D01861FDA400B8D03A = {
+						TestTargetID = 5CC840A41861FDA400B8D03A;
+					};
+				};
+			};
+			buildConfigurationList = 5CC840A01861FDA400B8D03A /* Build configuration list for PBXProject "FiledBankCD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CC8409C1861FDA400B8D03A;
+			productRefGroup = 5CC840A61861FDA400B8D03A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CC840A41861FDA400B8D03A /* FiledBankCD */,
+				5CC840D01861FDA400B8D03A /* FiledBankCDTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CC840A31861FDA400B8D03A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC840C11861FDA400B8D03A /* Main_iPad.storyboard in Resources */,
+				5CC840CC1861FDA400B8D03A /* Images.xcassets in Resources */,
+				5CC840BE1861FDA400B8D03A /* Main_iPhone.storyboard in Resources */,
+				5CC840B51861FDA400B8D03A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC840CF1861FDA400B8D03A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC840DE1861FDA400B8D03A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CC840A11861FDA400B8D03A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC840B71861FDA400B8D03A /* main.m in Sources */,
+				5CC840CA1861FDA400B8D03A /* FBCDDetailViewController.m in Sources */,
+				5CC840BB1861FDA400B8D03A /* FBCDAppDelegate.m in Sources */,
+				5CC840C41861FDA400B8D03A /* FiledBankCD.xcdatamodeld in Sources */,
+				5CC840C71861FDA400B8D03A /* FBCDMasterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC840CD1861FDA400B8D03A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC840E01861FDA400B8D03A /* FiledBankCDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CC840D81861FDA400B8D03A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CC840A41861FDA400B8D03A /* FiledBankCD */;
+			targetProxy = 5CC840D71861FDA400B8D03A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CC840B31861FDA400B8D03A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CC840B41861FDA400B8D03A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5CC840BC1861FDA400B8D03A /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CC840BD1861FDA400B8D03A /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		5CC840BF1861FDA400B8D03A /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CC840C01861FDA400B8D03A /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		5CC840DC1861FDA400B8D03A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CC840DD1861FDA400B8D03A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CC840E11861FDA400B8D03A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CC840E21861FDA400B8D03A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CC840E41861FDA400B8D03A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FiledBankCD/FiledBankCD-Prefix.pch";
+				INFOPLIST_FILE = "FiledBankCD/FiledBankCD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CC840E51861FDA400B8D03A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FiledBankCD/FiledBankCD-Prefix.pch";
+				INFOPLIST_FILE = "FiledBankCD/FiledBankCD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5CC840E71861FDA400B8D03A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FiledBankCD.app/FiledBankCD";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FiledBankCD/FiledBankCD-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FiledBankCDTests/FiledBankCDTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5CC840E81861FDA400B8D03A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FiledBankCD.app/FiledBankCD";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FiledBankCD/FiledBankCD-Prefix.pch";
+				INFOPLIST_FILE = "FiledBankCDTests/FiledBankCDTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CC840A01861FDA400B8D03A /* Build configuration list for PBXProject "FiledBankCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC840E11861FDA400B8D03A /* Debug */,
+				5CC840E21861FDA400B8D03A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CC840E31861FDA400B8D03A /* Build configuration list for PBXNativeTarget "FiledBankCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC840E41861FDA400B8D03A /* Debug */,
+				5CC840E51861FDA400B8D03A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CC840E61861FDA400B8D03A /* Build configuration list for PBXNativeTarget "FiledBankCDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC840E71861FDA400B8D03A /* Debug */,
+				5CC840E81861FDA400B8D03A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5CC840C21861FDA400B8D03A /* FiledBankCD.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5CC840C31861FDA400B8D03A /* FiledBankCD.xcdatamodel */,
+			);
+			currentVersion = 5CC840C31861FDA400B8D03A /* FiledBankCD.xcdatamodel */;
+			path = FiledBankCD.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5CC8409D1861FDA400B8D03A /* Project object */;
+}

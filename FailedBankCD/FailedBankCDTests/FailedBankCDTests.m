@@ -1,18 +1,18 @@
 //
-//  JogrTests.m
-//  JogrTests
+//  FailedBankCDTests.m
+//  FailedBankCDTests
 //
-//  Created by Newt on 9/21/13.
-//  Copyright (c) 2013 Xcode. All rights reserved.
+//  Created by Newt on 12/18/13.
+//  Copyright (c) 2013 Ravetree. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface JogrTests : XCTestCase
+@interface FailedBankCDTests : XCTestCase
 
 @end
 
-@implementation JogrTests
+@implementation FailedBankCDTests
 
 - (void)setUp
 {

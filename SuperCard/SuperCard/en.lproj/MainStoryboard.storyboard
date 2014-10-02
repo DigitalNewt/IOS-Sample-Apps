@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
-        <deployment defaultVersion="1552" identifier="iOS"/>
+        <deployment defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
     <scenes>
@@ -28,10 +28,10 @@
                         </subviews>
                         <color key="backgroundColor" red="0.13672014712962141" green="0.56502632472826086" blue="0.13903019410201276" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="Awh-8Z-27g" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" id="Q58-XB-WsX"/>
-                            <constraint firstItem="Awh-8Z-27g" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="70" id="RVk-qP-abI"/>
-                            <constraint firstItem="Awh-8Z-27g" firstAttribute="top" secondItem="3" secondAttribute="top" constant="90" id="ZMJ-aa-1iL"/>
-                            <constraint firstItem="Awh-8Z-27g" firstAttribute="centerY" secondItem="3" secondAttribute="centerY" id="zZV-4g-RZa"/>
+                            <constraint firstItem="Awh-8Z-27g" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="70" id="1n3-ew-hzd"/>
+                            <constraint firstItem="Awh-8Z-27g" firstAttribute="centerY" secondItem="3" secondAttribute="centerY" id="DQq-XV-ab0"/>
+                            <constraint firstItem="Awh-8Z-27g" firstAttribute="top" secondItem="e11-2Y-eYO" secondAttribute="bottom" constant="70" id="bD1-oM-Mea"/>
+                            <constraint firstItem="Awh-8Z-27g" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" id="sa1-ig-Yuc"/>
                         </constraints>
                     </view>
                     <connections>

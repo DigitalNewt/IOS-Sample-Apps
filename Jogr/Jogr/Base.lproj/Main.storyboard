@@ -43,12 +43,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FOw-V9-TCz">
-                                <rect key="frame" x="96" y="437" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="71" placeholderIntrinsicHeight="34" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FOw-V9-TCz">
+                                <rect key="frame" x="77" y="488" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="46" id="Myo-Rq-pjK"/>
-                                </constraints>
                                 <state key="normal" title="TIMER">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -56,12 +53,25 @@
                                     <segue destination="Hzz-gE-jyX" kind="push" id="b6o-SO-fY6"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="St9-QS-1Tu">
-                                <rect key="frame" x="96" y="313" width="127" height="67"/>
+                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="71" placeholderIntrinsicHeight="34" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdi-Or-eYs">
+                                <rect key="frame" x="161" y="488" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="67" id="oOR-EG-sf9"/>
-                                </constraints>
+                                <state key="normal" title="ROUTES">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="TWH-jl-ifo" kind="push" id="CGc-zr-cHd"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GET READY TO JOG" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="62g-9B-5hN">
+                                <rect key="frame" x="80" y="433" width="162" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5lM-Cw-UgH">
+                                <rect key="frame" x="121" y="363" width="80" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Jogr">
                                         <attributes>
@@ -73,42 +83,27 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdi-Or-eYs">
-                                <rect key="frame" x="160" y="437" width="63" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="ROUTES">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="TWH-jl-ifo" kind="push" id="CGc-zr-cHd"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="GET READY TO JOG" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="62g-9B-5hN">
-                                <rect key="frame" x="79" y="388" width="162" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="7Lh-aS-vBL" firstAttribute="top" secondItem="wdi-Or-eYs" secondAttribute="bottom" constant="34" id="1az-d3-WYR"/>
-                            <constraint firstItem="St9-QS-1Tu" firstAttribute="top" secondItem="41R-qY-sEY" secondAttribute="bottom" constant="313" id="7y1-O5-a2N"/>
-                            <constraint firstItem="wdi-Or-eYs" firstAttribute="leading" secondItem="FOw-V9-TCz" secondAttribute="trailing" constant="18" id="Lk8-8n-iyu"/>
-                            <constraint firstItem="wdi-Or-eYs" firstAttribute="top" secondItem="62g-9B-5hN" secondAttribute="bottom" constant="28" id="PNF-nq-bqX"/>
-                            <constraint firstAttribute="trailing" secondItem="St9-QS-1Tu" secondAttribute="trailing" constant="97" id="YlE-0v-LJn"/>
-                            <constraint firstItem="St9-QS-1Tu" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="96" id="bYJ-bS-P1N"/>
-                            <constraint firstItem="wdi-Or-eYs" firstAttribute="trailing" secondItem="St9-QS-1Tu" secondAttribute="trailing" id="o8L-Pu-VAw"/>
-                            <constraint firstItem="FOw-V9-TCz" firstAttribute="leading" secondItem="St9-QS-1Tu" secondAttribute="leading" id="xBZ-e0-c9q"/>
-                            <constraint firstItem="wdi-Or-eYs" firstAttribute="top" secondItem="FOw-V9-TCz" secondAttribute="top" id="yOo-nC-dki"/>
-                            <constraint firstItem="62g-9B-5hN" firstAttribute="top" secondItem="St9-QS-1Tu" secondAttribute="bottom" constant="8" symbolic="YES" id="zV7-q0-N0s"/>
+                            <constraint firstAttribute="centerX" secondItem="5lM-Cw-UgH" secondAttribute="centerX" constant="-0.5" id="4UL-hh-hwH"/>
+                            <constraint firstAttribute="centerY" secondItem="wdi-Or-eYs" secondAttribute="centerY" constant="-221" id="6xm-tg-WVb"/>
+                            <constraint firstItem="wdi-Or-eYs" firstAttribute="bottom" secondItem="FOw-V9-TCz" secondAttribute="bottom" id="A92-ip-cDs"/>
+                            <constraint firstItem="wdi-Or-eYs" firstAttribute="leading" secondItem="FOw-V9-TCz" secondAttribute="trailing" constant="13" id="Nk3-vb-eGA"/>
+                            <constraint firstAttribute="centerY" secondItem="62g-9B-5hN" secondAttribute="centerY" constant="-158.5" id="VSm-TC-Euu"/>
+                            <constraint firstItem="62g-9B-5hN" firstAttribute="top" secondItem="5lM-Cw-UgH" secondAttribute="bottom" constant="23" id="aMK-cU-R58"/>
+                            <constraint firstItem="62g-9B-5hN" firstAttribute="centerX" secondItem="wdi-Or-eYs" secondAttribute="centerX" constant="-35" id="cVL-li-miH"/>
+                            <constraint firstItem="7Lh-aS-vBL" firstAttribute="top" secondItem="wdi-Or-eYs" secondAttribute="bottom" constant="46" id="eZe-N8-nU8"/>
+                            <constraint firstItem="62g-9B-5hN" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" constant="1" id="qoc-eY-7OH"/>
+                            <constraint firstItem="wdi-Or-eYs" firstAttribute="top" secondItem="62g-9B-5hN" secondAttribute="bottom" constant="36" id="ss0-lo-irS"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="CtY-aF-TuH"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="684" y="121"/>
+            <point key="canvasLocation" x="699" y="135"/>
         </scene>
         <!--Run View Controller-->
         <scene sceneID="wEC-FY-VP6">

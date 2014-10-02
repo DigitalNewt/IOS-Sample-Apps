@@ -3,7 +3,7 @@
 //  AVFoundationDemo
 //
 //  Created by Newt on 2/9/13.
-//  Copyright (c) 2013 DigitalNewt.com. All rights reserved.
+//  Copyright (c) 2013 DigitalNewt.net. All rights reserved.
 //
 
 #import "AVFoundationDemoViewController.h"
